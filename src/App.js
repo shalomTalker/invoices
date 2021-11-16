@@ -1,16 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+import CssBaseline from '@mui/material/CssBaseline';
+import Container from '@mui/material/Container';
 
-function App() {
+import Header from './components/Header';
+import Copyright from './components/Copright';
+
+
+function App({ children }) {
+
   return (
-    <div className="App">
-      <header>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>We now have Auth!</h1>
-      </header>
-    </div>
+    <Container component="main">
+      <CssBaseline />
+      <Header />
+      {children}
+      <Copyright sx={{ mt: 8, mb: 4 }} />
+    </Container>
   );
 }
 
