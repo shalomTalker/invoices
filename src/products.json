@@ -5301,8 +5301,7 @@
     {
         "id": "T-TCB-PCNT30TLE2",
         "model": "T-TCB-PCNT30TLE2",
-        "desc": "“1:1 id ממשק חיבור",
-        "desc": "“1:1 model” ממשק חיבור",
+        "desc": "“1:1 ממשק חיבור",
         "category": "אביזרי פיקוד",
         "company": "Toshiba"
     },

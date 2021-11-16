@@ -6,13 +6,15 @@ import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import MiniSearch from '../../logic/MiniSearch';
 import { Box } from '@mui/system';
-import StickyHeadTable from '../../components/Table';
+import Table from '../../components/Table';
 const products = require('../../products.json')
 
 
 export default function Search() {
 
     const [results, setResults] = useState([])
+    const [items, setItems] = useState([])
+
     const formik = useFormik({
         initialValues: {
             term: '',
@@ -39,7 +41,13 @@ export default function Search() {
         if (formik.values.term) search(formik.values.term)
     }, [formik.values.term]);
 
+    const addItemHandler = (itemObj) => {
+        setItems([...items, itemObj])
+    }
+    const removeItemHandler = (itemObj) => {
 
+        setItems(items.filter(item => item.id !== itemObj.id))
+    }
 
     return (
         <div>
@@ -55,7 +63,8 @@ export default function Search() {
                     helperText={formik.touched.term && formik.errors.term}
                 />
             </form>
-            {Boolean(results.length) && <StickyHeadTable rows={results} />}
+            {Boolean(results.length) && <Table type="results" rows={results.filter(res => !items.map(result => result.id).includes(res.id))} toggleItemHandler={addItemHandler} />}
+            {Boolean(items.length) && <Table type="items" rows={items} toggleItemHandler={removeItemHandler} />}
         </div>
     );
 };
