@@ -8,7 +8,7 @@ export const createInvoice = /* GraphQL */ `
   ) {
     createInvoice(input: $input, condition: $condition) {
       id
-      items
+      name
       description
       createdAt
       updatedAt
@@ -22,7 +22,7 @@ export const updateInvoice = /* GraphQL */ `
   ) {
     updateInvoice(input: $input, condition: $condition) {
       id
-      items
+      name
       description
       createdAt
       updatedAt
@@ -36,7 +36,7 @@ export const deleteInvoice = /* GraphQL */ `
   ) {
     deleteInvoice(input: $input, condition: $condition) {
       id
-      items
+      name
       description
       createdAt
       updatedAt

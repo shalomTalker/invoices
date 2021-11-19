@@ -5,7 +5,7 @@ export const getInvoice = /* GraphQL */ `
   query GetInvoice($id: ID!) {
     getInvoice(id: $id) {
       id
-      items
+      name
       description
       createdAt
       updatedAt
@@ -21,7 +21,7 @@ export const listInvoices = /* GraphQL */ `
     listInvoices(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
-        items
+        name
         description
         createdAt
         updatedAt

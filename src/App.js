@@ -10,7 +10,7 @@ import Copyright from './components/Copright';
 function App({ children }) {
 
   return (
-    <Container component="main">
+    <Container component="main" >
       <CssBaseline />
       <Header />
       {children}

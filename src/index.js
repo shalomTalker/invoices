@@ -9,39 +9,30 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import reportWebVitals from './reportWebVitals';
 
 import App from './App';
-import Form from './pages/Form';
-import { Provider as AuthProvider, useAuth } from './context/AuthContext'
+import Home from './pages/Home';
+import { Provider as OrderProvider } from './context/OrderContext'
+import Orders from './pages/Orders';
 
 
 Amplify.configure(config);
 
 const theme = createTheme();
 
-function RequireAuth({ children }) {
-  let auth = useAuth();
-  console.log(auth.state)
-  if (!auth.state.token) {
-    // Redirect them to the /login page, but save the current location they were
-    // trying to go to when they were redirected. This allows us to send them
-    // along to that page after they login, which is a nicer user experience
-    // than dropping them off on the home page.
-    return <Navigate to="/signin" />;
-  }
-
-  return children;
-}
 
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
-        <App>
-          <Routes>
-            <Route path="/" element={<Form />} />
-          </Routes>
-        </App>
-      </BrowserRouter>
+      <OrderProvider>
+        <BrowserRouter>
+          <App>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/orders" element={<Orders />} />
+            </Routes>
+          </App>
+        </BrowserRouter>
+      </OrderProvider>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')

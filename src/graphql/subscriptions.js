@@ -5,7 +5,7 @@ export const onCreateInvoice = /* GraphQL */ `
   subscription OnCreateInvoice {
     onCreateInvoice {
       id
-      items
+      name
       description
       createdAt
       updatedAt
@@ -16,7 +16,7 @@ export const onUpdateInvoice = /* GraphQL */ `
   subscription OnUpdateInvoice {
     onUpdateInvoice {
       id
-      items
+      name
       description
       createdAt
       updatedAt
@@ -27,7 +27,7 @@ export const onDeleteInvoice = /* GraphQL */ `
   subscription OnDeleteInvoice {
     onDeleteInvoice {
       id
-      items
+      name
       description
       createdAt
       updatedAt
