@@ -52,12 +52,9 @@ const removeItem = dispatch => (itemObj) => {
   dispatch({ type: 'REMOVING_ITEM', payload: itemObj })
 }
 
-const updateItem = dispatch => (item, value) => {
+const updateItem = dispatch => (updatedItem) => {
   dispatch({
-    type: 'UPDATING_ITEM', payload: {
-      ...item,
-      count: value
-    }
+    type: 'UPDATING_ITEM', payload: updatedItem
   })
 }
 const updateUser = dispatch => (userObj) => {

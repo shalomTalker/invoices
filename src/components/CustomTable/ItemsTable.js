@@ -7,7 +7,7 @@ import { useOrderContext } from "../../context/OrderContext";
 import Item from "./Item";
 
 const columns = [
-    { id: 'desc', label: 'תיאור', minWidth: 170 },
+    { id: 'desc', label: 'תיאור', minWidth: 130 },
     { id: 'model', label: 'מודל', minWidth: 100 },
     { id: 'btu', label: 'BTU/H', minWidth: 120, },
     { id: 'category', label: 'קטגוריה', minWidth: 140, },
@@ -15,6 +15,7 @@ const columns = [
     { id: 'company', label: 'חברה', minWidth: 120, },
     { id: 'price', label: 'מחיר', minWidth: 120, },
     { id: 'count', label: 'יחידות', minWidth: 120, },
+    { id: 'totalCount', label: 'מחיר כולל', minWidth: 100, },
 ];
 
 const styles = {
@@ -32,7 +33,7 @@ const Row = ({ item }) => {
             removeItem(item)
             return
         }
-        updateItem(item, Number(value))
+        updateItem({ ...item, count: Number(value) })
     }
 
     const count = state.items[item.id].count;
@@ -41,13 +42,22 @@ const Row = ({ item }) => {
             noExtraHeaderCell
             columns={columns}
             row={item}
-        >
-            <ButtonGroup size="small" aria-label={`small outlined button group`}>
-                <Button disabled={!count} onClick={(e) => { countHandler(count - 1) }}>-</Button>
-                <Button disabled>{count}</Button>
-                <Button onClick={() => { countHandler(count + 1) }}>+</Button>
-            </ButtonGroup>
-        </Item>
+            renderCounter={() =>
+                <ButtonGroup size="small" aria-label={`small outlined button group`}>
+                    <Button disabled={!count} onClick={(e) => { countHandler(count - 1) }}>-</Button>
+                    <Button disabled>{count}</Button>
+                    <Button onClick={() => { countHandler(count + 1) }}>+</Button>
+                </ButtonGroup>
+            }
+            renderPrice={() => <TextField
+                id={`${item.model}-price`}
+                placeholder="מחיר"
+                defaultValue={item.price}
+                onChange={(e) => {
+                    updateItem({ ...item, price: e.target.value })
+                }}
+            />}
+        />
     );
 }
 
@@ -71,7 +81,7 @@ export default function ItemsTable({ rows }) {
                         </CardContent>
                     </Card>
                 </Box>
-            ) : <CustomTable rows={rows.sort((a, b) => a.model < b.model)} columns={columns} renderRow={row => <Row key={row.id} item={row} />} disableEmptyCell={true} />
+            ) : <CustomTable rows={rows.map(r => ({ ...r, totalCount: `${r.count * r.price} ₪` }))} columns={columns} renderRow={row => <Row key={row.id} item={row} />} disableEmptyCell={true} />
 
             }
         </Paper>

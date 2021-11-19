@@ -1,8 +1,21 @@
 import { Button, TableCell, TableRow } from '@mui/material';
 import React from 'react'
 
-export default function Item({ columns, row, children, noExtraHeaderCell }) {
+export default function Item({ columns, row, children, noExtraHeaderCell, renderCounter, renderPrice }) {
 
+    const renderCell = (columnId, defaultValue) => {
+        switch (columnId) {
+            case 'count':
+
+                return renderCounter()
+            case 'price':
+                return renderPrice()
+
+
+            default:
+                return defaultValue
+        }
+    }
     return (
         <TableRow hover role="checkbox" >
             {columns.map((column) => {
@@ -10,7 +23,7 @@ export default function Item({ columns, row, children, noExtraHeaderCell }) {
 
                 return (
                     <TableCell key={column.id} align='center'>
-                        {column.id != 'count' ? value : children}
+                        {renderCell(column.id, value)}
                     </TableCell>
                 )
             })}

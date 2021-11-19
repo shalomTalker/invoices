@@ -29,20 +29,23 @@ export default function SearchPage() {
         <div>
             <SearchForm setResults={setResults} />
             <section>
-                <Typography variant="h4" component="div" align="center">
+                <Typography sx={{ marginTop: 4 }} variant="h4" component="div" align="center">
                     {`תוצאות חיפוש`}
                 </Typography>
                 <ResultsTable
                     type="results"
                     rows={results.filter(res => !Object.keys(orderState.items).includes(res.id))} />
-                <Typography variant="h4" component="div" align="center" >
+                <Typography sx={{ marginTop: 4 }} variant="h4" component="div" align="center" >
                     {`פריטים שנוספו להזמנה`}
                 </Typography>
                 <ItemsTable
                     type="items"
                     rows={Object.entries(orderState.items).map(([key, value]) => (value))} />
             </section>
-            <section>
+            <section style={{ padding: 8 }}>
+                <Typography sx={{ marginTop: 4 }} variant="h4" component="div" align="center" >
+                    {`פרטי לקוח`}
+                </Typography>
                 <DetailsForm />
             </section>
 

@@ -26,6 +26,7 @@ export default function ResultsTable({ rows }) {
     const renderRow = (row) => {
         return (
             <Item
+                renderPrice={() => <Typography >{row.price}</Typography>}
                 columns={columns}
                 row={row}
                 key={`results-${row.id}`} >
