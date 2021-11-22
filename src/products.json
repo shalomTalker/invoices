@@ -6,7 +6,7 @@
         "btu": "9,600",
         "category": "מאיידים עיליים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIHWM9-32",
@@ -15,7 +15,7 @@
         "btu": "12,300",
         "category": "מאיידים עיליים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIHWM9-40",
@@ -24,7 +24,7 @@
         "btu": "15,400",
         "category": "מאיידים עיליים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIHWM9-50",
@@ -33,7 +33,7 @@
         "btu": "19,100",
         "category": "מאיידים עיליים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIHWM9-63",
@@ -42,7 +42,7 @@
         "btu": "24,200",
         "category": "מאיידים עיליים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIHWM9-71",
@@ -51,7 +51,7 @@
         "btu": "27,300",
         "category": "מאיידים עיליים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIHWM9-80",
@@ -60,7 +60,7 @@
         "btu": "30,700",
         "category": "מאיידים עיליים",
         "company": "Electra",
-        "price": "500"
+        "price": "0"
     },
     {
         "id": "ELVIDSLD-25",
@@ -69,7 +69,7 @@
         "btu": "9,600",
         "category": "מאיידים נסתרים לחץ נמוך",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSLD-32",
@@ -78,7 +78,7 @@
         "btu": "12,300",
         "category": "מאיידים נסתרים לחץ נמוך",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSLD-40",
@@ -87,7 +87,7 @@
         "btu": "15,400",
         "category": "מאיידים נסתרים לחץ נמוך",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSLD-50",
@@ -96,7 +96,7 @@
         "btu": "19,100",
         "category": "מאיידים נסתרים לחץ נמוך",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSLD-63",
@@ -105,7 +105,7 @@
         "btu": "24,200",
         "category": "מאיידים נסתרים לחץ נמוך",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSMD-71",
@@ -114,7 +114,7 @@
         "btu": "27,300",
         "category": "מאיידים נסתרים לחץ בנוני",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSMD-80",
@@ -123,7 +123,7 @@
         "btu": "30,700",
         "category": "מאיידים נסתרים לחץ בנוני",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSMD-100",
@@ -132,7 +132,7 @@
         "btu": "38,200",
         "category": "מאיידים נסתרים לחץ בנוני",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSMD-125",
@@ -141,7 +141,7 @@
         "btu": "47,800",
         "category": "מאיידים נסתרים לחץ בנוני",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSMD-140",
@@ -150,7 +150,7 @@
         "btu": "54,000",
         "category": "מאיידים נסתרים לחץ בנוני",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-63",
@@ -159,7 +159,7 @@
         "btu": "24,200",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-71",
@@ -168,7 +168,7 @@
         "btu": "27,300",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-80",
@@ -177,7 +177,7 @@
         "btu": "30,700",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-100",
@@ -186,7 +186,7 @@
         "btu": "38,200",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-125",
@@ -195,7 +195,7 @@
         "btu": "47,800",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-140",
@@ -204,7 +204,7 @@
         "btu": "54,600",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-180",
@@ -213,7 +213,7 @@
         "btu": "68,200",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-220",
@@ -222,7 +222,7 @@
         "btu": "85,300",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-250",
@@ -231,7 +231,7 @@
         "btu": "95,500",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-350",
@@ -240,7 +240,7 @@
         "btu": "136,500",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-400",
@@ -249,7 +249,7 @@
         "btu": "153,500",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSHD-500",
@@ -258,7 +258,7 @@
         "btu": "191,100",
         "category": "מאיידים נסתרים לחץ גבוה",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSFD-112",
@@ -267,7 +267,7 @@
         "btu": "42,700",
         "category": "אוויר צח",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSFD-125",
@@ -276,7 +276,7 @@
         "btu": "47,800",
         "category": "אוויר צח",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSFD-180",
@@ -285,7 +285,7 @@
         "btu": "68,200",
         "category": "אוויר צח",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSFD-220",
@@ -294,7 +294,7 @@
         "btu": "85,300",
         "category": "אוויר צח",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIDSFD-250",
@@ -303,7 +303,7 @@
         "btu": "95,500",
         "category": "אוויר צח",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICACD-25",
@@ -312,7 +312,7 @@
         "btu": "9,550",
         "category": "קסטות 60X60 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICACD-32",
@@ -321,7 +321,7 @@
         "btu": "12,300",
         "category": "קסטות 60X60 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICACD-40",
@@ -330,7 +330,7 @@
         "btu": "15,400",
         "category": "קסטות 60X60 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-25",
@@ -339,7 +339,7 @@
         "btu": "9,550",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-32",
@@ -348,7 +348,7 @@
         "btu": "12,300",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-40",
@@ -357,7 +357,7 @@
         "btu": "15,400",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-50",
@@ -366,7 +366,7 @@
         "btu": "19,100",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-63",
@@ -375,7 +375,7 @@
         "btu": "24,200",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-71",
@@ -384,7 +384,7 @@
         "btu": "27,300",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-80",
@@ -393,7 +393,7 @@
         "btu": "30,700",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-90",
@@ -402,7 +402,7 @@
         "btu": "34,100",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-100",
@@ -411,7 +411,7 @@
         "btu": "38,200",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVICABD-125",
@@ -420,7 +420,7 @@
         "btu": "47,800",
         "category": "קסטות 90X90 כולל פאנל",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIFS-25",
@@ -429,7 +429,7 @@
         "btu": "9,600",
         "category": "מאיידים אנכיים ללא כיסוי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIFS-32",
@@ -438,7 +438,7 @@
         "btu": "12,300",
         "category": "מאיידים אנכיים ללא כיסוי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIFS-40",
@@ -447,7 +447,7 @@
         "btu": "15,400",
         "category": "מאיידים אנכיים ללא כיסוי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIFS-50",
@@ -456,7 +456,7 @@
         "btu": "19,100",
         "category": "מאיידים אנכיים ללא כיסוי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIFS-63",
@@ -465,7 +465,7 @@
         "btu": "27,300",
         "category": "מאיידים אנכיים ללא כיסוי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVIFS-71",
@@ -474,7 +474,7 @@
         "btu": "30,700",
         "category": "מאיידים אנכיים ללא כיסוי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-9",
@@ -483,7 +483,7 @@
         "btu": "86,000",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-10",
@@ -492,7 +492,7 @@
         "btu": "95,500",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-12",
@@ -501,7 +501,7 @@
         "btu": "114,300",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-14",
@@ -510,7 +510,7 @@
         "btu": "136,500",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-16",
@@ -519,7 +519,7 @@
         "btu": "153,500",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-18",
@@ -528,7 +528,7 @@
         "btu": "170,600",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-20",
@@ -537,7 +537,7 @@
         "btu": "191,100",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-22",
@@ -546,7 +546,7 @@
         "btu": "209,800",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-24",
@@ -555,7 +555,7 @@
         "btu": "228,750",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-26",
@@ -564,7 +564,7 @@
         "btu": "249,200",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-28",
@@ -573,7 +573,7 @@
         "btu": "268,000",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-30",
@@ -582,7 +582,7 @@
         "btu": "290,190",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHAV6-32",
@@ -591,7 +591,7 @@
         "btu": "307,000",
         "category": "מעבה קובייה מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOMV4PI-6",
@@ -600,7 +600,7 @@
         "btu": "54,000",
         "category": "מעבה מיני זריקה אופקית",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOMV4PI-7",
@@ -609,7 +609,7 @@
         "btu": "68,200",
         "category": "מעבה מיני זריקה אופקית",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOMV4PI-8",
@@ -618,7 +618,7 @@
         "btu": "76,450",
         "category": "מעבה מיני זריקה אופקית",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOMV4PI-9",
@@ -627,7 +627,7 @@
         "btu": "86,000",
         "category": "מעבה מיני זריקה אופקית",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOMV4PI-10",
@@ -636,7 +636,7 @@
         "btu": "95,000",
         "category": "מעבה מיני זריקה אופקית",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOMV4PI-12",
@@ -645,7 +645,7 @@
         "btu": "114,000",
         "category": "מעבה מיני זריקה אופקית",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOMV4PI-14",
@@ -654,7 +654,7 @@
         "btu": "136,500",
         "category": "מעבה מיני זריקה אופקית",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOMV4PI-16",
@@ -663,7 +663,7 @@
         "btu": "153,500",
         "category": "מעבה מיני זריקה אופקית",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHRV4PR-9",
@@ -672,7 +672,7 @@
         "btu": "86,000",
         "category": "מעבה קוביה HR מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHRV4PR-10",
@@ -681,7 +681,7 @@
         "btu": "95,500",
         "category": "מעבה קוביה HR מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHRV4PR-12",
@@ -690,7 +690,7 @@
         "btu": "114,300",
         "category": "מעבה קוביה HR מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHRV4PR-14",
@@ -699,7 +699,7 @@
         "btu": "136,500",
         "category": "מעבה קוביה HR מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVOHRV4PR-16",
@@ -708,7 +708,7 @@
         "btu": "153,600",
         "category": "מעבה קוביה HR מודולארי",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHPO2",
@@ -716,7 +716,7 @@
         "desc": "מחבר 2 מעבים HP",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHPO3",
@@ -724,7 +724,7 @@
         "desc": "מחבר 3 מעבים HP",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHPO4",
@@ -732,7 +732,7 @@
         "desc": "מחבר 4 מעבים HP",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRO2",
@@ -740,7 +740,7 @@
         "desc": "מחבר 2 מעבים HR",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRO3",
@@ -748,7 +748,7 @@
         "desc": "מחבר 3 מעבים HR",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRO4",
@@ -756,7 +756,7 @@
         "desc": "מחבר 4 מעבים HR",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHPI140",
@@ -764,7 +764,7 @@
         "desc": "מפצל HP 140",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHPI300",
@@ -772,7 +772,7 @@
         "desc": "מפצל 300 HP",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHPI550",
@@ -780,7 +780,7 @@
         "desc": "מפצל HP 550",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHPI800",
@@ -788,7 +788,7 @@
         "desc": "מפצל HP 800",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHPI1100",
@@ -796,7 +796,7 @@
         "desc": "מפצל HP 1100",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHPI1500",
@@ -804,7 +804,7 @@
         "desc": "מפצל HP 1500",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRI140",
@@ -812,7 +812,7 @@
         "desc": "מפצל HR 140",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRI300",
@@ -820,7 +820,7 @@
         "desc": "מפצל HR 300",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRI550",
@@ -828,7 +828,7 @@
         "desc": "מפצל HR 550",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRI800",
@@ -836,7 +836,7 @@
         "desc": "מפצל HR 800",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRI1100",
@@ -844,7 +844,7 @@
         "desc": "מפצל HR 1100",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVMHPIQT4-140/250",
@@ -852,7 +852,7 @@
         "desc": "חנוכיה 140/250",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVMHPIQT8-140/600",
@@ -860,7 +860,7 @@
         "desc": "חנוכיה 140/600",
         "category": "אביזרי חיבור",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRB4-150",
@@ -868,7 +868,7 @@
         "desc": "בורר 1 יציאה",
         "category": "בורר זרימה HR",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRB8-250",
@@ -876,7 +876,7 @@
         "desc": "בורר 2 יציאות",
         "category": "בורר זרימה HR",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRB16-400",
@@ -884,7 +884,7 @@
         "desc": "בורר 4 יציאות",
         "category": "בורר זרימה HR",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRB24-400",
@@ -892,7 +892,7 @@
         "desc": "בורר 6 יציאות",
         "category": "בורר זרימה HR",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRB1-250",
@@ -900,7 +900,7 @@
         "desc": "בורר בודד עד 250",
         "category": "בורר זרימה HR",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVRHRB1-500",
@@ -908,7 +908,7 @@
         "desc": "בורר בודד עד 500",
         "category": "בורר זרימה HR",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCW-29B",
@@ -916,7 +916,7 @@
         "desc": "בקר קירי לפקג'",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCR-RM05B",
@@ -924,7 +924,7 @@
         "desc": "שלט לעילי דור 2",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCA-NIM05",
@@ -932,7 +932,7 @@
         "desc": "כרטיס מלון",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCA-NIM09",
@@ -940,7 +940,7 @@
         "desc": "בקרה",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCCIT-030",
@@ -948,7 +948,7 @@
         "desc": "בקר מרכזי 64 יח'/פקג'ים",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCCI-015",
@@ -956,7 +956,7 @@
         "desc": "בקר אינרנט _במקום קול)",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCCI-270AW/S",
@@ -964,7 +964,7 @@
         "desc": "בקר טאצ'  ל 364 מאיידים",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCCI-IMMPM",
@@ -972,7 +972,7 @@
         "desc": "בקר למניית אנרגיה 256 יח'",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCCI-IMMPS",
@@ -980,7 +980,7 @@
         "desc": "תוכנה למניית אנרגיה",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCCI-180AWS",
@@ -988,7 +988,7 @@
         "desc": "בקר טאצ' 64 יח' חדש",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCCI-LON64",
@@ -996,7 +996,7 @@
         "desc": "מתאם פרוטוקול LON",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCA-634",
@@ -1004,7 +1004,7 @@
         "desc": "ממיר אנרגיה לפולסים",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCW-86E/KD",
@@ -1012,7 +1012,7 @@
         "desc": "בקר קירי",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCW-120G/WK",
@@ -1020,7 +1020,7 @@
         "desc": "בקר קירי עם טיימר שבועי",
         "category": "בקרים",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCA-KZ/01B",
@@ -1028,7 +1028,7 @@
         "desc": "שסתום עד 4.5 טון",
         "category": "שסתומים ליטאו\"ת",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCA-KZ/02B",
@@ -1036,7 +1036,7 @@
         "desc": "שסתום עד 8 טון",
         "category": "שסתומים ליטאו\"ת",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCA-KZ/03B",
@@ -1044,7 +1044,7 @@
         "desc": "שסתום עד 15 טון",
         "category": "שסתומים ליטאו\"ת",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "ELVCA-KNX01",
@@ -1052,7 +1052,7 @@
         "desc": "מתאם פרוטוקול KNX",
         "category": "שסתומים ליטאו\"ת",
         "company": "Electra",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-140WL/C-X",
@@ -1061,7 +1061,7 @@
         "btu": "47,800",
         "category": "מעבה Mini VRF",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-160WL/C-X",
@@ -1070,7 +1070,7 @@
         "btu": "54,600",
         "category": "מעבה Mini VRF",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-224WL/C-X",
@@ -1079,7 +1079,7 @@
         "btu": "76,400",
         "category": "מעבה Mini VRF",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-280WL/C1-X",
@@ -1088,7 +1088,7 @@
         "btu": "95,500",
         "category": "מעבה Mini VRF",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-335WL/C1-X",
@@ -1097,7 +1097,7 @@
         "btu": "114,300",
         "category": "מעבה Mini VRF",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-785W/B-X",
@@ -1107,7 +1107,7 @@
         "category": "מעבה MAX",
         "notes": "(חדש)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-900W/B-X",
@@ -1117,7 +1117,7 @@
         "category": "מעבה MAX",
         "notes": "(חדש)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-335WM/B1-X",
@@ -1126,7 +1126,7 @@
         "btu": "114,300",
         "category": "מעבה Heat Pump סדרה 5",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-504WM/B-X",
@@ -1135,7 +1135,7 @@
         "btu": "172,000",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-224WM/G-X",
@@ -1144,7 +1144,7 @@
         "btu": "76,400",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-280WM/G-X",
@@ -1153,7 +1153,7 @@
         "btu": "95,500",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-335WM/G-X",
@@ -1162,7 +1162,7 @@
         "btu": "114,300",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-400WM/G-X",
@@ -1171,7 +1171,7 @@
         "btu": "136,500",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-450WM/G-X",
@@ -1180,7 +1180,7 @@
         "btu": "153,500",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-504WM/G-X",
@@ -1189,7 +1189,7 @@
         "btu": "172,000",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-560WM/G-X",
@@ -1198,7 +1198,7 @@
         "btu": "191,100",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-615WM/G-X",
@@ -1207,7 +1207,7 @@
         "btu": "209,800",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-680WM/G-X",
@@ -1216,7 +1216,7 @@
         "btu": "232,000",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-735WM/G-X",
@@ -1225,7 +1225,7 @@
         "btu": "250,800",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-785WM/G-X",
@@ -1234,7 +1234,7 @@
         "btu": "267,800",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-839WM/G-X",
@@ -1243,7 +1243,7 @@
         "btu": "286,300",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-895WM/G-X",
@@ -1252,7 +1252,7 @@
         "btu": "305,400",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-950WM/G-X",
@@ -1261,7 +1261,7 @@
         "btu": "324,100",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1015WM/G-X",
@@ -1270,7 +1270,7 @@
         "btu": "346,300",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1064WM/G-X",
@@ -1279,7 +1279,7 @@
         "btu": "363,000",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1119WM/G-X",
@@ -1288,7 +1288,7 @@
         "btu": "381,800",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1175WM/G-X",
@@ -1297,7 +1297,7 @@
         "btu": "400,900",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1230WM/G-X",
@@ -1306,7 +1306,7 @@
         "btu": "419,700",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1295WM/G-X",
@@ -1315,7 +1315,7 @@
         "btu": "441,900",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1360WM/G-X",
@@ -1324,7 +1324,7 @@
         "btu": "464,000",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1399WM/G-X",
@@ -1333,7 +1333,7 @@
         "btu": "477,300",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1455WM/G-X",
@@ -1342,7 +1342,7 @@
         "btu": "496,400",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1510WM/G-X",
@@ -1351,7 +1351,7 @@
         "btu": "515,200",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1565WM/G-X",
@@ -1360,7 +1360,7 @@
         "btu": "534,000",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1623WM/G-X",
@@ -1369,7 +1369,7 @@
         "btu": "553,800",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1679WM/G-X",
@@ -1378,7 +1378,7 @@
         "btu": "572,900",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1734WM/G-X",
@@ -1387,7 +1387,7 @@
         "btu": "591,600",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1790WM/G-X",
@@ -1396,7 +1396,7 @@
         "btu": "610,700",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1845WM/G-X",
@@ -1405,7 +1405,7 @@
         "btu": "629,500",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1910WM/G-X",
@@ -1414,7 +1414,7 @@
         "btu": "651,700",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-1975WM/G-X",
@@ -1423,7 +1423,7 @@
         "btu": "673,900",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2040WM/G-X",
@@ -1432,7 +1432,7 @@
         "btu": "696,000",
         "category": "מעבה Heat Pump סדרה 6",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2069WM/G-X",
@@ -1441,7 +1441,7 @@
         "btu": "705,900",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2129WM/G-X",
@@ -1450,7 +1450,7 @@
         "btu": "726,400",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2190WM/G-X",
@@ -1459,7 +1459,7 @@
         "btu": "747,200",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2245WM/G-X",
@@ -1468,7 +1468,7 @@
         "btu": "766,000",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2295WM/G-X",
@@ -1477,7 +1477,7 @@
         "btu": "783,100",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2350WM/G-X",
@@ -1486,7 +1486,7 @@
         "btu": "801,800",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2414WM/G-X",
@@ -1495,7 +1495,7 @@
         "btu": "823,700",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2470WM/G-X",
@@ -1504,7 +1504,7 @@
         "btu": "842,800",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2525WM/G-X",
@@ -1513,7 +1513,7 @@
         "btu": "861,500",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2590WM/G-X",
@@ -1522,7 +1522,7 @@
         "btu": "883,700",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2655WM/G-X",
@@ -1531,7 +1531,7 @@
         "btu": "905,900",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-2720WM/G-X",
@@ -1540,7 +1540,7 @@
         "btu": "928,100",
         "category": "מעבים HIGH EFFICIENCY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q224WM/E-X",
@@ -1549,7 +1549,7 @@
         "btu": "76,400",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q280WM/E-X",
@@ -1558,7 +1558,7 @@
         "btu": "95,500",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q335WM/E-X",
@@ -1567,7 +1567,7 @@
         "btu": "114,300",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q400WM/E-X",
@@ -1576,7 +1576,7 @@
         "btu": "136,500",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q450WM/E-X",
@@ -1585,7 +1585,7 @@
         "btu": "153,500",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q504WM/E-X",
@@ -1594,7 +1594,7 @@
         "btu": "172,000",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q560WM/E-X",
@@ -1603,7 +1603,7 @@
         "btu": "191,100",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q615WM/E-X",
@@ -1612,7 +1612,7 @@
         "btu": "209,800",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q680WM/E-X",
@@ -1621,7 +1621,7 @@
         "btu": "232,000",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q730WM/E-X",
@@ -1630,7 +1630,7 @@
         "btu": "249,100",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q785WM/E-X",
@@ -1639,7 +1639,7 @@
         "btu": "267,800",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q850WM/E-X",
@@ -1648,7 +1648,7 @@
         "btu": "290,000",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q900WM/E-X",
@@ -1657,7 +1657,7 @@
         "btu": "307,100",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q960WM/E-X",
@@ -1666,7 +1666,7 @@
         "btu": "327,600",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1010WM/E-X",
@@ -1675,7 +1675,7 @@
         "btu": "344,600",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1065WM/E-X",
@@ -1684,7 +1684,7 @@
         "btu": "363,400",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1130WM/E-X",
@@ -1693,7 +1693,7 @@
         "btu": "385,600",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1180WM/E-X",
@@ -1702,7 +1702,7 @@
         "btu": "402,600",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1235WM/E-X",
@@ -1711,7 +1711,7 @@
         "btu": "421,400",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1300WM/E-X",
@@ -1720,7 +1720,7 @@
         "btu": "443,600",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1350WM/E-X",
@@ -1729,7 +1729,7 @@
         "btu": "460,600",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1410WM/E-X",
@@ -1738,7 +1738,7 @@
         "btu": "481,100",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1460WM/E-X",
@@ -1747,7 +1747,7 @@
         "btu": "498,200",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1515WM/E-X",
@@ -1756,7 +1756,7 @@
         "btu": "516,900",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1580WM/E-X",
@@ -1765,7 +1765,7 @@
         "btu": "539,100",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1630WM/E-X",
@@ -1774,7 +1774,7 @@
         "btu": "556,200",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1685WM/E-X",
@@ -1783,7 +1783,7 @@
         "btu": "574,900",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1750WM/E-X",
@@ -1792,7 +1792,7 @@
         "btu": "597,100",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-Q1800WM/E-X",
@@ -1801,7 +1801,7 @@
         "btu": "614,200",
         "category": "מעבה HEAT RECOVERY",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND56PHS/A-T",
@@ -1811,7 +1811,7 @@
         "category": "מאייד מתועל - לחץ בינוני",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND71PHS/A-T",
@@ -1821,7 +1821,7 @@
         "category": "מאייד מתועל - לחץ בינוני",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND80PHS/A-T",
@@ -1831,7 +1831,7 @@
         "category": "מאייד מתועל - לחץ בינוני",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND90PHS/A-T",
@@ -1841,7 +1841,7 @@
         "category": "מאייד מתועל - לחץ בינוני",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND100PHS/A-T",
@@ -1851,7 +1851,7 @@
         "category": "מאייד מתועל - לחץ בינוני",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND112PHS/A-T",
@@ -1861,7 +1861,7 @@
         "category": "מאייד מתועל - לחץ בינוני",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND125PHS/A-T",
@@ -1871,7 +1871,7 @@
         "category": "מאייד מתועל - לחץ בינוני",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND140PHS/A-T",
@@ -1881,7 +1881,7 @@
         "category": "מאייד מתועל - לחץ בינוני",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND160PHS/A-T",
@@ -1891,7 +1891,7 @@
         "category": "מאייד מתועל - לחץ בינוני",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28PHS/B-T",
@@ -1901,7 +1901,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND36PHS/B-T",
@@ -1911,7 +1911,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND45PHS/B-T",
@@ -1921,7 +1921,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND50PHS/B-T",
@@ -1931,7 +1931,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND56PHS/B-T",
@@ -1941,7 +1941,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND71PHS/B-T",
@@ -1951,7 +1951,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND80PHS/B-T",
@@ -1961,7 +1961,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND90PHS/B-T",
@@ -1971,7 +1971,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND100PHS/B-T",
@@ -1981,7 +1981,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND112PHS/B-T",
@@ -1991,7 +1991,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND125PHS/B-T",
@@ -2001,7 +2001,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND140PHS/B-T",
@@ -2011,7 +2011,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND160PHS/B-T",
@@ -2021,7 +2021,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND224PH/A-T",
@@ -2031,7 +2031,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND280PH/A-T",
@@ -2041,7 +2041,7 @@
         "category": "מאייד מתועל - לחץ גבוה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND100PLS/A-T",
@@ -2051,7 +2051,7 @@
         "category": "מאייד לחץ נמוך",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND140PLS/A-T",
@@ -2061,7 +2061,7 @@
         "category": "מאייד לחץ נמוך",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND80PLS/C-T",
@@ -2071,7 +2071,7 @@
         "category": "מאייד לחץ נמוך",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND90PLS/C-T",
@@ -2081,7 +2081,7 @@
         "category": "מאייד לחץ נמוך",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND100PLS/C-T",
@@ -2091,7 +2091,7 @@
         "category": "מאייד לחץ נמוך",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND112PLS/C-T",
@@ -2101,7 +2101,7 @@
         "category": "מאייד לחץ נמוך",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND125PLS/C-T",
@@ -2111,7 +2111,7 @@
         "category": "מאייד לחץ נמוך",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND140PLS/C-T",
@@ -2121,7 +2121,7 @@
         "category": "מאייד לחץ נמוך",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28PL/B-T",
@@ -2131,7 +2131,7 @@
         "category": "מאייד צר-לזריקה ישירה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28PLS/C-T",
@@ -2141,7 +2141,7 @@
         "category": "מאייד צר-לזריקה ישירה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND36PLS/C-T",
@@ -2151,7 +2151,7 @@
         "category": "מאייד צר-לזריקה ישירה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND45PLS/C-T",
@@ -2161,7 +2161,7 @@
         "category": "מאייד צר-לזריקה ישירה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND50PLS/C-T",
@@ -2171,7 +2171,7 @@
         "category": "מאייד צר-לזריקה ישירה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND56PLS/C-T",
@@ -2181,7 +2181,7 @@
         "category": "מאייד צר-לזריקה ישירה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND71PLS/C-T",
@@ -2191,7 +2191,7 @@
         "category": "מאייד צר-לזריקה ישירה",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28ZA/A-T",
@@ -2200,7 +2200,7 @@
         "btu": "9,600",
         "category": "מאייד אנכי נסתר",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND36ZA/A-T",
@@ -2209,7 +2209,7 @@
         "btu": "12,300",
         "category": "מאייד אנכי נסתר",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND45ZA/A-T",
@@ -2218,7 +2218,7 @@
         "btu": "15,400",
         "category": "מאייד אנכי נסתר",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND56ZA/A-T",
@@ -2227,7 +2227,7 @@
         "btu": "19,100",
         "category": "מאייד אנכי נסתר",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND63ZA/A-T",
@@ -2236,7 +2236,7 @@
         "btu": "21,500",
         "category": "מאייד אנכי נסתר",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND71ZA/A-T",
@@ -2245,7 +2245,7 @@
         "btu": "24,200",
         "category": "מאייד אנכי נסתר",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-NDX140P/A-T",
@@ -2254,7 +2254,7 @@
         "btu": "47,800",
         "category": "מאייד - אויר צח",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-NDX224P/A-T",
@@ -2263,7 +2263,7 @@
         "btu": "76,400",
         "category": "מאייד - אויר צח",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-NDX280P/A-T",
@@ -2272,7 +2272,7 @@
         "btu": "95,600",
         "category": "מאייד - אויר צח",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-NX450P/A-M",
@@ -2281,7 +2281,7 @@
         "btu": "153,500",
         "category": "מאייד - אויר צח",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N22G/A3A-K",
@@ -2291,7 +2291,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N28G/A3A-K",
@@ -2301,7 +2301,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N36G/A3A-K",
@@ -2311,7 +2311,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N45G/A3A-K",
@@ -2321,7 +2321,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N50G/A3A-K",
@@ -2331,7 +2331,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N56G/A3A-K",
@@ -2341,7 +2341,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N63G/A3A-K",
@@ -2351,7 +2351,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N71G/A3A-K",
@@ -2361,7 +2361,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND80G/A3A-T",
@@ -2371,7 +2371,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND90G/A3A-T",
@@ -2381,7 +2381,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND100G/A3A-T",
@@ -2391,7 +2391,7 @@
         "category": "מאייד עילי",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND22G/B4B-T",
@@ -2401,7 +2401,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28G/B4B-T",
@@ -2411,7 +2411,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND36G/B4B-T",
@@ -2421,7 +2421,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND45G/B4B-T",
@@ -2431,7 +2431,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND50G/B4B-T",
@@ -2441,7 +2441,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND56G/B4B-T",
@@ -2451,7 +2451,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND63G/B4B-T",
@@ -2461,7 +2461,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND71G/B4B-T",
@@ -2471,7 +2471,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND80G/B4B-T",
@@ -2481,7 +2481,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND90G/B4B-T",
@@ -2491,7 +2491,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND100G/B4B-T",
@@ -2501,7 +2501,7 @@
         "category": "מאייד עילי LOMO",
         "notes": "(כולל שלט רחוק)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND71T/A-T+P",
@@ -2510,7 +2510,7 @@
         "btu": "24,200",
         "category": "קסט 4 יציאות אוויר -רגיל +פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND80T/A-T+P",
@@ -2519,7 +2519,7 @@
         "btu": "27,300",
         "category": "קסט 4 יציאות אוויר -רגיל +פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND90T/A-T+P",
@@ -2528,7 +2528,7 @@
         "btu": "30,700",
         "category": "קסט 4 יציאות אוויר -רגיל +פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND100T/A-T+P",
@@ -2537,7 +2537,7 @@
         "btu": "34,100",
         "category": "קסט 4 יציאות אוויר -רגיל +פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND112T/A-T+P",
@@ -2546,7 +2546,7 @@
         "btu": "38,200",
         "category": "קסט 4 יציאות אוויר -רגיל +פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND125T/A-T+P",
@@ -2555,7 +2555,7 @@
         "btu": "42,700",
         "category": "קסט 4 יציאות אוויר -רגיל +פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND140T/A-T+P",
@@ -2564,7 +2564,7 @@
         "btu": "47,800",
         "category": "קסט 4 יציאות אוויר -רגיל +פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND160T/A-T+P",
@@ -2573,7 +2573,7 @@
         "btu": "54,600",
         "category": "קסט 4 יציאות אוויר -רגיל +פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28T/E-T+P",
@@ -2583,7 +2583,7 @@
         "category": "קסט 8 יציאות אויר קומפקטי + פנל",
         "notes": "(פנל 62*62)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND36T/E-T+P",
@@ -2593,7 +2593,7 @@
         "category": "קסט 8 יציאות אויר קומפקטי + פנל",
         "notes": "(פנל 62*62)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND45T/E-T+P",
@@ -2603,7 +2603,7 @@
         "category": "קסט 8 יציאות אויר קומפקטי + פנל",
         "notes": "(פנל 62*62)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND56T/E-T+P",
@@ -2613,7 +2613,7 @@
         "category": "קסט 8 יציאות אויר קומפקטי + פנל",
         "notes": "(פנל 62*62)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28TS/A-T+P",
@@ -2622,7 +2622,7 @@
         "btu": "9,600",
         "category": "קסט 2 יציאות אוויר + פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND36TS/A-T+P",
@@ -2631,7 +2631,7 @@
         "btu": "12,300",
         "category": "קסט 2 יציאות אוויר + פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND45TS/A-T+P",
@@ -2640,7 +2640,7 @@
         "btu": "15,400",
         "category": "קסט 2 יציאות אוויר + פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND50TS/A-T+P",
@@ -2649,7 +2649,7 @@
         "btu": "17,100",
         "category": "קסט 2 יציאות אוויר + פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND56TS/A-T+P",
@@ -2658,7 +2658,7 @@
         "btu": "19,100",
         "category": "קסט 2 יציאות אוויר + פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND63TS/A-T+P",
@@ -2667,7 +2667,7 @@
         "btu": "21,500",
         "category": "קסט 2 יציאות אוויר + פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND71TS/A-T+P",
@@ -2676,7 +2676,7 @@
         "btu": "24,200",
         "category": "קסט 2 יציאות אוויר + פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND22TD/A-T+P",
@@ -2685,7 +2685,7 @@
         "btu": "7,500",
         "category": "קסט יציאת אוויר אחת+פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28TD/A-T+P",
@@ -2694,7 +2694,7 @@
         "btu": "9,600",
         "category": "קסט יציאת אוויר אחת+פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND36TD/A-T+P",
@@ -2703,7 +2703,7 @@
         "btu": "12,300",
         "category": "קסט יציאת אוויר אחת+פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND45TD/A-T+P",
@@ -2712,7 +2712,7 @@
         "btu": "15,400",
         "category": "קסט יציאת אוויר אחת+פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND50TD/A-T+P",
@@ -2721,7 +2721,7 @@
         "btu": "17,100",
         "category": "קסט יציאת אוויר אחת+פנל",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28ZD/A-T",
@@ -2730,7 +2730,7 @@
         "btu": "9,600",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND36ZD/A-T",
@@ -2739,7 +2739,7 @@
         "btu": "12,300",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND50ZD/A-T",
@@ -2748,7 +2748,7 @@
         "btu": "17,100",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND56ZD/A-T",
@@ -2757,7 +2757,7 @@
         "btu": "19,100",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND63ZD/A-T",
@@ -2766,7 +2766,7 @@
         "btu": "21,500",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND71ZD/A-T",
@@ -2775,7 +2775,7 @@
         "btu": "24,200",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND90ZD/A-T",
@@ -2784,7 +2784,7 @@
         "btu": "30,700",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND112ZD/A-T",
@@ -2793,7 +2793,7 @@
         "btu": "38,200",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND125ZD/A-T",
@@ -2802,7 +2802,7 @@
         "btu": "42,700",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND140ZD/A-T",
@@ -2811,7 +2811,7 @@
         "btu": "47,800",
         "category": "מאייד רצפתי/תקרתי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND100L/A-T",
@@ -2820,7 +2820,7 @@
         "btu": "34,100",
         "category": "מאייד רצפתי גבוה",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND140L/A-T",
@@ -2829,7 +2829,7 @@
         "btu": "47,800",
         "category": "מאייד רצפתי גבוה",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-ML01/A",
@@ -2837,7 +2837,7 @@
         "desc": "מפצל צנרת למערכת ODU HP",
         "category": "מפצל צנרת למערכת ODU HP",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-ML01R",
@@ -2845,7 +2845,7 @@
         "desc": "מפצל צנרת למערכת 171,000-327,500BTU ODU HR",
         "category": "מפצל צנרת למערכת ODU HR",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-ML02R",
@@ -2853,7 +2853,7 @@
         "desc": "מפצל צנרת למערכת ODU HR מעל 327,500BTU",
         "category": "מפצל צנרת למערכת ODU HR",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ01A/A",
@@ -2861,7 +2861,7 @@
         "desc": "מפצל צנרת למערכת HP עד 68,000BTU",
         "category": "מפצל צנרת למערכת HP דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ01B/A",
@@ -2869,7 +2869,7 @@
         "desc": "מפצל צנרת למערכת 68,000-102,000BTU HP",
         "category": "מפצל צנרת למערכת HP דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ02/A",
@@ -2877,7 +2877,7 @@
         "desc": "מפצל צנרת למערכת 102,000-238,000BTU HP",
         "category": "מפצל צנרת למערכת HP דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ03/A",
@@ -2885,7 +2885,7 @@
         "desc": "מפצל צנרת למערכת 238,000-460,000BTU HP",
         "category": "מפצל צנרת למערכת HP דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ04/A",
@@ -2893,7 +2893,7 @@
         "desc": "מפצל צנרת למערכת HP מעל 460,000BTU",
         "category": "מפצל צנרת למערכת HP דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ01Na/A",
@@ -2901,7 +2901,7 @@
         "desc": "מפצל צנרת למערכת HR עד 17,000BTU",
         "category": "מפצל צנרת למערכת HR דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ02Na/A",
@@ -2909,7 +2909,7 @@
         "desc": "מפצל צנרת למערכת 17,000-76,000BTU HR",
         "category": "מפצל צנרת למערכת HR דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ03Na/A",
@@ -2917,7 +2917,7 @@
         "desc": "מפצל צנרת למערכת 76,000-95,500BTU HR",
         "category": "מפצל צנרת למערכת HR דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ04Na/A",
@@ -2925,7 +2925,7 @@
         "desc": "מפצל צנרת למערכת 95,500-232,000BTU HR",
         "category": "מפצל צנרת למערכת HR דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ05Na/A",
@@ -2933,7 +2933,7 @@
         "desc": "מפצל צנרת למערכת 232,000-327,000BTU HR",
         "category": "מפצל צנרת למערכת HR דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ06Na/A",
@@ -2941,7 +2941,7 @@
         "desc": "מפצל צנרת למערכת 327,000-460,000BTU HR",
         "category": "מפצל צנרת למערכת HR דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ07Na/A",
@@ -2949,7 +2949,7 @@
         "desc": "מפצל צנרת למערכת HR מעל 460,000BTU",
         "category": "מפצל צנרת למערכת HR דגם Y",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ14/H1",
@@ -2958,7 +2958,7 @@
         "category": "מחלק גז נוזל למערכת HP",
         "notes": "(רב קני)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ18/H1",
@@ -2967,7 +2967,7 @@
         "category": "מחלק גז נוזל למערכת HP",
         "notes": "(רב קני)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FQ18/H2",
@@ -2976,7 +2976,7 @@
         "category": "מחלק גז נוזל למערכת HP",
         "notes": "(רב קני)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-NCHS1C",
@@ -2985,7 +2985,7 @@
         "category": "מחלק גז נוזל למערכת HR",
         "notes": "(קני)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-NCHS4C",
@@ -2994,7 +2994,7 @@
         "category": "מחלק גז נוזל למערכת HR",
         "notes": "(קני)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-NCHS8C",
@@ -3003,7 +3003,7 @@
         "category": "מחלק גז נוזל למערכת HR",
         "notes": "(קני)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N140U/A-T",
@@ -3012,7 +3012,7 @@
         "btu": "47,800",
         "category": "קיט חיבור יט\"אות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N280U/A-T",
@@ -3021,7 +3021,7 @@
         "btu": "95,600",
         "category": "קיט חיבור יט\"אות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N140U/B-T",
@@ -3030,7 +3030,7 @@
         "btu": "47,800",
         "category": "קיט חיבור יט\"אות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N280U/B-T",
@@ -3039,7 +3039,7 @@
         "btu": "95,600",
         "category": "קיט חיבור יט\"אות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N560U/B-T",
@@ -3048,7 +3048,7 @@
         "btu": "191,100",
         "category": "קיט חיבור יט\"אות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N140U/C-T",
@@ -3057,7 +3057,7 @@
         "btu": "47,800",
         "category": "קיט חיבור יט\"אות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N280U/C-T",
@@ -3066,7 +3066,7 @@
         "btu": "95,600",
         "category": "קיט חיבור יט\"אות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-N560U/C-T",
@@ -3075,7 +3075,7 @@
         "btu": "191,100",
         "category": "קיט חיבור יט\"אות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-XK46",
@@ -3083,7 +3083,7 @@
         "desc": "בקר קירי רגיל, תאורת רקע בצבע שחור (כיתוב בצבע לבן) עם קוצב זמן בסיסי",
         "category": "מערכות בקרה מתקדמות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-XK79",
@@ -3091,7 +3091,7 @@
         "desc": "בקר קירי רגיל לבתי מלון עם התאמה למגע יבש",
         "category": "מערכות בקרה מתקדמות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-XK55",
@@ -3099,7 +3099,7 @@
         "desc": "בקר קירי עם מסך מגע בעל כיתוב צבעוני כולל טיימר מובנה",
         "category": "מערכות בקרה מתקדמות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-YAP1F",
@@ -3107,7 +3107,7 @@
         "desc": "שלט רחוק רגיל",
         "category": "מערכות בקרה מתקדמות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-YV1L1",
@@ -3115,7 +3115,7 @@
         "desc": "שלט רחוק עם תאורת רקע",
         "category": "מערכות בקרה מתקדמות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-JS05",
@@ -3123,7 +3123,7 @@
         "desc": "מקלט לשלט רחוק עבור מאיידים מתועלים",
         "category": "מערכות בקרה מתקדמות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-XE70-33H",
@@ -3131,7 +3131,7 @@
         "desc": "פיקוד קיר עם שעון הפעלה וכיבוי יומי",
         "category": "מערכות בקרה מתקדמות",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-CE53-24/F C",
@@ -3139,7 +3139,7 @@
         "desc": "בקר מרכזי עם מסך מגע להפעלת עד 32 יח' פנים כולל סוללת גיבוי",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-CE54-24/F C",
@@ -3147,7 +3147,7 @@
         "desc": "בקר מרכזי מוקטן עם מסך מגע להפעלת עד 32 יח' פנים ללא סוללת גיבוי",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-CE52-24/F C",
@@ -3155,7 +3155,7 @@
         "desc": "בקר מרכזי עם אפשרות לחלוקה לקבוצות, טיימר מובנה, עד 255 יח' פנים",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FE30-24/DF B",
@@ -3163,7 +3163,7 @@
         "desc": "תוכנת מחשב לשליטה מרחוק",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-FE11-24/D4 B",
@@ -3171,7 +3171,7 @@
         "desc": "תוכנה למניית אנרגיה",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-ME11-24/D4 B",
@@ -3179,7 +3179,7 @@
         "desc": "מתאם עבור חיבור מוני חשמל למניית אנרגיה",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-ME30-24/E6 M",
@@ -3187,7 +3187,7 @@
         "desc": "מתאם תקשורת Modbus",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-ME30-24/D4 B",
@@ -3195,7 +3195,7 @@
         "desc": "מתאם תקשורת BACnet",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-ME31-00/C3",
@@ -3203,7 +3203,7 @@
         "desc": "מתאם WI-FI לשליטה באמצעות יישומון",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-43T85001-GR",
@@ -3211,7 +3211,7 @@
         "desc": "מערכות פיקוד ובקרה COOL למערכת תדיראן",
         "category": "מערכות בקרה מרכזית",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-HP-SPLIT",
@@ -3219,7 +3219,7 @@
         "desc": "זוג מפצלי נחושת מקוריים HEAT PUMP",
         "category": "כללי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-HR-SPLIT",
@@ -3227,7 +3227,7 @@
         "desc": "זוג מפצלי נחושת מקוריים HEAT RECOVERY",
         "category": "כללי",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND28PHSB-TV",
@@ -3237,7 +3237,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND36PHSB-TV",
@@ -3247,7 +3247,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND45PHSB-TV",
@@ -3257,7 +3257,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND50PHSB-TV",
@@ -3267,7 +3267,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND56PHSB-TV",
@@ -3277,7 +3277,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND71PHSB-TV",
@@ -3287,7 +3287,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND80PHSB-TV",
@@ -3297,7 +3297,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND90PHSB-TV",
@@ -3307,7 +3307,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND100PHSB-TV",
@@ -3317,7 +3317,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND112PHSB-TV",
@@ -3327,7 +3327,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND125PHSB-TV",
@@ -3337,7 +3337,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND140PHSB-TV",
@@ -3347,7 +3347,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "G-GMV-ND160PHSB-TV",
@@ -3357,7 +3357,7 @@
         "category": "מאייד מתועל - לחץ גבוה מוסב אנכית",
         "notes": "(כולל בקר קירי)",
         "company": "Tadiran",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MCY-MHP0404HS8-E",
@@ -3366,7 +3366,7 @@
         "btu": "41,300.00",
         "category": "מעבה Mini VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MCY-MHP0504HS8-E",
@@ -3375,7 +3375,7 @@
         "btu": "47,800.00",
         "category": "מעבה Mini VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MCY-MHP0604HS8-E",
@@ -3384,7 +3384,7 @@
         "btu": "52,900.00",
         "category": "מעבה Mini VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MCY-MAP0804HT8",
@@ -3393,7 +3393,7 @@
         "btu": "76,400.00",
         "category": "מעבה Mini VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MCY-MHP1006HS8-E",
@@ -3402,7 +3402,7 @@
         "btu": "95,500.00",
         "category": "מעבה Mini VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MCY-MHP1204HT8-1",
@@ -3411,7 +3411,7 @@
         "btu": "114,300.00",
         "category": "מעבה Mini VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MCY-MHP0805HT8",
@@ -3421,7 +3421,7 @@
         "category": "מעבה Mini VRF",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP0806HT8PE",
@@ -3429,9 +3429,9 @@
         "desc": "מעבה  76,400BTU Heat Pump",
         "btu": "76,400.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1006HT8PE",
@@ -3439,9 +3439,9 @@
         "desc": "מעבה  95,500BTU Heat Pump",
         "btu": "95,500.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1206HT8PE",
@@ -3449,9 +3449,9 @@
         "desc": "מעבה  114,300BTU Heat Pump",
         "btu": "114,300.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1406HT8PE",
@@ -3459,9 +3459,9 @@
         "desc": "מעבה  136,500BTU Heat Pump",
         "btu": "136,500.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1606HT8PE",
@@ -3469,9 +3469,9 @@
         "desc": "מעבה  153,500BTU Heat Pump",
         "btu": "153,500.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1806HT8PE",
@@ -3479,9 +3479,9 @@
         "desc": "מעבה  172,000BTU Heat Pump",
         "btu": "172,000.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP2006HT8PE",
@@ -3489,9 +3489,9 @@
         "desc": "מעבה  191,100BTU Heat Pump",
         "btu": "191,100.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP2206HT8PE",
@@ -3499,9 +3499,9 @@
         "desc": "מעבה  209,800BTU Heat Pump",
         "btu": "209,800.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP2416HT8PE",
@@ -3509,9 +3509,9 @@
         "desc": "מעבה  228,600BTU Heat Pump (בנוי מ 12+12)",
         "btu": "228,600.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP2616HT8PE",
@@ -3519,9 +3519,9 @@
         "desc": "מעבה  250,800BTU Heat Pump (בנוי מ 12+14)",
         "btu": "250,800.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP2816HT8PE",
@@ -3529,9 +3529,9 @@
         "desc": "מעבה  267,800BTU Heat Pump (בנוי מ 12+16)",
         "btu": "267,800.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3016HT8PE",
@@ -3539,9 +3539,9 @@
         "desc": "מעבה  290,000BTU Heat Pump (בנוי מ 16+14)",
         "btu": "290,000.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3216HT8PE",
@@ -3549,9 +3549,9 @@
         "desc": "מעבה  307,100BTU Heat Pump (בנוי מ 16+16)",
         "btu": "307,100.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3416HT8PE",
@@ -3559,9 +3559,9 @@
         "desc": "מעבה  325,500BTU Heat Pump (בנוי מ 16+18)",
         "btu": "325,500.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3616HT8PE",
@@ -3569,9 +3569,9 @@
         "desc": "מעבה  344,600BTU Heat Pump (בנוי מ 16+20)",
         "btu": "344,600.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3816HT8PE",
@@ -3579,9 +3579,9 @@
         "desc": "מעבה  363,400BTU Heat Pump (בנוי מ 16+22)",
         "btu": "363,400.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4016HT8PE",
@@ -3589,9 +3589,9 @@
         "desc": "מעבה  382,100BTU Heat Pump (בנוי מ 20+20)",
         "btu": "382,100.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4216HT8PE",
@@ -3599,9 +3599,9 @@
         "desc": "מעבה  400,900BTU Heat Pump (בנוי מ 20+22)",
         "btu": "400,900.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4416HT8PE",
@@ -3609,9 +3609,9 @@
         "desc": "מעבה  419,700BTU Heat Pump (בנוי מ 22+22)",
         "btu": "419,700.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4616HT8PE",
@@ -3619,9 +3619,9 @@
         "desc": "מעבה  443,600BTU Heat Pump (בנוי מ 14+16+16)",
         "btu": "443,600.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4816HT8PE",
@@ -3629,9 +3629,9 @@
         "desc": "מעבה  460,600BTU Heat Pump (בנוי מ 16+16+16)",
         "btu": "460,600.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP5016HT8PE",
@@ -3639,9 +3639,9 @@
         "desc": "מעבה  479,000BTU Heat Pump (בנוי מ 16+16+18)",
         "btu": "479,000.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP5216HT8PE",
@@ -3649,9 +3649,9 @@
         "desc": "מעבה  498,200BTU Heat Pump (בנוי מ 16+16+20)",
         "btu": "498,200.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP5416HT8PE",
@@ -3659,9 +3659,9 @@
         "desc": "מעבה  516,900BTU Heat Pump (בנוי מ 16+16+22)",
         "btu": "516,900.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP5616HT8PE",
@@ -3669,9 +3669,9 @@
         "desc": "מעבה  535,700BTU Heat Pump (בנוי מ 20+20+16)",
         "btu": "535,700.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP5816HT8PE",
@@ -3679,9 +3679,9 @@
         "desc": "מעבה  554,500BTU Heat Pump (בנוי מ 22+20+16)",
         "btu": "554,500.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP6016HT8PE",
@@ -3689,9 +3689,9 @@
         "desc": "מעבה  573,200BTU Heat Pump (בנוי מ 22+22+16)",
         "btu": "573,200.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MUP0801HT8PE",
@@ -3699,9 +3699,9 @@
         "desc": "מעבה  76,400BTU Heat Pump",
         "btu": "76,400.00",
         "category": "מעבה Heat Pump",
-        "notes": " סדרה קודמת",
+        "notes": "סדרה קודמת",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MUP1001HT8PE",
@@ -3711,7 +3711,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MUP1201HT8PE",
@@ -3721,7 +3721,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MUP1401HT8PE",
@@ -3731,7 +3731,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MUP1601HT8PE",
@@ -3741,7 +3741,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MUP1801HT8PE",
@@ -3751,7 +3751,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MUP2001HT8PE",
@@ -3761,7 +3761,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MUP2201HT8PE",
@@ -3771,7 +3771,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MUP2401HT8PE",
@@ -3781,7 +3781,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP2611HT8PE",
@@ -3791,7 +3791,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP2811HT8PE",
@@ -3801,7 +3801,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP3011HT8PE",
@@ -3811,7 +3811,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP3211HT8PE",
@@ -3821,7 +3821,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP3411HT8PE",
@@ -3831,7 +3831,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP3611HT8PE",
@@ -3841,7 +3841,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP3811HT8PE",
@@ -3851,7 +3851,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP4011HT8PE",
@@ -3861,7 +3861,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP4211HT8PE",
@@ -3871,7 +3871,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP4411HT8PE",
@@ -3881,7 +3881,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP4611HT8PE",
@@ -3891,7 +3891,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP4811HT8PE",
@@ -3901,7 +3901,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP5011HT8PE",
@@ -3911,7 +3911,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP5211HT8PE",
@@ -3921,7 +3921,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP5411HT8PE",
@@ -3931,7 +3931,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP5611HT8PE",
@@ -3941,7 +3941,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP5811HT8PE",
@@ -3951,7 +3951,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP6011HT8PE",
@@ -3961,7 +3961,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP6211HT8PE",
@@ -3971,7 +3971,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP6411HT8PE",
@@ -3981,7 +3981,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP6611HT8PE",
@@ -3991,7 +3991,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP6811HT8PE",
@@ -4001,7 +4001,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP7011HT8PE",
@@ -4011,7 +4011,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP7211HT8PE",
@@ -4021,7 +4021,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP7411HT8PE",
@@ -4031,7 +4031,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP7611HT8PE",
@@ -4041,7 +4041,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP7811HT8PE",
@@ -4051,7 +4051,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP8011HT8PE",
@@ -4061,7 +4061,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP8211HT8PE",
@@ -4071,7 +4071,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP8411HT8PE",
@@ -4081,7 +4081,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP8611HT8PE",
@@ -4091,7 +4091,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP8811HT8PE",
@@ -4101,7 +4101,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP9011HT8PE",
@@ -4111,7 +4111,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP9211HT8PE",
@@ -4121,7 +4121,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP9411HT8PE",
@@ -4131,7 +4131,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP9611HT8PE",
@@ -4141,7 +4141,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP9811HT8PE",
@@ -4151,7 +4151,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP10011HT8PE",
@@ -4161,7 +4161,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP10211HT8PE",
@@ -4171,7 +4171,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP10411HT8PE",
@@ -4181,7 +4181,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP10611HT8PE",
@@ -4191,7 +4191,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP10811HT8PE",
@@ -4201,7 +4201,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP11011HT8PE",
@@ -4211,7 +4211,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP11211HT8PE",
@@ -4221,7 +4221,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP11411HT8PE",
@@ -4231,7 +4231,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP11611HT8PE",
@@ -4241,7 +4241,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP11811HT8PE",
@@ -4251,7 +4251,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-UP12011HT8PE",
@@ -4261,7 +4261,7 @@
         "category": "מעבה Heat Pump",
         "notes": "סדרה חדשה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP0806FT8PE",
@@ -4270,7 +4270,7 @@
         "btu": "76,400.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1006FT8PE",
@@ -4279,7 +4279,7 @@
         "btu": "95,500.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1206FT8PE",
@@ -4288,7 +4288,7 @@
         "btu": "114,300.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1406FT8PE",
@@ -4297,7 +4297,7 @@
         "btu": "136,500.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1606FT8PE",
@@ -4306,7 +4306,7 @@
         "btu": "153,500.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP1806FT8PE",
@@ -4315,7 +4315,7 @@
         "btu": "172,000.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-MAP2006FT8PE",
@@ -4324,7 +4324,7 @@
         "btu": "191,100.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP2216FT8PE",
@@ -4333,7 +4333,7 @@
         "btu": "209,800.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP2416FT8PE",
@@ -4342,7 +4342,7 @@
         "btu": "232,000.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP2616FT8PE",
@@ -4351,7 +4351,7 @@
         "btu": "250,800.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP2816FT8PE",
@@ -4360,7 +4360,7 @@
         "btu": "273,000.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3016FT8PE",
@@ -4369,7 +4369,7 @@
         "btu": "290,000.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3216FT8PE",
@@ -4378,7 +4378,7 @@
         "btu": "308,400.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3416FT8PE",
@@ -4387,7 +4387,7 @@
         "btu": "325,500.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3616FT8PE",
@@ -4396,7 +4396,7 @@
         "btu": "344,600.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP3816FT8PE",
@@ -4405,7 +4405,7 @@
         "btu": "363,000.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4016FT8PE",
@@ -4414,7 +4414,7 @@
         "btu": "382,100.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4216FT8PE",
@@ -4423,7 +4423,7 @@
         "btu": "409,400.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4416FT8PE",
@@ -4432,7 +4432,7 @@
         "btu": "426,500.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4616FT8PE",
@@ -4441,7 +4441,7 @@
         "btu": "444,900.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP4816FT8PE",
@@ -4450,7 +4450,7 @@
         "btu": "462,000.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP5016FT8PE",
@@ -4459,7 +4459,7 @@
         "btu": "480,400.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP5216FT8PE",
@@ -4468,7 +4468,7 @@
         "btu": "497,500.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMY-AP5416FT8PE",
@@ -4477,7 +4477,7 @@
         "btu": "515,900.00",
         "category": "מעבה HEAT RECOVERY",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0071BHP-E",
@@ -4486,7 +4486,7 @@
         "btu": "7,500.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0096BHP1-E",
@@ -4495,7 +4495,7 @@
         "btu": "9,600.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0126BHP1-E",
@@ -4504,7 +4504,7 @@
         "btu": "12,300.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0156BHP1-E",
@@ -4513,7 +4513,7 @@
         "btu": "15,400.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0181BHP-E",
@@ -4522,7 +4522,7 @@
         "btu": "19,100.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0246BHP1-E",
@@ -4531,7 +4531,7 @@
         "btu": "24,200.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0276BHP1-E",
@@ -4540,7 +4540,7 @@
         "btu": "27,300.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0306BHP1-E",
@@ -4549,7 +4549,7 @@
         "btu": "30,700.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0361BHP-E",
@@ -4558,7 +4558,7 @@
         "btu": "38,200.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0486BHP1-E",
@@ -4567,7 +4567,7 @@
         "btu": "47,800.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0566BHP1-E",
@@ -4576,7 +4576,7 @@
         "btu": "54,600.00",
         "category": "מאייד נסתר לחץ בינוני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0181HP-E",
@@ -4585,7 +4585,7 @@
         "btu": "19,100.00",
         "category": "מאייד נסתר לחץ גבוה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0241HP-E",
@@ -4594,7 +4594,7 @@
         "btu": "24,200.00",
         "category": "מאייד נסתר לחץ גבוה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0271HP-E",
@@ -4603,7 +4603,7 @@
         "btu": "27,300.00",
         "category": "מאייד נסתר לחץ גבוה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0361HP-E",
@@ -4612,7 +4612,7 @@
         "btu": "38,200.00",
         "category": "מאייד נסתר לחץ גבוה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0481HP-E",
@@ -4621,7 +4621,7 @@
         "btu": "47,800.00",
         "category": "מאייד נסתר לחץ גבוה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0566HP1-E",
@@ -4630,7 +4630,7 @@
         "btu": "54,600.00",
         "category": "מאייד נסתר לחץ גבוה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0726HP-E",
@@ -4639,7 +4639,7 @@
         "btu": "76,500.00",
         "category": "מאייד נסתר לחץ גבוה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0966HP-E",
@@ -4648,7 +4648,7 @@
         "btu": "95,600.00",
         "category": "מאייד נסתר לחץ גבוה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0074SPH1-E",
@@ -4657,7 +4657,7 @@
         "btu": "7,500.00",
         "category": "מאייד נסתר לזריקה ישירה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0094SPH1-E",
@@ -4666,7 +4666,7 @@
         "btu": "9,600.00",
         "category": "מאייד נסתר לזריקה ישירה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0124SPH1-E",
@@ -4675,7 +4675,7 @@
         "btu": "12,300.00",
         "category": "מאייד נסתר לזריקה ישירה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0154SPH1-E",
@@ -4684,7 +4684,7 @@
         "btu": "15,400.00",
         "category": "מאייד נסתר לזריקה ישירה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0184SPH1-E",
@@ -4693,7 +4693,7 @@
         "btu": "19,100.00",
         "category": "מאייד נסתר לזריקה ישירה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0244SPH1-E",
@@ -4702,7 +4702,7 @@
         "btu": "24,200.00",
         "category": "מאייד נסתר לזריקה ישירה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0274SPH1-E",
@@ -4711,7 +4711,7 @@
         "btu": "27,300.00",
         "category": "מאייד נסתר לזריקה ישירה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0071SPHY-E",
@@ -4720,7 +4720,7 @@
         "btu": "7,500.00",
         "category": "מאייד נסתר צר לזריקה ישירה (דגמים חדשים)+מסנן",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0091SPHY-E",
@@ -4729,7 +4729,7 @@
         "btu": "9,600.00",
         "category": "מאייד נסתר צר לזריקה ישירה (דגמים חדשים)+מסנן",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0121SPHY-E",
@@ -4738,7 +4738,7 @@
         "btu": "12,300.00",
         "category": "מאייד נסתר צר לזריקה ישירה (דגמים חדשים)+מסנן",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0151SPHY-E",
@@ -4747,7 +4747,7 @@
         "btu": "15,400.00",
         "category": "מאייד נסתר צר לזריקה ישירה (דגמים חדשים)+מסנן",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0181SPHY-E",
@@ -4756,7 +4756,7 @@
         "btu": "19,100.00",
         "category": "מאייד נסתר צר לזריקה ישירה (דגמים חדשים)+מסנן",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0241SPHY-E",
@@ -4765,7 +4765,7 @@
         "btu": "24,200.00",
         "category": "מאייד נסתר צר לזריקה ישירה (דגמים חדשים)+מסנן",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP0271SPHY-E",
@@ -4774,7 +4774,7 @@
         "btu": "27,300.00",
         "category": "מאייד נסתר צר לזריקה ישירה (דגמים חדשים)+מסנן",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0481HFE",
@@ -4783,7 +4783,7 @@
         "btu": "47,800.00",
         "category": "מאייד נסתר לאויר צח",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0721HFE",
@@ -4792,7 +4792,7 @@
         "btu": "76,500.00",
         "category": "מאייד נסתר לאויר צח",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0961HFE",
@@ -4801,7 +4801,7 @@
         "btu": "95,600.00",
         "category": "מאייד נסתר לאויר צח",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP1121HFP-E",
@@ -4810,7 +4810,7 @@
         "btu": "114,300.00",
         "category": "מאייד נסתר לאויר צח",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-UP1281HFP-E",
@@ -4819,7 +4819,7 @@
         "btu": "136,500.00",
         "category": "מאייד נסתר לאויר צח",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-AP0073H1",
@@ -4828,7 +4828,7 @@
         "btu": "7,500.00",
         "category": "מאייד עילי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-AP0093H1",
@@ -4837,7 +4837,7 @@
         "btu": "9,600.00",
         "category": "מאייד עילי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-UP0071HP-E",
@@ -4846,7 +4846,7 @@
         "btu": "7,500.00",
         "category": "מאייד עילי מעוצב",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-UP0091HP-E",
@@ -4855,7 +4855,7 @@
         "btu": "9,600.00",
         "category": "מאייד עילי מעוצב",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-UP0121HP-E",
@@ -4864,7 +4864,7 @@
         "btu": "12,300.00",
         "category": "מאייד עילי מעוצב",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-AP0157HP-E",
@@ -4873,7 +4873,7 @@
         "btu": "15,400.00",
         "category": "מאייד עילי מעוצב",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-AP0187HP-E",
@@ -4882,7 +4882,7 @@
         "btu": "19,100.00",
         "category": "מאייד עילי מעוצב",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-AP0247HP-E",
@@ -4891,7 +4891,7 @@
         "btu": "24,200.00",
         "category": "מאייד עילי מעוצב",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-UP0271HP-E",
@@ -4900,7 +4900,7 @@
         "btu": "27,300.00",
         "category": "מאייד עילי מעוצב",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-UP0301HP-E",
@@ -4909,7 +4909,7 @@
         "btu": "30,700.00",
         "category": "מאייד עילי מעוצב",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-UP0361HP-E",
@@ -4918,7 +4918,7 @@
         "btu": "38,200.00",
         "category": "מאייד עילי מעוצב",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-AP0074MHP-E1",
@@ -4928,7 +4928,7 @@
         "category": "מאייד עילי ללא שסתום מובנה",
         "notes": "למקומות שקטים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-AP0097HP-E1",
@@ -4938,7 +4938,7 @@
         "category": "מאייד עילי ללא שסתום מובנה",
         "notes": "למקומות שקטים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-AP0127HP-E1",
@@ -4948,7 +4948,7 @@
         "category": "מאייד עילי ללא שסתום מובנה",
         "notes": "למקומות שקטים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-UP0151HPL-E",
@@ -4958,7 +4958,7 @@
         "category": "מאייד עילי ללא שסתום מובנה",
         "notes": "למקומות שקטים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-AP0187HP-E1",
@@ -4968,7 +4968,7 @@
         "category": "מאייד עילי ללא שסתום מובנה",
         "notes": "למקומות שקטים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMK-UP0241HPL-E",
@@ -4978,7 +4978,7 @@
         "category": "מאייד עילי ללא שסתום מובנה",
         "notes": "למקומות שקטים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-PMV0363E",
@@ -4986,7 +4986,7 @@
         "desc": "שסתום התפשטות למאייד עיליי  07,09,012",
         "category": "שסתום התפשטות",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-PMV0903E",
@@ -4994,7 +4994,7 @@
         "desc": "שסתום התפשטות למאייד עיליי  15,18,024",
         "category": "שסתום התפשטות",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-PMV0361U-E",
@@ -5002,7 +5002,7 @@
         "desc": "שסתום התפשטות למאייד עיליי  07,09,012",
         "category": "שסתום התפשטות",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-PMV0901U-E",
@@ -5010,7 +5010,7 @@
         "desc": "שסתום התפשטות למאייד עיליי  15,18,024",
         "category": "שסתום התפשטות",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0244HP1E+P",
@@ -5019,7 +5019,7 @@
         "btu": "24,200.00",
         "category": "מאייד קסט 4 כווני אוויר +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0274HP1E+P",
@@ -5028,7 +5028,7 @@
         "btu": "27,300.00",
         "category": "מאייד קסט 4 כווני אוויר +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0304HP1E+P",
@@ -5037,7 +5037,7 @@
         "btu": "30,700.00",
         "category": "מאייד קסט 4 כווני אוויר +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0364HP1E+P",
@@ -5046,7 +5046,7 @@
         "btu": "38,200.00",
         "category": "מאייד קסט 4 כווני אוויר +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0484HP1E+P",
@@ -5055,7 +5055,7 @@
         "btu": "47,800.00",
         "category": "מאייד קסט 4 כווני אוויר +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0564HP1E+P",
@@ -5064,7 +5064,7 @@
         "btu": "54,600.00",
         "category": "מאייד קסט 4 כווני אוויר +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0071MH-E+P",
@@ -5074,7 +5074,7 @@
         "category": "מאייד קסט 4 כיווני אויר קומפקטי +פנל",
         "notes": "(מידות הפנל 620 מ\"מ על 620 מ\"מ)",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0097MH-E+P",
@@ -5084,7 +5084,7 @@
         "category": "מאייד קסט 4 כיווני אויר קומפקטי +פנל",
         "notes": "(מידות הפנל 620 מ\"מ על 620 מ\"מ)",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0127MH-E+P",
@@ -5094,7 +5094,7 @@
         "category": "מאייד קסט 4 כיווני אויר קומפקטי +פנל",
         "notes": "(מידות הפנל 620 מ\"מ על 620 מ\"מ)",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0157MH-E+P",
@@ -5104,7 +5104,7 @@
         "category": "מאייד קסט 4 כיווני אויר קומפקטי +פנל",
         "notes": "(מידות הפנל 620 מ\"מ על 620 מ\"מ)",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0187MH-E+P",
@@ -5114,7 +5114,7 @@
         "category": "מאייד קסט 4 כיווני אויר קומפקטי +פנל",
         "notes": "(מידות הפנל 620 מ\"מ על 620 מ\"מ)",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-SIR41UM-E",
@@ -5122,7 +5122,7 @@
         "desc": "חיישן תנועה לקסט 4 כיווני- קומפקטי",
         "category": "חיישן",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0071WH-E+P",
@@ -5131,7 +5131,7 @@
         "btu": "7,500.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0091WH-E+P",
@@ -5140,7 +5140,7 @@
         "btu": "9,600.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0121WH-E+P",
@@ -5149,7 +5149,7 @@
         "btu": "12,300.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0151WH-E+P",
@@ -5158,7 +5158,7 @@
         "btu": "15,400.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0182WH1+P",
@@ -5167,7 +5167,7 @@
         "btu": "19,100.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-AP0242WH1+P",
@@ -5176,7 +5176,7 @@
         "btu": "24,200.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0271WH-E+P",
@@ -5185,7 +5185,7 @@
         "btu": "27,300.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0301WH-E+P",
@@ -5194,7 +5194,7 @@
         "btu": "30,700.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0361WH-E+P",
@@ -5203,7 +5203,7 @@
         "btu": "38,200.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0481WH-E+P",
@@ -5212,7 +5212,7 @@
         "btu": "47,800.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0561WH-E+P",
@@ -5221,7 +5221,7 @@
         "btu": "54,600.00",
         "category": "מאייד קסט- דו כיווני +פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0071YHPE+P",
@@ -5230,7 +5230,7 @@
         "btu": "7,500.00",
         "category": "מאייד קסט חד כיווני+ פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0091YHPE+P",
@@ -5239,7 +5239,7 @@
         "btu": "9,600.00",
         "category": "מאייד קסט חד כיווני+ פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0121YHPE+P",
@@ -5248,7 +5248,7 @@
         "btu": "12,300.00",
         "category": "מאייד קסט חד כיווני+ פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0151SHE+P",
@@ -5257,7 +5257,7 @@
         "btu": "15,400.00",
         "category": "מאייד קסט חד כיווני+ פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0181SHE+P",
@@ -5266,7 +5266,7 @@
         "btu": "19,100.00",
         "category": "מאייד קסט חד כיווני+ פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMU-UP0241SHE+P",
@@ -5275,7 +5275,7 @@
         "btu": "24,200.00",
         "category": "מאייד קסט חד כיווני+ פנל",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MML-UP0071BH-E",
@@ -5284,7 +5284,7 @@
         "btu": "7,500.00",
         "category": "מאייד אנכי נסתר",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MML-AP0094BH1-E",
@@ -5293,7 +5293,7 @@
         "btu": "9,600.00",
         "category": "מאייד אנכי נסתר",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MML-AP0124BH1-E",
@@ -5302,7 +5302,7 @@
         "btu": "12,300.00",
         "category": "מאייד אנכי נסתר",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MML-AP0154BH1-E",
@@ -5311,7 +5311,7 @@
         "btu": "15,400.00",
         "category": "מאייד אנכי נסתר",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MML-AP0184BH1-E",
@@ -5320,7 +5320,7 @@
         "btu": "19,100.00",
         "category": "מאייד אנכי נסתר",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MML-AP0244BH1-E",
@@ -5329,7 +5329,7 @@
         "btu": "24,200.00",
         "category": "מאייד אנכי נסתר",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMF-AP0156H1-E",
@@ -5338,7 +5338,7 @@
         "btu": "15,400.00",
         "category": "מאייד רצפתי עומד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMF-AP0186H1-E",
@@ -5347,7 +5347,7 @@
         "btu": "19,100.00",
         "category": "מאייד רצפתי עומד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMF-UP0241H-E",
@@ -5356,7 +5356,7 @@
         "btu": "24,200.00",
         "category": "מאייד רצפתי עומד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMF-AP0276H1-E",
@@ -5365,7 +5365,7 @@
         "btu": "27,300.00",
         "category": "מאייד רצפתי עומד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMF-UP0361H-E",
@@ -5374,7 +5374,7 @@
         "btu": "38,200.00",
         "category": "מאייד רצפתי עומד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMF-UP0481H-E",
@@ -5383,7 +5383,7 @@
         "btu": "47,800.00",
         "category": "מאייד רצפתי עומד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMF-UP0561H-E",
@@ -5392,7 +5392,7 @@
         "btu": "54,600.00",
         "category": "מאייד רצפתי עומד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMC-UP0151HP-E",
@@ -5401,7 +5401,7 @@
         "btu": "15,400.00",
         "category": "מאייד תקרתי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMC-AP0188HP-E",
@@ -5410,7 +5410,7 @@
         "btu": "19,100.00",
         "category": "מאייד תקרתי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMC-UP0241HP-E",
@@ -5419,7 +5419,7 @@
         "btu": "24,200.00",
         "category": "מאייד תקרתי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMC-AP0278HP-E",
@@ -5428,7 +5428,7 @@
         "btu": "27,300.00",
         "category": "מאייד תקרתי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMC-AP0368HP-E",
@@ -5437,7 +5437,7 @@
         "btu": "38,200.00",
         "category": "מאייד תקרתי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMC-AP0488HP-E",
@@ -5446,7 +5446,7 @@
         "btu": "47,800.00",
         "category": "מאייד תקרתי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMC-AP0568HP-E",
@@ -5455,7 +5455,7 @@
         "btu": "54,600.00",
         "category": "מאייד תקרתי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-1105H8R-E",
@@ -5464,7 +5464,7 @@
         "btu": "38,200.00",
         "category": "משאבות חום לחימום מים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-1405H8R-E",
@@ -5473,7 +5473,7 @@
         "btu": "47,800.00",
         "category": "משאבות חום לחימום מים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-1605H8R-E",
@@ -5482,7 +5482,7 @@
         "btu": "54,600.00",
         "category": "משאבות חום לחימום מים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-805H-E",
@@ -5490,7 +5490,7 @@
         "desc": "מעבה HEAT PUMP לחימום מים 8KW חד פאזי עם bottom plate heater",
         "category": "משאבות חום לחימום מים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-1405XWHM3-E",
@@ -5499,7 +5499,7 @@
         "btu": "54,600.00",
         "category": "Hydro units",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-1405XWHT6-E",
@@ -5508,7 +5508,7 @@
         "btu": "54,600.00",
         "category": "Hydro units",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-1405XWHT9-E",
@@ -5517,7 +5517,7 @@
         "btu": "54,601.00",
         "category": "Hydro units",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-805XWHM3-E",
@@ -5526,7 +5526,7 @@
         "btu": "54,602.00",
         "category": "Hydro units",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMW-AP0271LQ-E",
@@ -5535,7 +5535,7 @@
         "btu": "27,300.00",
         "category": "מחליף חום עצמאי למערכת VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMW-AP0561LQ-E",
@@ -5544,7 +5544,7 @@
         "btu": "54,600.00",
         "category": "מחליף חום עצמאי למערכת VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-AMS11E",
@@ -5552,7 +5552,7 @@
         "desc": "פיקוד למחליף חום",
         "category": "מחליף חום עצמאי למערכת VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HWS-AMS54E",
@@ -5560,7 +5560,7 @@
         "desc": "פיקוד למחליף חום (סדרה 5 בלבד)",
         "category": "מחליף חום עצמאי למערכת VRF",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BY55E",
@@ -5568,7 +5568,7 @@
         "desc": "מפצל צנרת למערכת HP עד 6.4 כ\"ס ",
         "category": "מפצל צנרת למערכת HP ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BY105E",
@@ -5576,7 +5576,7 @@
         "desc": "מפצל צנרת למערכת HP עד 14.2 כ\"ס ",
         "category": "מפצל צנרת למערכת HP ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BY205E",
@@ -5584,7 +5584,7 @@
         "desc": "מפצל צנרת למערכת HP עד 25.2 כ\"ס ",
         "category": "מפצל צנרת למערכת HP ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BY305E",
@@ -5592,7 +5592,7 @@
         "desc": "מפצל צנרת למערכת HP מעל 25.2 כ\"ס ",
         "category": "מפצל צנרת למערכת HP ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BY405E",
@@ -5600,7 +5600,7 @@
         "desc": "מפצל צנרת למערכת HP מעל 61.2 כ\"ס ",
         "category": "מפצל צנרת למערכת HP ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BY55FE",
@@ -5608,7 +5608,7 @@
         "desc": "מפצל צנרת למערכת HR עד 6.4 כ\"ס",
         "category": "מפצל צנרת למערכת HR ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BY105FE",
@@ -5616,7 +5616,7 @@
         "desc": "מפצל צנרת למערכת HR עד 14.2 כ\"ס",
         "category": "מפצל צנרת למערכת HR ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BY205FE",
@@ -5624,7 +5624,7 @@
         "desc": "מפצל צנרת למערכת HR עד 25.2 כ\"ס",
         "category": "מפצל צנרת למערכת HR ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BY305FE",
@@ -5632,7 +5632,7 @@
         "desc": "מפצל צנרת למערכת HR מעל 25.2 כ\"ס",
         "category": "מפצל צנרת למערכת HR ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-HY1043E",
@@ -5641,7 +5641,7 @@
         "category": "מחלק גז נוזל למערכת HP",
         "notes": "רב קני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-HY2043E",
@@ -5650,7 +5650,7 @@
         "category": "מחלק גז נוזל למערכת HP",
         "notes": "רב קני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-HY1083E",
@@ -5659,7 +5659,7 @@
         "category": "מחלק גז נוזל למערכת HP",
         "notes": "רב קני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-HY2083E",
@@ -5668,7 +5668,7 @@
         "category": "מחלק גז נוזל למערכת HP",
         "notes": "רב קני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-HY1043FE",
@@ -5677,7 +5677,7 @@
         "category": "מחלק גז נוזל למערכת HR",
         "notes": "רב קני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-HY2043FE",
@@ -5686,7 +5686,7 @@
         "category": "מחלק גז נוזל למערכת HR",
         "notes": "רב קני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-HY1083FE",
@@ -5695,7 +5695,7 @@
         "category": "מחלק גז נוזל למערכת HR",
         "notes": "רב קני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-HY2083FE",
@@ -5704,7 +5704,7 @@
         "category": "מחלק גז נוזל למערכת HR",
         "notes": "רב קני",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BT14E",
@@ -5712,7 +5712,7 @@
         "desc": "   עד 26 כ\"סHP הסתעפות לחיבור מעבים",
         "category": "הסתעפות T לחיבור מעבים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BT24E",
@@ -5720,7 +5720,7 @@
         "desc": "  מעל 26 כ\"סHP הסתעפות לחיבור מעבים",
         "category": "הסתעפות T לחיבור מעבים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BT34E",
@@ -5728,7 +5728,7 @@
         "desc": "  מעל 26 כ\"סHP הסתעפות לחיבור מעבים",
         "category": "הסתעפות T לחיבור מעבים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BT14FE",
@@ -5736,7 +5736,7 @@
         "desc": " עד 26 כ\"סHR הסתעפות לחיבור מעבים",
         "category": "הסתעפות T לחיבור מעבים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-BT24FE",
@@ -5744,7 +5744,7 @@
         "desc": " מעל 26 כ\"סHR הסתעפות לחיבור מעבים",
         "category": "הסתעפות T לחיבור מעבים",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-Y1123FE",
@@ -5752,7 +5752,7 @@
         "desc": "בורר זרימה מאייד ל HR עד 11.2KW",
         "category": "בורר זרימה  במאייד למערכת HR ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-Y1803FE",
@@ -5760,7 +5760,7 @@
         "desc": "בורר זרימה מאייד ל HR עד 18KW",
         "category": "בורר זרימה  במאייד למערכת HR ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-Y2803FE",
@@ -5768,7 +5768,7 @@
         "desc": "בורר זרימה מאייד ל HR מעל 18KW",
         "category": "בורר זרימה  במאייד למערכת HR ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-Y1801F4PE",
@@ -5776,7 +5776,7 @@
         "desc": "בורר זרימה מאייד 4 קנים",
         "category": "בורר זרימה  במאייד למערכת HR ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-Y1801F6PE",
@@ -5784,7 +5784,7 @@
         "desc": "בורר זרימה מאייד 6 קנים",
         "category": "בורר זרימה  במאייד למערכת HR ",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MM-DXC010",
@@ -5793,7 +5793,7 @@
         "category": "קיט חיבור יט\"אות",
         "notes": "מחירון טושיבה אנגליה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MM-DXC012",
@@ -5802,7 +5802,7 @@
         "category": "קיט חיבור יט\"אות",
         "notes": "מחירון טושיבה אנגליה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MM-DXV080",
@@ -5811,7 +5811,7 @@
         "category": "קיט חיבור יט\"אות",
         "notes": "מחירון טושיבה אנגליה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MM-DXV140",
@@ -5820,7 +5820,7 @@
         "category": "קיט חיבור יט\"אות",
         "notes": "מחירון טושיבה אנגליה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MM-DXV280",
@@ -5829,7 +5829,7 @@
         "category": "קיט חיבור יט\"אות",
         "notes": "מחירון טושיבה אנגליה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-IFDTA201E",
@@ -5838,7 +5838,7 @@
         "category": "קיט חיבור יט\"אות",
         "notes": "מחירון טושיבה אנגליה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBM-A201VAE",
@@ -5847,7 +5847,7 @@
         "category": "קיט חיבור יט\"אות",
         "notes": "מחירון טושיבה אנגליה",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBC-AMT32E",
@@ -5855,7 +5855,7 @@
         "desc": "פיקוד קיר",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBC-ASC11E",
@@ -5863,7 +5863,7 @@
         "desc": "פיקוד קירי קומפקטי - 84*84 מ\"מ",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBC-AMS41E",
@@ -5871,7 +5871,7 @@
         "desc": "פיקוד קיר עם קוצב זמן שבועי",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBC-AMS55E-EN",
@@ -5879,7 +5879,7 @@
         "desc": "פיקוד קיר עם תאורת רקע -שפות (English,Italian,Polish,Greek,Russian,Turkish)",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBC-AS41E",
@@ -5887,7 +5887,7 @@
         "desc": "בקר קירי לחדרי בתי מלון",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-SC643TLE",
@@ -5895,7 +5895,7 @@
         "desc": "בקר מרכזי עד 64 יחידות קצה",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-EXS21TLE",
@@ -5903,7 +5903,7 @@
         "desc": "שעון שבועי",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-AX32E2",
@@ -5911,7 +5911,7 @@
         "desc": "שלט הפעלה סטנדרטי",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBC-AX32UM(W)-E",
@@ -5919,7 +5919,7 @@
         "desc": "קיט שלט רחוק עבור קסט קומפקטי",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBC-AX32U(W)-E",
@@ -5927,7 +5927,7 @@
         "desc": "קיט שלט רחוק  RBC-U31PG(W)-E, RBC-U31PGS(W)-E",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-CC163TLE2",
@@ -5935,7 +5935,7 @@
         "desc": "פיקוד הפעלה וכיבוי",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-PCDM4E",
@@ -5943,7 +5943,7 @@
         "desc": "מגביל זרם למעבים",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-PCIN4E",
@@ -5951,7 +5951,7 @@
         "desc": "לוח בקרת פלט שגיאה ל VRF ומיני VRF",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-PCNT30TLE2",
@@ -5959,7 +5959,7 @@
         "desc": "“1:1 ממשק חיבור",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-RBC-CBK15FE",
@@ -5967,7 +5967,7 @@
         "desc": "כבל שלוחה באורך 15 מטר",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-IFMB641TLE",
@@ -5975,7 +5975,7 @@
         "desc": "ממשק MOD BUSS",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-TCB-KBCN61HAE",
@@ -5983,7 +5983,7 @@
         "desc": "כבל לחיבור גלאי נפח (חבילה של 50 יח')",
         "category": "אביזרי פיקוד",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-BMS-IFLSV4E",
@@ -5991,7 +5991,7 @@
         "desc": "TCS-Net Relay Interface",
         "category": "Touch Screen Controller",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-BMS-IFWH5E",
@@ -5999,7 +5999,7 @@
         "desc": "Energy Monitoring Relay Interface",
         "category": "Touch Screen Controller",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-BMS-SM1280ETLE",
@@ -6007,7 +6007,7 @@
         "desc": "בקר מערכתי רב תכונתי עד 128 יח' פנים כולל חיוב צרכנים וחיבור אינטרה נט",
         "category": "Touch Screen Controller",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-43T85001",
@@ -6015,7 +6015,7 @@
         "desc": "מערכות פיקוד ובקרה COOL",
         "category": "COOL MASTER",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-43T85001KNX",
@@ -6023,7 +6023,7 @@
         "desc": "מערכות פיקוד ובקרה COOL - KNX",
         "category": "COOL MASTER",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-BMS-IFBN640TLE",
@@ -6031,7 +6031,7 @@
         "desc": "מתאם תקשורת BACnet",
         "category": "BACnet System",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HP-SPLIT",
@@ -6039,7 +6039,7 @@
         "desc": "זוג מפצלי נחושת מקוריים HEAT PUMP",
         "category": "כללי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-HR-SPLIT",
@@ -6047,7 +6047,7 @@
         "desc": "זוג מפצלי נחושת מקוריים HEAT RECOVERY",
         "category": "כללי",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0076BHP1-V",
@@ -6057,7 +6057,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0096BHP1-V",
@@ -6067,7 +6067,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0126BHP1-V",
@@ -6077,7 +6077,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0156BHP1-V",
@@ -6087,7 +6087,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0186BHP1-V",
@@ -6097,7 +6097,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0246BHP1-V",
@@ -6107,7 +6107,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0276BHP1-V",
@@ -6117,7 +6117,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0306BHP1-V",
@@ -6127,7 +6127,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0366BHP1-V",
@@ -6137,7 +6137,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0486BHP1-V",
@@ -6147,7 +6147,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0566BHP1-V",
@@ -6157,7 +6157,7 @@
         "category": "מאייד נסתר לחץ בינוני",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0186HP1-V",
@@ -6167,7 +6167,7 @@
         "category": "מאייד נסתר לחץ גבוה",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0246HP1-V",
@@ -6177,7 +6177,7 @@
         "category": "מאייד נסתר לחץ גבוה",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0276HP1-V",
@@ -6187,7 +6187,7 @@
         "category": "מאייד נסתר לחץ גבוה",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0366HP1-V",
@@ -6197,7 +6197,7 @@
         "category": "מאייד נסתר לחץ גבוה",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0486HP1-V",
@@ -6207,7 +6207,7 @@
         "category": "מאייד נסתר לחץ גבוה",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0566HP1-V",
@@ -6217,7 +6217,7 @@
         "category": "מאייד נסתר לחץ גבוה",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0726HP-V",
@@ -6227,7 +6227,7 @@
         "category": "מאייד נסתר לחץ גבוה",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     },
     {
         "id": "T-MMD-AP0966HP-V",
@@ -6237,6 +6237,6 @@
         "category": "מאייד נסתר לחץ גבוה",
         "notes": "מוסב אנכית",
         "company": "Toshiba",
-        "price": ""
+        "price": "0"
     }
 ]
