@@ -77,7 +77,7 @@ export default function DetailsForm() {
           createAt: getCurrentHebDate(),
           ...orderDetails,
         });
-        setUrl(genData.data);
+        setUrl(genData.data.location);
         navigate('/review');
       }
     } catch (error) {
