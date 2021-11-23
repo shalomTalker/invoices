@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-let baseUri = 'http://localhost:5000';
+let baseUri = 'https://37yn5csprl.execute-api.eu-west-1.amazonaws.com';
 
 const API_URI = `${baseUri}/dev`;
 
