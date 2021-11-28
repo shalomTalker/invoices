@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URI = `http://localhost:5000/local`;
+// const API_URI = `http://localhost:5000/local`;
 const API_URI = `https://37yn5csprl.execute-api.eu-west-1.amazonaws.com/dev`;
 
 const API = axios.create({
