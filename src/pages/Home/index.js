@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { useFormik } from 'formik';
-import joi from 'joi';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import MiniSearch from '../../logic/MiniSearch';

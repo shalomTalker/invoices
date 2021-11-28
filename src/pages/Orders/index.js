@@ -1,39 +1,17 @@
-import React, { useState, useEffect } from "react";
-import { API } from "aws-amplify";
-
-const initialFormState = { name: "", description: "" };
+import React, { useState, useEffect } from 'react';
+import { useOrdersContext } from '../../context/ordersContext';
+import { getAllOrders } from '../../logic/api';
+import OrdersTable from './OrdersTable';
+import { CircularProgress, Box, Typography } from '@mui/material';
+// import { API } from "aws-amplify";
 
 function Orders() {
-  const [invoices, setInvoices] = useState([]);
-  const [formData, setFormData] = useState(initialFormState);
-
-  useEffect(() => {
-    fetchInvoices();
-  }, []);
-
-  async function fetchInvoices() {}
-
-  async function createInvoice() {
-    if (!formData.name || !formData.description) return;
-  }
-
-  async function deleteInvoice({ id }) {}
+  const { state } = useOrdersContext();
 
   return (
-    <div className='App'>
-      <h1>{`My Invoices App`}</h1>
-      <input onChange={(e) => setFormData({ ...formData, name: e.target.value })} placeholder='Invoice name' value={formData.name} />
-      <input onChange={(e) => setFormData({ ...formData, description: e.target.value })} placeholder='Invoice description' value={formData.description} />
-      <button onClick={createInvoice}>Create Invoice</button>
-      <div style={{ marginBottom: 30 }}>
-        {invoices.map((invoice) => (
-          <div key={invoice.id || invoice.name}>
-            <h2>{invoice.name}</h2>
-            <p>{invoice.description}</p>
-            <button onClick={() => deleteInvoice(invoice)}>Delete invoice</button>
-          </div>
-        ))}
-      </div>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <h1 style={{ textAlign: 'center' }}>{`הזמנות`}</h1>
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>{Boolean(state.loading) ? <CircularProgress /> : Boolean(state.orders.length) ? <OrdersTable orders={state.orders} /> : <Typography variant='h6'>{`לא קיימות הזמנות`}</Typography>}</div>
     </div>
   );
 }

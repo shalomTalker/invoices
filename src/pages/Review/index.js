@@ -1,46 +1,98 @@
-import { Button, ButtonGroup } from '@mui/material';
-import React from 'react';
+import { Button, ButtonGroup, Typography } from '@mui/material';
+import React, { useRef } from 'react';
 import { useNavigate, Navigate } from 'react-router';
-import RenderPdf from '../../components/RenderPdf';
-import { useFormContext } from '../../context/formContext';
-import { createOrder } from '../../logic/api';
-import { generateRandomId, getCurrentHebDate } from '../../utils';
+import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
+import EditRoundedIcon from '@mui/icons-material/EditRounded';
 
-export default function Review(props) {
+import RenderPdf from './RenderPdf';
+import { useFormContext } from '../../context/formContext';
+import { postOrder } from '../../logic/api';
+import { generateRandomId, getCurrentHebDate } from '../../utils';
+import RenderHtml from './RenderHtml';
+import { useReactToPrint } from 'react-to-print';
+import { useOrdersContext } from '../../context/ordersContext';
+import { useItemsContext } from '../../context/itemsContext';
+import ChangesWarning from './ChangesWarning';
+
+export default function Review() {
   const {
-    state: { items, user, url },
+    state: { items, user, orderId, createdAt },
+    cleanForm,
   } = useFormContext();
+
+  const {
+    state: { items: itemsState },
+    updateChanges,
+  } = useItemsContext();
+
+  let total = 0;
+  const _items = Object.values(items).map(({ model, id, price, count, desc }) => {
+    total += count * price;
+    return { model, id, price, count: String(count), desc };
+  });
+
+  const body = {
+    user,
+    items: _items,
+    orderId,
+    createdAt,
+    total,
+  };
+
+  let priceListObj = {};
+  let priceChanges = [];
+
+  itemsState.forEach((item) => {
+    priceListObj[item.id] = item.price;
+  });
+
+  _items.forEach((orderItem) => {
+    let newPrice = orderItem.price;
+    let oldPrice = priceListObj[orderItem.id];
+
+    if (newPrice != oldPrice) {
+      priceChanges.push({ newPrice, oldPrice, desc: orderItem.desc, id: orderItem.id });
+    }
+  });
+
+  const { addOrder } = useOrdersContext();
   const navigate = useNavigate();
-  console.log(url);
+  const componentRef = useRef();
+
+  const handlePrint = useReactToPrint({
+    documentTitle: `${user.fullName}_${orderId}`,
+    content: () => componentRef.current,
+  });
 
   const backToEdit = () => {
     navigate('/');
   };
   const approveOrder = async () => {
-    const res = await createOrder({
-      orderId: generateRandomId(),
-      createAt: getCurrentHebDate(),
-      user: user,
-      items: Object.values(items).map(({ model, id, price, count, desc }) => ({ model, id, price, count: String(count), desc })),
-    });
-    console.log(res.data);
+    handlePrint();
+    navigate('/orders');
+    await addOrder(body);
+    if (priceChanges.length) {
+      await updateChanges(priceChanges);
+    }
+    cleanForm();
   };
-  if (!url) {
-    return <Navigate to='/' />;
-  }
-  return (
-    <>
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: 15 }}>
-        <ButtonGroup variant='contained' color='primary' aria-label='contained primary button group'>
-          <Button onClick={approveOrder} color='success'>
-            אשר הזמנה
-          </Button>
-          <Button onClick={backToEdit} color='error'>
-            חזור לעריכה
-          </Button>
-        </ButtonGroup>
+  return Boolean(body.items.length) ? (
+    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', marginTop: 15 }}>
+      <ChangesWarning priceChanges={priceChanges} />
+      <ButtonGroup variant='contained' aria-label='contained primary button group'>
+        <Button onClick={approveOrder} color='primary' startIcon={<CheckRoundedIcon style={{ fontSize: '25px', fontWeight: 'bolder' }} />}>
+          אשר הזמנה
+        </Button>
+        <Button onClick={backToEdit} style={{ backgroundColor: 'gray' }} startIcon={<EditRoundedIcon />}>
+          חזור לעריכה
+        </Button>
+      </ButtonGroup>
+
+      <div style={{ border: '1px solid lightgray', borderRadius: '8px', marginTop: 15, width: '100%' }}>
+        <RenderHtml body={body} ref={componentRef} />
       </div>
-      <RenderPdf url={url} />
-    </>
+    </div>
+  ) : (
+    <Navigate to='/' />
   );
 }

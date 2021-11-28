@@ -18,3 +18,7 @@ export default function RenderPdf({ url }) {
     </div>
   );
 }
+
+/* 
+https://dev.to/slruh/generating-pdfs-from-react-for-emails-using-material-ui-mailgun-and-pdfshift-379o
+*/

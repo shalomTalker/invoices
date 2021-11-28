@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { generateRandomId, getCurrentHebDate } from '../utils';
 import createDataContext from './createDataContext';
 
 const initialState = {
@@ -8,10 +9,12 @@ const initialState = {
     email: '',
   },
   items: {},
-  url: '',
+  orderId: generateRandomId(),
+  createdAt: getCurrentHebDate(),
 };
 
 const formReducer = (state = initialState, { type, payload }) => {
+  console.log({ type, payload });
   switch (type) {
     case 'ADDING_ITEM':
       return {
@@ -39,12 +42,16 @@ const formReducer = (state = initialState, { type, payload }) => {
         ...state,
         user: payload,
       };
-    case 'RECIEVING_URL':
-      return {
-        ...state,
-        url: payload,
-      };
+
     case 'CLEANING_FORM':
+      let orderId = generateRandomId();
+      let createdAt = getCurrentHebDate();
+      return {
+        ...initialState,
+        orderId,
+        createdAt,
+      };
+
     default:
       return initialState;
   }
@@ -67,10 +74,6 @@ const updateUser = (dispatch) => (userObj) => {
   dispatch({ type: 'UPDATING_USER', payload: userObj });
 };
 
-const setUrl = (dispatch) => (url) => {
-  dispatch({ type: 'RECIEVING_URL', payload: url });
-};
-
 const cleanForm = (dispatch) => () => {
   dispatch({ type: 'CLEANING_FORM' });
 };
@@ -83,7 +86,6 @@ export const { Provider, Context } = createDataContext(
     updateItem,
     updateUser,
     cleanForm,
-    setUrl,
   },
   initialState,
 );

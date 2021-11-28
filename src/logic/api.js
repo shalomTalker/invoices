@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-let baseUri = 'https://37yn5csprl.execute-api.eu-west-1.amazonaws.com';
+let baseUri = 'http://localhost:5000';
 
-const API_URI = `${baseUri}/dev`;
+const API_URI = `${baseUri}/local`;
 
 const API = axios.create({
   baseURL: API_URI,
@@ -11,12 +11,24 @@ const API = axios.create({
   },
 });
 
-const createOrder = (orderObj) => {
+const getAllItems = () => {
+  return API.get('/getItems');
+};
+
+const getAllOrders = () => {
+  return API.get('/getOrders');
+};
+
+const postOrder = (orderObj) => {
   return API.post('/postOrder', orderObj);
+};
+
+const updateItemPrice = (priceChange) => {
+  return API.put('/updateItemPrice', priceChange);
 };
 
 const generateOrderPdf = (orderObj) => {
   return API.post('/generate', orderObj);
 };
 
-export { API, createOrder, generateOrderPdf };
+export { API, postOrder, generateOrderPdf, getAllOrders, getAllItems, updateItemPrice };

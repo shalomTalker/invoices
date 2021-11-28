@@ -12,9 +12,16 @@ import App from './App';
 import Home from './pages/Home';
 import Orders from './pages/Orders';
 import Review from './pages/Review';
+import Order from './pages/Orders/Order';
+
 import { Provider as FormProvider } from './context/formContext';
+import { Provider as OrdersProvider } from './context/ordersContext';
+import { Provider as ItemsProvider } from './context/itemsContext';
 
 Amplify.configure(config);
+
+// export const getAmlifyUserData = async () => Amplify.Auth.currentUserInfo();
+// export const signout = async () => Amplify.Auth.signOut();
 
 const theme = createTheme();
 
@@ -22,15 +29,20 @@ ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <FormProvider>
-        <BrowserRouter>
-          <App>
-            <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/review' element={<Review />} />
-              <Route path='/orders' element={<Orders />} />
-            </Routes>
-          </App>
-        </BrowserRouter>
+        <OrdersProvider>
+          <ItemsProvider>
+            <BrowserRouter>
+              <App>
+                <Routes>
+                  <Route path='/' element={<Home />} />
+                  <Route path='/review' element={<Review />} />
+                  <Route path='/orders' element={<Orders />} />
+                  <Route path='/orders/:orderId' element={<Order />} />
+                </Routes>
+              </App>
+            </BrowserRouter>
+          </ItemsProvider>
+        </OrdersProvider>
       </FormProvider>
     </ThemeProvider>
   </React.StrictMode>,

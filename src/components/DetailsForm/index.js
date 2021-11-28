@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import React, { useState } from 'react';
 import { useFormContext } from '../../context/formContext';
 import { Box } from '@mui/system';
-import { generateOrderPdf } from '../../logic/api';
+import { postOrder, generateOrderPdf } from '../../logic/api';
 import { generateRandomId, getCurrentHebDate } from '../../utils.js';
 import { useNavigate } from 'react-router-dom';
 
@@ -32,12 +32,11 @@ const inputsConfig = [
 ];
 export default function DetailsForm() {
   const navigate = useNavigate();
-  const { state: formState, updateUser, setUrl } = useFormContext();
+  const { state: formState, updateUser } = useFormContext();
   const [errors, setErrors] = useState([]);
   const validateUserField = async (obj) => {
     try {
       const data = await schema.validate(obj);
-      console.log(data);
       return true;
     } catch (error) {
       console.log(error.errors);
@@ -72,12 +71,6 @@ export default function DetailsForm() {
     try {
       const isValidOrder = await validateOrder(orderDetails);
       if (isValidOrder) {
-        const genData = await generateOrderPdf({
-          orderId: generateRandomId(),
-          createAt: getCurrentHebDate(),
-          ...orderDetails,
-        });
-        setUrl(genData.data.location);
         navigate('/review');
       }
     } catch (error) {
