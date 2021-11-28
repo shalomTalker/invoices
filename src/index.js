@@ -1,5 +1,5 @@
 import Amplify from 'aws-amplify';
-import config from './aws-exports';
+// import config from './aws-exports';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -18,7 +18,7 @@ import { Provider as FormProvider } from './context/formContext';
 import { Provider as OrdersProvider } from './context/ordersContext';
 import { Provider as ItemsProvider } from './context/itemsContext';
 
-Amplify.configure(config);
+// Amplify.configure(config);
 
 // export const getAmlifyUserData = async () => Amplify.Auth.currentUserInfo();
 // export const signout = async () => Amplify.Auth.signOut();
