@@ -1,7 +1,8 @@
+import Auth from '@aws-amplify/auth';
 import axios from 'axios';
 
-// const API_URI = `http://localhost:5000/local`;
-const API_URI = `https://37yn5csprl.execute-api.eu-west-1.amazonaws.com/dev`;
+const API_URI = `http://localhost:5000/local`;
+// const API_URI = `https://37yn5csprl.execute-api.eu-west-1.amazonaws.com/dev`;
 
 const API = axios.create({
   baseURL: API_URI,
@@ -10,11 +11,11 @@ const API = axios.create({
   },
 });
 
-const getAllItems = () => {
+const getAllItems = async () => {
   return API.get('/getItems');
 };
 
-const getAllOrders = () => {
+const getAllOrders = async () => {
   return API.get('/getOrders');
 };
 

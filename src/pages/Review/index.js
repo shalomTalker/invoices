@@ -14,6 +14,8 @@ import { useOrdersContext } from '../../context/ordersContext';
 import { useItemsContext } from '../../context/itemsContext';
 import ChangesWarning from './ChangesWarning';
 
+import useCurrentUser from '../../hooks/useCurrentUser';
+
 export default function Review() {
   const {
     state: { items, user, orderId, createdAt },
@@ -24,6 +26,8 @@ export default function Review() {
     state: { items: itemsState },
     updateChanges,
   } = useItemsContext();
+
+  const currentUser = useCurrentUser();
 
   let total = 0;
   const _items = Object.values(items).map(({ model, id, price, count, desc }) => {
@@ -37,6 +41,7 @@ export default function Review() {
     orderId,
     createdAt,
     total,
+    createdBy: currentUser.email,
   };
 
   let priceListObj = {};

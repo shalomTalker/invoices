@@ -16,7 +16,7 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { useNavigate } from 'react-router';
 
-function createData({ orderId, user: { fullName, phone }, createdAt, items, total }) {
+function createData({ orderId, user: { fullName, phone }, createdAt, items, total, createdBy }) {
   return {
     orderId,
     fullName,
@@ -24,11 +24,12 @@ function createData({ orderId, user: { fullName, phone }, createdAt, items, tota
     total: total + (total * 17) / 100,
     createdAt,
     items,
+    createdBy,
   };
 }
 
 function Row({ row }) {
-  const { orderId, fullName, phone, createdAt, total, items } = row;
+  const { orderId, fullName, phone, createdAt, total, items, createdBy } = row;
   const [open, setOpen] = React.useState(false);
   const navigate = useNavigate();
 
@@ -86,6 +87,7 @@ function Row({ row }) {
                       <TableCell align='right'>{item.id}</TableCell>
                     </TableRow>
                   ))}
+                  <Typography sx={{ direction: 'rtl' }}>{`החשבונית נוצרה על ידי : ${createdBy}`}</Typography>
                 </TableBody>
               </Table>
             </Box>

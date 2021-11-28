@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { I18n } from 'aws-amplify';
 import { Authenticator, Heading, Image, Text, View, Button, useAuthenticator, useTheme } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
@@ -11,6 +11,7 @@ import Copyright from './components/Copright';
 
 import { useItemsContext } from './context/itemsContext';
 import { useOrdersContext } from './context/ordersContext';
+import useCurrentUser from './hooks/useCurrentUser';
 
 const components = {
   Header() {
@@ -104,6 +105,7 @@ I18n.putVocabulariesForLanguage('en', {
 function App({ children }) {
   const { fetchOrders } = useOrdersContext();
   const { fetchItems } = useItemsContext();
+  const currentUserEmail = useCurrentUser();
 
   useEffect(() => {
     fetchOrders();
@@ -113,13 +115,12 @@ function App({ children }) {
   return (
     <Authenticator loginMechanisms={['phone_number', 'email', 'username']} signUpAttributes={['email', 'phone_number', 'preferred_username']} components={components} style={{ direction: 'rtl' }}>
       {({ user, signOut }) => {
-        console.log(user);
         return (
           <Container component='main'>
             {
               <>
                 <CssBaseline />
-                <Header signOut={signOut} user={user} />
+                <Header signOut={signOut} user={currentUserEmail} />
                 <div style={{ minHeight: window.innerHeight - HEADER_H - 116 }}>{children}</div>
                 <Copyright sx={{ mt: 8, mb: 4, bottom: 0 }} />
               </>

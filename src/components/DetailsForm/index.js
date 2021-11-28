@@ -1,4 +1,5 @@
 import { Button, TextField, Typography } from '@mui/material';
+import Auth from '@aws-amplify/auth';
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 import React, { useState } from 'react';
