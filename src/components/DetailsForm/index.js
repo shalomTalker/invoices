@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import React, { useState } from 'react';
 import { useFormContext } from '../../context/formContext';
 import { Box } from '@mui/system';
-import { postOrder, generateOrderPdf } from '../../logic/api';
+import { postOrder } from '../../logic/api';
 import { generateRandomId, getCurrentHebDate } from '../../utils.js';
 import { useNavigate } from 'react-router-dom';
 

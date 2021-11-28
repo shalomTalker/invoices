@@ -17,34 +17,21 @@ import { Auth } from 'aws-amplify';
 
 export const HEADER_H = 75;
 
-const Header = () => {
-  const [user, setUser] = React.useState('');
+const Header = ({ user, signOut }) => {
   const navigate = useNavigate();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-
-  const fetchUser = async () => {
-    try {
-      const userData = await Auth.currentUserInfo();
-      setUser(userData);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  React.useEffect(() => {
-    fetchUser();
-  }, []);
 
   const pages = [
     { label: 'הוסף הזמנה', route: '/' },
     { label: 'הזמנות', route: '/orders' },
   ];
-  const settings = [{ label: 'התנתק מהמערכת', onClick: signOut }];
+  const settings = [{ label: 'התנתק מהמערכת', onClick: logout }];
 
-  async function signOut() {
+  async function logout() {
     try {
-      await Auth.signOut();
+      await signOut();
+      // navigate('signed-out');
     } catch (error) {
       console.log('error signing out: ', error);
     }
@@ -112,7 +99,7 @@ const Header = () => {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title='Open settings'>
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt={user.username} src='/static/images/avatar/2.jpg' />
+                <Avatar alt={user.preferred_username} src='/static/images/avatar/2.jpg' />
               </IconButton>
             </Tooltip>
             <Menu

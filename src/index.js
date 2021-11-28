@@ -1,5 +1,5 @@
 import Amplify from 'aws-amplify';
-// import config from './aws-exports';
+import config from './aws-exports';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -17,8 +17,9 @@ import Order from './pages/Orders/Order';
 import { Provider as FormProvider } from './context/formContext';
 import { Provider as OrdersProvider } from './context/ordersContext';
 import { Provider as ItemsProvider } from './context/itemsContext';
+import SignedOut from './pages/SignedOut';
 
-// Amplify.configure(config);
+Amplify.configure(config);
 
 // export const getAmlifyUserData = async () => Amplify.Auth.currentUserInfo();
 // export const signout = async () => Amplify.Auth.signOut();
@@ -38,6 +39,7 @@ ReactDOM.render(
                   <Route path='/review' element={<Review />} />
                   <Route path='/orders' element={<Orders />} />
                   <Route path='/orders/:orderId' element={<Order />} />
+                  <Route path='/signed-out' element={<SignedOut />} />
                 </Routes>
               </App>
             </BrowserRouter>
