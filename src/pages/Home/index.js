@@ -34,7 +34,6 @@ export default function SearchPage() {
   } = useItemsContext();
 
   const currentUserEmail = useCurrentUser();
-  console.log(currentUserEmail);
 
   useEffect(() => {
     fetchOrders();
