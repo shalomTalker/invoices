@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { getAllOrders, postOrder } from '../logic/api';
 import createDataContext from './createDataContext';
-import { fetchLocalResource, saveLocalResource } from './utils';
+import { fetchLocalResource, removeLocalResource, saveLocalResource } from './utils';
 
 const initialState = {
   orders: [],
@@ -22,6 +22,10 @@ const ordersReducer = (state = initialState, { type, payload }) => {
 
     case 'LOADING_START':
       return { ...state, loading: true };
+
+    case 'CLEANING_ORDERS':
+      removeLocalResource('orders');
+      return initialState;
 
     default:
       return initialState;
@@ -56,7 +60,11 @@ const addOrder = (dispatch) => async (orderObj) => {
   }
 };
 
-export const { Provider, Context } = createDataContext(ordersReducer, { fetchOrders, addOrder }, initialState);
+const cleanLocalOrders = (dispatch) => () => {
+  dispatch({ type: 'CLEANING_ORDERS' });
+};
+
+export const { Provider, Context } = createDataContext(ordersReducer, { fetchOrders, addOrder, cleanLocalOrders }, initialState);
 export function useOrdersContext() {
   return useContext(Context);
 }

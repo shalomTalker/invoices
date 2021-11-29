@@ -103,14 +103,7 @@ I18n.putVocabulariesForLanguage('en', {
   'Resend Code': 'שלח שוב',
 });
 function App({ children }) {
-  const { fetchOrders } = useOrdersContext();
-  const { fetchItems } = useItemsContext();
   const currentUserEmail = useCurrentUser();
-
-  useEffect(() => {
-    fetchOrders();
-    fetchItems();
-  }, []);
 
   return (
     <Authenticator loginMechanisms={['phone_number', 'email', 'username']} signUpAttributes={['email', 'phone_number', 'preferred_username']} components={components} style={{ direction: 'rtl' }}>

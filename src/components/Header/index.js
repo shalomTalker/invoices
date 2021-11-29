@@ -14,11 +14,15 @@ import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router';
 import { getAmlifyUserData, signout } from '../..';
 import { Auth } from 'aws-amplify';
+import { useOrdersContext } from '../../context/ordersContext';
+import { useItemsContext } from '../../context/itemsContext';
 
 export const HEADER_H = 75;
 
 const Header = ({ user, signOut }) => {
   const navigate = useNavigate();
+  const { cleanLocalOrders } = useOrdersContext();
+  const { cleanLocalItems } = useItemsContext();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -31,6 +35,8 @@ const Header = ({ user, signOut }) => {
   async function logout() {
     try {
       await signOut();
+      cleanLocalOrders();
+      cleanLocalItems();
       // navigate('signed-out');
     } catch (error) {
       console.log('error signing out: ', error);

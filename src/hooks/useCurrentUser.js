@@ -4,8 +4,14 @@ import React, { useEffect, useState } from 'react';
 export default function useCurrentUser() {
   const [user, setUser] = useState('');
   const fetchUser = async () => {
-    const currentUserInfo = await Auth.currentUserInfo();
-    setUser(currentUserInfo.attributes);
+    try {
+      const currentUserInfo = await Auth.currentUserInfo();
+      if (currentUserInfo) {
+        setUser(currentUserInfo.attributes);
+      }
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   useEffect(() => {

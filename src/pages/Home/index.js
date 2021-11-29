@@ -15,10 +15,31 @@ import SearchForm from '../../components/SearchForm';
 import DetailsForm from '../../components/DetailsForm';
 import ResultsTable from '../../components/CustomTable/ResultsTable';
 import ItemsTable from '../../components/CustomTable/ItemsTable';
+import { useOrdersContext } from '../../context/ordersContext';
+import { useItemsContext } from '../../context/itemsContext';
+import useCurrentUser from '../../hooks/useCurrentUser';
 
 export default function SearchPage() {
   const [results, setResults] = useState([]);
   const { state: orderState } = useFormContext();
+
+  const {
+    state: { orders },
+    fetchOrders,
+  } = useOrdersContext();
+
+  const {
+    state: { items },
+    fetchItems,
+  } = useItemsContext();
+
+  const currentUserEmail = useCurrentUser();
+  console.log(currentUserEmail);
+
+  useEffect(() => {
+    fetchOrders();
+    fetchItems();
+  }, []);
 
   return (
     <div>

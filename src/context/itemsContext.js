@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useContext } from 'react';
 import { getAllItems, updateItemPrice } from '../logic/api';
 import createDataContext from './createDataContext';
-import { fetchLocalResource, saveLocalResource } from './utils';
+import { fetchLocalResource, removeLocalResource, saveLocalResource } from './utils';
 
 const initialState = {
   items: [],
@@ -27,6 +27,9 @@ const itemsReducer = (state = initialState, { type, payload }) => {
       saveLocalResource('items', newItems);
       return { ...state, loading: false, items: newItems };
 
+    case 'CLEANING_ITEMS':
+      removeLocalResource('items');
+      return initialState;
     default:
       return initialState;
   }
@@ -61,7 +64,11 @@ const updateChanges = (dispatch) => async (changes) => {
   }
 };
 
-export const { Provider, Context } = createDataContext(itemsReducer, { fetchItems, updateChanges }, initialState);
+const cleanLocalItems = (dispatch) => () => {
+  dispatch({ type: 'CLEANING_ITEMS' });
+};
+
+export const { Provider, Context } = createDataContext(itemsReducer, { fetchItems, updateChanges, cleanLocalItems }, initialState);
 export function useItemsContext() {
   return useContext(Context);
 }

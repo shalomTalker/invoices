@@ -5,4 +5,7 @@ module.exports = {
   saveLocalResource: function saveLocalResource(resourceName, data) {
     localStorage.setItem(resourceName, JSON.stringify(data));
   },
+  removeLocalResource: function removeLocalResource(resourceName) {
+    localStorage.removeItem(resourceName);
+  },
 };

@@ -1,4 +1,4 @@
-import { Button } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import React, { useRef } from 'react';
 import { Navigate, useParams } from 'react-router';
 import IconButton from '@mui/material/IconButton';
@@ -23,9 +23,13 @@ export default function Order() {
   if (order) {
     return (
       <div style={{ marginTop: '16px' }}>
-        <Button aria-label='print' color='primary' onClick={handlePrint} variant='contained' startIcon={<PrintIcon sx={{ fontSize: '50px' }} />}>
-          הדפס שוב
-        </Button>
+        <div style={{ flexDirection: 'row', alignItems: 'center', display: 'flex', justifyContent: 'space-between' }}>
+          <Button aria-label='print' color='primary' onClick={handlePrint} variant='contained' startIcon={<PrintIcon sx={{ fontSize: '50px' }} />}>
+            הדפס שוב
+          </Button>
+          <Typography sx={{ direction: 'rtl', fontWeight: 700 }}>{`החשבונית נוצרה על ידי : ${order.createdBy}`}</Typography>
+        </div>
+
         <div style={{ border: '1px solid lightgray', borderRadius: '8px', marginTop: 15, width: '100%' }}>
           <RenderHtml ref={componentRef} body={order} />
         </div>
