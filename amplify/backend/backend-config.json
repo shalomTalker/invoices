@@ -1,6 +1,6 @@
 {
   "auth": {
-    "invoices": {
+    "vrfisrael0f0e6f18": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -11,18 +11,11 @@
           "EMAIL"
         ],
         "signupAttributes": [
-          "PHONE_NUMBER",
-          "PREFERRED_USERNAME",
           "EMAIL"
         ],
         "passwordProtectionSettings": {
           "passwordPolicyMinLength": 8,
-          "passwordPolicyCharacters": [
-            "REQUIRES_LOWERCASE",
-            "REQUIRES_NUMBERS",
-            "REQUIRES_SYMBOLS",
-            "REQUIRES_UPPERCASE"
-          ]
+          "passwordPolicyCharacters": []
         },
         "mfaConfiguration": "OFF",
         "mfaTypes": [

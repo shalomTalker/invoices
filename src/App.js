@@ -126,16 +126,3 @@ function App({ children }) {
 }
 
 export default App;
-
-/* 
-const
-
-export default function App() {
-  return (
-    <Authenticator components={components}>
-      {({ signOut }) => <button onClick={signOut}>Sign out</button>}
-    </Authenticator>
-  );
-}
-
-*/
