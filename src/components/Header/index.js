@@ -29,6 +29,7 @@ const Header = ({ user, signOut }) => {
   const pages = [
     { label: 'הוסף הזמנה', route: '/' },
     { label: 'הזמנות', route: '/orders' },
+    { label: 'הוסף מוצר', route: '/add-item' },
   ];
   const settings = [{ label: 'התנתק מהמערכת', onClick: logout }];
 

@@ -1,9 +1,8 @@
 import { Button, TextField, Typography } from '@mui/material';
 import Auth from '@aws-amplify/auth';
-import { useFormik } from 'formik';
 import * as yup from 'yup';
 import React, { useState } from 'react';
-import { useFormContext } from '../../context/formContext';
+import { useUserFormContext } from '../../context/userFormContext';
 import { Box } from '@mui/system';
 import { postOrder } from '../../logic/api';
 import { generateRandomId, getCurrentHebDate } from '../../utils.js';
@@ -33,7 +32,7 @@ const inputsConfig = [
 ];
 export default function DetailsForm() {
   const navigate = useNavigate();
-  const { state: formState, updateUser } = useFormContext();
+  const { state: formState, updateUser } = useUserFormContext();
   const [errors, setErrors] = useState([]);
   const validateUserField = async (obj) => {
     try {
@@ -84,7 +83,7 @@ export default function DetailsForm() {
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column' }}>
         <div style={{ display: 'flex' }}>
           {inputsConfig.map(({ name, placeholder }) => (
-            <TextField fullWidth inputProps={{ 'aria-label': name }} key={name} id={name} name={name} placeholder={placeholder} value={formState.user[name]} onChange={(e) => updateUser({ ...formState.user, [name]: e.target.value })} />
+            <TextField fullWidth key={name} id={name} name={name} placeholder={placeholder} value={formState.user[name]} onChange={(e) => updateUser({ ...formState.user, [name]: e.target.value })} />
           ))}
         </div>
         <Button sx={{ width: '33%', alignSelf: 'center', margin: 6 }} variant='contained' type='submit'>{`צור הזמנה`}</Button>

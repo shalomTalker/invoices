@@ -1,8 +1,7 @@
 import axios from 'axios';
 import { useContext } from 'react';
-import { getAllItems, updateItemPrice } from '../logic/api';
+import { getAllItems, updateItemPrice, postItem } from '../logic/api';
 import createDataContext from './createDataContext';
-import { fetchLocalResource, removeLocalResource, saveLocalResource } from './utils';
 
 const initialState = {
   items: [],
@@ -14,7 +13,6 @@ const itemsReducer = (state = initialState, { type, payload }) => {
 
   switch (type) {
     case 'FETCHING_ITEMS':
-      saveLocalResource('items', payload);
       return { items: payload, loading: false };
 
     case 'LOADING_START':
@@ -24,11 +22,13 @@ const itemsReducer = (state = initialState, { type, payload }) => {
       const newItemIds = payload.map(({ id }) => id);
       const newItems = [...state.items.filter((item) => !newItemIds.includes(item.id)), ...payload];
 
-      saveLocalResource('items', newItems);
       return { ...state, loading: false, items: newItems };
+    case 'ITEM_CREATED':
+      console.log(state.items.length)
+      console.log([...state.items,payload].length)
+      return {...state,loading:false,items:[...state.items,payload]}
 
     case 'CLEANING_ITEMS':
-      removeLocalResource('items');
       return initialState;
     default:
       return initialState;
@@ -40,13 +40,8 @@ const fetchItems = (dispatch) => async () => {
     dispatch({ type: 'LOADING_START' });
     let payload;
 
-    const localData = fetchLocalResource('items');
-    if (localData && localData.length) {
-      payload = localData;
-    } else {
-      const response = await getAllItems();
-      payload = response.data;
-    }
+    const response = await getAllItems();
+    payload = response.data;
     dispatch({ type: 'FETCHING_ITEMS', payload });
   } catch (error) {
     console.error(error);
@@ -68,7 +63,28 @@ const cleanLocalItems = (dispatch) => () => {
   dispatch({ type: 'CLEANING_ITEMS' });
 };
 
-export const { Provider, Context } = createDataContext(itemsReducer, { fetchItems, updateChanges, cleanLocalItems }, initialState);
+const createItem = (dispatch) => async (itemObj) => {
+  try {
+    dispatch({ type: 'LOADING_START' });
+    const response = await postItem(itemObj);
+    console.log(response)
+
+    dispatch({ type: 'ITEM_CREATED',payload:response.data });
+  } catch (error) {
+    console.log(error)
+  }
+};
+
+export const { Provider, Context } = createDataContext(
+  itemsReducer,
+  {
+    fetchItems,
+    updateChanges,
+    cleanLocalItems,
+    createItem,
+  },
+  initialState,
+);
 export function useItemsContext() {
   return useContext(Context);
 }

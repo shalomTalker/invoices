@@ -12,6 +12,7 @@ import Copyright from './components/Copright';
 import { useItemsContext } from './context/itemsContext';
 import { useOrdersContext } from './context/ordersContext';
 import useCurrentUser from './hooks/useCurrentUser';
+import logo from './logo.png';
 
 const components = {
   Header() {
@@ -19,7 +20,7 @@ const components = {
 
     return (
       <View textAlign='center' padding={tokens.space.large}>
-        <Image alt='logo' src='https://orderspdfs.s3.eu-west-1.amazonaws.com/logo.png' />
+        <Image alt='logo' src={logo} width={150} height={150} />
       </View>
     );
   },
@@ -82,16 +83,16 @@ const components = {
 };
 
 I18n.putVocabulariesForLanguage('en', {
-  'Sign In': 'התחבר', // Tab header
-  'Create Account': 'צור חשבון', // Tab header
-  'Sign in': 'התחבר למערכת', // Button label
+  'Sign In': 'התחבר',
+  'Create Account': 'צור חשבון',
+  'Sign in': 'התחבר למערכת',
   'Sign in to your account': 'ברוך הבא!',
-  'Phone Number': 'הכנס את מספר הפלאפון שלך', // Username label
-  'Phone Number or Email or Username': 'מספר פלאפון או אימייל', // Username label
-  Password: 'סיסמא בת 8 ספרות עם אות גדולה ומספר', // Password label
-  'Confirm Password': 'הכנס את הסיסמא שנית', // Password label
-  'Preferred Username': 'השם הפרטי', // Password label
-  Email: 'הכנס את האימייל שלך', // Password label
+  'Phone Number': 'הכנס את מספר הפלאפון שלך',
+  'Phone Number or Email or Username': 'מספר פלאפון או אימייל',
+  Password: 'סיסמא בת 8 ספרות עם אות גדולה ומספר',
+  'Confirm Password': 'הכנס את הסיסמא שנית',
+  'Preferred Username': 'השם הפרטי',
+  Email: 'הכנס את האימייל שלך',
   'Forgot your password? ': 'שחזר סיסמא',
   'Reset your password': 'שחזור סיסמא',
   'Enter your phone number': 'הכנס אימייל או פלאפון',
@@ -106,7 +107,7 @@ function App({ children }) {
   const currentUserEmail = useCurrentUser();
 
   return (
-    <Authenticator loginMechanisms={['phone_number', 'email', 'username']} signUpAttributes={['email', 'phone_number', 'preferred_username']} components={components} style={{ direction: 'rtl' }}>
+    <Authenticator loginMechanisms={['email']} signUpAttributes={['email']} components={components} style={{ direction: 'rtl' }}>
       {({ user, signOut }) => {
         return (
           <Container component='main'>

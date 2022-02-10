@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 import { getAllOrders, postOrder } from '../logic/api';
 import createDataContext from './createDataContext';
-import { fetchLocalResource, removeLocalResource, saveLocalResource } from './utils';
 
 const initialState = {
   orders: [],
@@ -13,18 +12,15 @@ const ordersReducer = (state = initialState, { type, payload }) => {
 
   switch (type) {
     case 'FETCHING_ORDERS':
-      saveLocalResource('orders', payload);
       return { orders: payload, loading: false };
 
     case 'POSTING_NEW_ORDER':
-      saveLocalResource('orders', [...state.orders, payload]);
       return { orders: [...state.orders, payload], loading: false };
 
     case 'LOADING_START':
       return { ...state, loading: true };
 
     case 'CLEANING_ORDERS':
-      removeLocalResource('orders');
       return initialState;
 
     default:
@@ -37,13 +33,8 @@ const fetchOrders = (dispatch) => async () => {
     dispatch({ type: 'LOADING_START' });
     let payload;
 
-    const localData = fetchLocalResource('orders');
-    if (localData && localData.length) {
-      payload = localData;
-    } else {
-      const response = await getAllOrders();
-      payload = response.data;
-    }
+    const response = await getAllOrders();
+    payload = response.data;
     dispatch({ type: 'FETCHING_ORDERS', payload });
   } catch (error) {
     console.error(error);

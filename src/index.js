@@ -11,10 +11,11 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import Home from './pages/Home';
 import Orders from './pages/Orders';
+import AddItem from './pages/AddItem';
 import Review from './pages/Review';
 import Order from './pages/Orders/Order';
 
-import { Provider as FormProvider } from './context/formContext';
+import { Provider as FormProvider } from './context/userFormContext';
 import { Provider as OrdersProvider } from './context/ordersContext';
 import { Provider as ItemsProvider } from './context/itemsContext';
 import SignedOut from './pages/SignedOut';
@@ -38,6 +39,7 @@ ReactDOM.render(
                   <Route path='/' element={<Home />} />
                   <Route path='/review' element={<Review />} />
                   <Route path='/orders' element={<Orders />} />
+                  <Route path='/add-item' element={<AddItem />} />
                   <Route path='/orders/:orderId' element={<Order />} />
                   <Route path='/signed-out' element={<SignedOut />} />
                 </Routes>

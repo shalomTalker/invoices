@@ -1,11 +1,11 @@
 import { Button, ButtonGroup, Typography } from '@mui/material';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { useNavigate, Navigate } from 'react-router';
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import EditRoundedIcon from '@mui/icons-material/EditRounded';
 
 import RenderPdf from './RenderPdf';
-import { useFormContext } from '../../context/formContext';
+import { useUserFormContext } from '../../context/userFormContext';
 import { postOrder } from '../../logic/api';
 import { generateRandomId, getCurrentHebDate } from '../../utils';
 import RenderHtml from './RenderHtml';
@@ -20,7 +20,7 @@ export default function Review() {
   const {
     state: { items, user, orderId, createdAt },
     cleanForm,
-  } = useFormContext();
+  } = useUserFormContext();
 
   const {
     state: { items: itemsState },
@@ -28,6 +28,15 @@ export default function Review() {
   } = useItemsContext();
 
   const currentUser = useCurrentUser();
+  const { addOrder } = useOrdersContext();
+  const navigate = useNavigate();
+  const componentRef = useRef();
+  const [notes, setNotes] = useState("");
+
+  const handlePrint = useReactToPrint({
+    documentTitle: `${user.fullName}_${orderId}`,
+    content: () => componentRef.current,
+  });
 
   let total = 0;
   const _items = Object.values(items).map(({ model, id, price, count, desc }) => {
@@ -42,6 +51,7 @@ export default function Review() {
     createdAt,
     total,
     createdBy: currentUser.email,
+    notes
   };
 
   let priceListObj = {};
@@ -58,15 +68,6 @@ export default function Review() {
     if (newPrice != oldPrice) {
       priceChanges.push({ newPrice, oldPrice, desc: orderItem.desc, id: orderItem.id });
     }
-  });
-
-  const { addOrder } = useOrdersContext();
-  const navigate = useNavigate();
-  const componentRef = useRef();
-
-  const handlePrint = useReactToPrint({
-    documentTitle: `${user.fullName}_${orderId}`,
-    content: () => componentRef.current,
   });
 
   const backToEdit = () => {
@@ -94,7 +95,7 @@ export default function Review() {
       </ButtonGroup>
 
       <div style={{ border: '1px solid lightgray', borderRadius: '8px', marginTop: 15, width: '100%' }}>
-        <RenderHtml body={body} ref={componentRef} />
+        <RenderHtml body={body} ref={componentRef} setNotes={setNotes} />
       </div>
     </div>
   ) : (

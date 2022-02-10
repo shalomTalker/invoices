@@ -1,9 +1,8 @@
 import { Button, ButtonGroup, Card, CardContent, Input, Paper, TextField, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import { useFormik } from 'formik';
 import { useEffect, useState } from 'react';
 import CustomTable from '.';
-import { useFormContext } from '../../context/formContext';
+import { useUserFormContext } from '../../context/userFormContext';
 import Item from './Item';
 
 const columns = [
@@ -11,7 +10,6 @@ const columns = [
   { id: 'model', label: 'מודל', minWidth: 100 },
   { id: 'btu', label: 'BTU/H', minWidth: 100 },
   { id: 'category', label: 'קטגוריה', minWidth: 120 },
-  { id: 'notes', label: 'הערות', minWidth: 120 },
   { id: 'company', label: 'חברה', minWidth: 100 },
   { id: 'price', label: 'מחיר', minWidth: 100 },
   { id: 'count', label: 'יחידות', minWidth: 120 },
@@ -19,12 +17,12 @@ const columns = [
 ];
 
 const styles = {
-  container: { width: '100%', overflow: 'hidden' },
+  container: { width: '100%', border: '1px solid gray', overflow: 'hidden', backgroundColor: '#f8f9ff' },
   emptyDataContainer: { display: 'flex', justifyContent: 'center', alignItems: 'center', height: 300 },
 };
 
 const Row = ({ item }) => {
-  const { state, removeItem, updateItem } = useFormContext();
+  const { state, removeItem, updateItem } = useUserFormContext();
 
   const countHandler = (value) => {
     if (value == 0) {
@@ -73,13 +71,6 @@ const Row = ({ item }) => {
 };
 
 export default function ItemsTable({ rows }) {
-  // const [state, setstate] = useState(rows.map(row => ({ [row.id]: row.count })))
-
-  // const changeState = (change) => {
-  //     const newState = state.filter(s => Object.keys(s)[0] !== Object.keys(change)[0])
-  //     setstate([...newState, change])
-
-  // }
 
   return (
     <Paper sx={styles.container}>

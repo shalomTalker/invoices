@@ -1,90 +1,89 @@
 import React from 'react';
-import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
+import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField } from '@mui/material';
+import { makeStyles } from '@mui/styles';
+import logo from '../../logo.png';
 
 const TAX_RATE = 0.07;
 
-const styles = {
+const useStyles = makeStyles({
   container: { padding: '20px 50px', width: '100%', direction: 'rtl' },
-  header: {
-    container: { display: 'flex', flexDirection: 'row', justifyContent: 'space-between' },
-    right: { margin: 0, paddingInline: '20px' },
-    left: { margin: 0, paddingInline: '20px' },
-  },
-  mainTitle: { textAlign: 'center' },
-  userDetails: { margin: 2 },
-  table: {
-    container: { marginTop: '16px', border: '1px solid lightgray', borderRadius: '8px' },
-    headCell: { borderLeft: '1px solid lightgray', borderRight: '1px solid lightgray', backgroundColor: '#f8f9fa' },
-    cell: { borderLeft: '1px solid lightgray', borderRight: '1px solid lightgray' },
-  },
+  headerContainer: { display: 'flex', flexDirection: 'row', justifyContent: 'space-between' },
+  headerRight: { margin: 0, padding: '0 20px', fontWeight: '200' },
+  headerLeft: { margin: 0, paddingInline: '20px' },
+  mainTitle: { textAlign: 'center', fontWeight: '200' },
+  userDetails: { margin: '2px' },
+  totalDetails: { margin: '4px 2px', direction: 'ltr', flexDirection: 'row-reverse', display: 'flex', justifyContent: 'space-between' },
+  tableContainer: { marginTop: '16px', border: '3px solid lightgray', borderRadius: '8px' },
+  tableRow: { maxHeight: 10 },
+  tableHeadCell: { borderLeft: '1px solid lightgray', borderRight: '1px solid lightgray', backgroundColor: '#f8f9fa' },
+  tableCell: { borderLeft: '1px solid lightgray', borderRight: '1px solid lightgray' },
   footer: {
     marginTop: '16px',
     padding: '8px',
     border: '1px solid lightgray',
     borderRadius: '8px',
   },
-};
+});
 
-export default React.forwardRef(function RenderHtml({ body }, ref) {
-  const { orderId, createdAt, user, items, total } = body;
-
+export default React.forwardRef(function RenderHtml({ body,setNotes=null }, ref) {
+  const { orderId, createdAt, user, items, total,notes } = body;
+  const styles = useStyles();
   return (
-    <div ref={ref} style={styles.container}>
+    <div ref={ref} className={styles.container}>
       <div>
-        <header style={styles.header.container}>
-          <div style={styles.header.right}>
+        <header className={styles.headerContainer}>
+          <div className={styles.headerRight}>
             <div>
-              <strong>פרימיום מערכות מיזוג אוויר</strong>
+              <span>פרימיום מערכות מיזוג אוויר</span>
             </div>
             <div>
-              <strong>דוא"ל : vrfisrael@gmail.com</strong>
+              <span>דוא"ל : vrfisrael@gmail.com</span>
             </div>
             <div>
-              <strong>עוסק מורשה : 301176806</strong>
+              <span>עוסק מורשה : 301176806</span>
             </div>
             <div>
-              <strong>תאריך : {createdAt}</strong>
+              <span>תאריך : {createdAt}</span>
             </div>
           </div>
-          <div style={styles.header.left}>
-            <img src='https://orderspdfs.s3.eu-west-1.amazonaws.com/logo.png' width='150' alt='logo' />
+          <div className={styles.headerLeft}>
+            <img src={logo} width='150' alt='logo' />
           </div>
         </header>
-        <h1 style={styles.mainTitle}>{`הצעת מחיר : ${orderId} (מקור)`}</h1>
-
+        <h1 className={styles.mainTitle}>{`הצעת מחיר : ${orderId} (מקור)`}</h1>
         <div>
-          <p style={styles.userDetails}>
+          <p className={styles.userDetails}>
             <strong>שם הלקוח :</strong>
             <span>{user.fullName}</span>
           </p>
-          <p style={styles.userDetails}>
+          <p className={styles.userDetails}>
             <strong>פלאפון :</strong>
             <span>{user.phone}</span>
           </p>
           {Boolean(user.email) && (
-            <p style={styles.userDetails}>
+            <p className={styles.userDetails}>
               <strong>אימייל :</strong>
               <span>{user.email}</span>
             </p>
           )}
         </div>
-        <TableContainer style={styles.table.container} component={Paper}>
-          <Table>
+        <TableContainer className={styles.tableContainer} component={Paper}>
+          <Table size='small'>
             <TableHead>
-              <TableRow>
-                <TableCell style={styles.table.headCell} align='right'>
+              <TableRow className={styles.tableRow}>
+                <TableCell component='span' className={styles.tableHeadCell} align='right'>
                   תיאור המוצר
                 </TableCell>
-                <TableCell style={styles.table.headCell} align='right'>
+                <TableCell className={styles.tableHeadCell} align='right'>
                   דגם
                 </TableCell>
-                <TableCell style={styles.table.headCell} align='right'>
+                <TableCell className={styles.tableHeadCell} align='right'>
                   יחידות
                 </TableCell>
-                <TableCell style={styles.table.headCell} align='right'>
+                <TableCell className={styles.tableHeadCell} align='right'>
                   מחיר יחידה
                 </TableCell>
-                <TableCell style={styles.table.headCell} align='right'>
+                <TableCell className={styles.tableHeadCell} align='right'>
                   סה"כ
                 </TableCell>
               </TableRow>
@@ -93,57 +92,56 @@ export default React.forwardRef(function RenderHtml({ body }, ref) {
               {items.map((item) => {
                 return (
                   <TableRow key={item.id}>
-                    <TableCell style={styles.table.cell} align='right'>
+                    <TableCell className={styles.tableCell} align='right'>
                       {item.desc}
                     </TableCell>
-                    <TableCell style={styles.table.cell} align='right'>
+                    <TableCell className={styles.tableCell} align='right'>
                       {item.model}
                     </TableCell>
-                    <TableCell style={styles.table.cell} align='right'>
+                    <TableCell className={styles.tableCell} align='right'>
                       {item.count}
                     </TableCell>
-                    <TableCell style={styles.table.cell} align='right'>
+                    <TableCell className={styles.tableCell} align='right'>
                       ₪ {item.price}
                     </TableCell>
-                    <TableCell style={styles.table.cell} align='right'>
-                      ₪ {item.count * item.price}
+                    <TableCell className={styles.tableCell} align='right'>
+                      <strong>₪ {item.count * item.price}</strong>
                     </TableCell>
                   </TableRow>
                 );
               })}
-
-              <TableRow>
-                <TableCell style={styles.table.headCell} align='right'>
-                  סה"כ לא כולל מע"מ
-                </TableCell>
-                <TableCell style={styles.table.cell} align='right'>
-                  ₪ {Number(total).toFixed(2)}
-                </TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell style={styles.table.headCell} align='right'>
-                  מע"מ (17%)
-                </TableCell>
-                <TableCell style={styles.table.cell} align='right'>
-                  ₪ {Number((17 / 100) * total).toFixed(2)}
-                </TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell style={styles.table.headCell} align='right'>
-                  סה"כ כולל מע"מ
-                </TableCell>
-                <TableCell style={styles.table.cell} align='right'>
-                  <strong>₪ {Number((17 / 100) * total + total).toFixed(2)}</strong>
-                </TableCell>
-              </TableRow>
             </TableBody>
           </Table>
         </TableContainer>
-        <Paper style={styles.footer}>
+        <div style={{ marginRight: '70%', padding: '15px 0' }}>
+          <p className={styles.totalDetails}>
+            <strong style={{ padding: '0 10px', textAlign: 'start' }}> : סך הכל</strong>
+            <strong style={{ padding: '0 10px' }}>₪ {Number(total).toFixed(2)}</strong>
+          </p>
+          <p className={styles.totalDetails}>
+            <strong style={{ padding: '0 10px', textAlign: 'start' }}> : מע"מ (17%)</strong>
+            <strong style={{ padding: '0 10px' }}> ₪ {Number((17 / 100) * total).toFixed(2)} </strong>
+          </p>
+          <p className={styles.totalDetails}>
+            <strong style={{ padding: '0 10px', textAlign: 'start' }}> : סך הכל כולל מע"מ</strong>
+            <strong style={{ padding: '0 10px' }}>₪ {Number((17 / 100) * total + total).toFixed(2)}</strong>
+          </p>
+        </div>
+        <Paper className={styles.footer}>
           <h5>
             <strong>הערות :</strong>
           </h5>
-          <p>הערות טקסטס</p>
+          {setNotes?<TextField
+            multiline
+            rows={4}
+            size='small'
+            fullWidth
+            id='notes'
+            name='notes'
+            placeholder={'הערות'}
+            value={notes}
+            onChange={(e)=>setNotes(e.target.value)} /> : <p>{ notes}</p>}
+
         </Paper>
       </div>
     </div>

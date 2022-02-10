@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import { useItemsContext } from '../../context/itemsContext';
 import MiniSearch from '../../logic/MiniSearch';
 
-const SearchForm = ({ setResults }) => {
+const SearchForm = ({ setResults,placeholder }) => {
   const {
     state: { items, loading },
   } = useItemsContext();
@@ -36,7 +36,7 @@ const SearchForm = ({ setResults }) => {
   return (
     <div>
       <form onSubmit={formik.handleSubmit}>
-        <TextField inputProps={{ 'aria-label': 'search' }} fullWidth id='term' name='term' placeholder={`חיפוש מוצר`} value={formik.values.term} onChange={formik.handleChange} error={formik.touched.term && Boolean(formik.errors.term)} />
+        <TextField fullWidth id='term' name='term' placeholder={placeholder} value={formik.values.term} onChange={formik.handleChange} error={formik.touched.term && Boolean(formik.errors.term)} />
       </form>
     </div>
   );

@@ -13,7 +13,7 @@ const initialState = {
   createdAt: getCurrentHebDate(),
 };
 
-const formReducer = (state = initialState, { type, payload }) => {
+const reducer = (state = initialState, { type, payload }) => {
   console.log({ type, payload });
   switch (type) {
     case 'ADDING_ITEM':
@@ -79,7 +79,7 @@ const cleanForm = (dispatch) => () => {
 };
 
 export const { Provider, Context } = createDataContext(
-  formReducer,
+  reducer,
   {
     addItem,
     removeItem,
@@ -89,6 +89,6 @@ export const { Provider, Context } = createDataContext(
   },
   initialState,
 );
-export function useFormContext() {
+export function useUserFormContext() {
   return useContext(Context);
 }

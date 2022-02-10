@@ -1,7 +1,7 @@
 import { Button, Card, CardContent, Paper, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import CustomTable from '.';
-import { useFormContext } from '../../context/formContext';
+import { useUserFormContext } from '../../context/userFormContext';
 import Item from './Item';
 
 const columns = [
@@ -9,18 +9,17 @@ const columns = [
   { id: 'model', label: 'מודל', minWidth: 100 },
   { id: 'btu', label: 'BTU/H', minWidth: 100 },
   { id: 'category', label: 'קטגוריה', minWidth: 120 },
-  { id: 'notes', label: 'הערות', minWidth: 120 },
   { id: 'company', label: 'חברה', minWidth: 100 },
   { id: 'price', label: 'מחיר', minWidth: 100 },
 ];
 
 const styles = {
-  container: { width: '100%' },
+  container: { width: '100%', border: '1px solid gray', backgroundColor: '#f8f9ff' },
   emptyDataContainer: { display: 'flex', justifyContent: 'center', alignItems: 'center', height: 300 },
 };
 
 export default function ResultsTable({ rows }) {
-  const { addItem } = useFormContext();
+  const { addItem } = useUserFormContext();
 
   const renderRow = (row) => {
     return (
