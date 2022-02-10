@@ -1,9 +1,8 @@
 import Auth from '@aws-amplify/auth';
 import axios from 'axios';
 
-const API_URI = `http://localhost:5000`;
-// const API_URI = `https://p2q0uyrmu0.execute-api.eu-west-1.amazonaws.com`;
-console.log(API_URI);
+// const API_URI = `http://localhost:5000`;
+const API_URI = `https://p2q0uyrmu0.execute-api.eu-west-1.amazonaws.com`;
 
 const API = axios.create({
   baseURL: API_URI,
