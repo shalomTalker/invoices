@@ -6,14 +6,14 @@ import { useUserFormContext } from '../../context/userFormContext';
 import Item from './Item';
 
 const columns = [
-  { id: 'desc', label: 'תיאור', minWidth: 100 },
-  { id: 'model', label: 'מודל', minWidth: 100 },
+  { id: 'totalCount', label: 'מחיר כולל', minWidth: 100 },
+  { id: 'count', label: 'יחידות', minWidth: 120 },
+  { id: 'price', label: 'מחיר', minWidth: 100 },
   { id: 'btu', label: 'BTU/H', minWidth: 100 },
   { id: 'category', label: 'קטגוריה', minWidth: 120 },
   { id: 'company', label: 'חברה', minWidth: 100 },
-  { id: 'price', label: 'מחיר', minWidth: 100 },
-  { id: 'count', label: 'יחידות', minWidth: 120 },
-  { id: 'totalCount', label: 'מחיר כולל', minWidth: 100 },
+  { id: 'model', label: 'מודל', minWidth: 100 },
+  { id: 'desc', label: 'תיאור', minWidth: 100 },
 ];
 
 const styles = {

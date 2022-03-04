@@ -103,6 +103,7 @@ export default function AddItemForm() {
   async function handleSubmit(values) {
     try {
       await createItem(values)
+      navigate('/')
     } catch (error) {
       console.log(error);
     }
