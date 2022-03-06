@@ -1,42 +1,45 @@
 import { Button, ButtonGroup, Typography } from '@mui/material';
-import React, { useRef, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { useNavigate, Navigate } from 'react-router';
-import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import EditRoundedIcon from '@mui/icons-material/EditRounded';
+import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 
 import RenderPdf from './RenderPdf';
-import { useUserFormContext } from '../../context/userFormContext';
 import { postOrder } from '../../logic/api';
-import { generateRandomId, getCurrentHebDate } from '../../utils';
 import RenderHtml from './RenderHtml';
 import { useReactToPrint } from 'react-to-print';
-import { useOrdersContext } from '../../context/ordersContext';
-import { useItemsContext } from '../../context/itemsContext';
-import ChangesWarning from './ChangesWarning';
+import { Context as UserFormContext } from '../../context/userFormContext';
+import { Context as OrdersContext } from '../../context/ordersContext';
+import { Context as ItemsContext } from '../../context/itemsContext';
+
 
 import useCurrentUser from '../../hooks/useCurrentUser';
+import ChangesAlertButton from './ChangesAlertButton';
 
 export default function Review() {
   const {
     state: { items, user, orderId, createdAt },
     cleanForm,
-  } = useUserFormContext();
+  } = useContext(UserFormContext);
 
   const {
     state: { items: itemsState },
     updateChanges,
-  } = useItemsContext();
+  } = useContext(ItemsContext);
+
+  const { addOrder } = useContext(OrdersContext);
 
   const currentUser = useCurrentUser();
-  const { addOrder } = useOrdersContext();
   const navigate = useNavigate();
   const componentRef = useRef();
-  const [notes, setNotes] = useState("");
+  const [notes, setNotes] = useState(`פירוט ההתקנה\nחיבורי צנרת, חיבורי יחידות, הספקת תעלות גמישות ומרכזיות ליחידות, תריסי אוויר חוזר, אביזרי צנרת,הלחמות צנרת גז והחזקה בלחץ קבועה, הפעלה מבוקרת בנוכחות נציג היבואן.\n\nהמחיר לא כולל\nעבודות והכנות ניקוז, חשמל, נקודות תרמוסטט תיקון גבס ואיטום מעברים.\n\nתוספות\nעבודות מנוף מרים משא 350 ₪ לא כולל מע"מ מנוף זרוע 2500 ₪ לא כולל מע"מ.`);
 
   const handlePrint = useReactToPrint({
     documentTitle: `${user.fullName}_${orderId}`,
     content: () => componentRef.current,
   });
+
+  const [editable, setEditable] = useState(true);
 
   let total = 0;
   const _items = Object.values(items).map(({ model, id, price, count, desc }) => {
@@ -51,7 +54,7 @@ export default function Review() {
     createdAt,
     total,
     createdBy: currentUser.email,
-    notes
+    notes,
   };
 
   let priceListObj = {};
@@ -73,29 +76,41 @@ export default function Review() {
   const backToEdit = () => {
     navigate('/');
   };
-  const approveOrder = async () => {
-    handlePrint();
-    navigate('/orders');
-    await addOrder(body);
-    if (priceChanges.length) {
-      await updateChanges(priceChanges);
-    }
-    cleanForm();
+  const approveOrder = async (isUpdateChanges) => {
+    setEditable(false);
+    setTimeout(async () => {
+      try {
+        await addOrder(body);
+        if (priceChanges.length && isUpdateChanges) {
+          await updateChanges(priceChanges);
+        }
+        handlePrint();
+        navigate('/orders');
+        cleanForm();
+      } catch (error) {
+        console.log(error);
+      }
+    }, 2000);
   };
   return Boolean(body.items.length) ? (
     <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', marginTop: 15 }}>
-      <ChangesWarning priceChanges={priceChanges} />
       <ButtonGroup variant='contained' aria-label='contained primary button group'>
-        <Button onClick={approveOrder} color='primary' startIcon={<CheckRoundedIcon style={{ fontSize: '25px', fontWeight: 'bolder' }} />}>
-          אשר הזמנה
-        </Button>
+        {Boolean(priceChanges.length) ? (
+          <ChangesAlertButton onApprove={approveOrder} priceChanges={priceChanges}>
+            אשר הזמנה
+          </ChangesAlertButton>
+        ) : (
+          <Button onClick={()=>approveOrder(false)} color='primary' startIcon={<CheckRoundedIcon style={{ fontSize: '25px', fontWeight: 'bolder' }} />}>
+            אשר הזמנה
+          </Button>
+        )}
         <Button onClick={backToEdit} style={{ backgroundColor: 'gray' }} startIcon={<EditRoundedIcon />}>
           חזור לעריכה
         </Button>
       </ButtonGroup>
 
       <div style={{ border: '1px solid lightgray', borderRadius: '8px', marginTop: 15, width: '100%' }}>
-        <RenderHtml body={body} ref={componentRef} setNotes={setNotes} />
+        <RenderHtml body={body} ref={componentRef} setNotes={setNotes} editable={editable} />
       </div>
     </div>
   ) : (

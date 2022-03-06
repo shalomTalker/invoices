@@ -1,13 +1,13 @@
 import { TextField } from '@mui/material';
 import { useFormik } from 'formik';
-import React, { useEffect } from 'react';
-import { useItemsContext } from '../../context/itemsContext';
+import React, { useContext, useEffect } from 'react';
+import { Context as ItemsContext } from '../../context/itemsContext';
 import MiniSearch from '../../logic/MiniSearch';
 
-const SearchForm = ({ setResults,placeholder }) => {
-  const {
-    state: { items, loading },
-  } = useItemsContext();
+const SearchForm = ({ setResults, placeholder,items,fields,returnDefaultItems=false }) => {
+  // const {
+  //   state: { items },
+  // } = useContext(ItemsContext);
 
   const formik = useFormik({
     initialValues: {
@@ -15,10 +15,10 @@ const SearchForm = ({ setResults,placeholder }) => {
     },
   });
   const search = async (term) => {
-    if (term && !loading) {
+    if (term ) {
       const data = await MiniSearch(
         {
-          fields: ['desc', 'model', 'category', 'company'],
+          fields,
           storeFields: Object.keys(items[0] || {}),
         },
         items,
@@ -26,11 +26,20 @@ const SearchForm = ({ setResults,placeholder }) => {
       );
       setResults(data);
     } else {
-      setResults([]);
+      if (returnDefaultItems) {
+        setResults(items);
+        
+      } else {
+        setResults([]);
+        
+      }
     }
   };
   useEffect(() => {
     search(formik.values.term);
+    return () => {
+      setResults([]);
+    };
   }, [formik.values.term]);
 
   return (

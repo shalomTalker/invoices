@@ -56,6 +56,6 @@ const cleanLocalOrders = (dispatch) => () => {
 };
 
 export const { Provider, Context } = createDataContext(ordersReducer, { fetchOrders, addOrder, cleanLocalOrders }, initialState);
-export function useOrdersContext() {
-  return useContext(Context);
-}
+// export function useOrdersContext() {
+//   return useContext(Context);
+// }

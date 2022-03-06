@@ -1,7 +1,8 @@
 import React from 'react';
-import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField } from '@mui/material';
+import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, TextareaAutosize } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import logo from '../../logo.png';
+import { formatToHebDate } from '../../utils';
 
 const TAX_RATE = 0.07;
 
@@ -23,10 +24,17 @@ const useStyles = makeStyles({
     border: '1px solid lightgray',
     borderRadius: '8px',
   },
+  textArea: {
+    resize: 'none',
+    overflow: 'hidden',
+    minHeight: '50px',
+    maxHeight: '100px',
+  },
 });
 
-export default React.forwardRef(function RenderHtml({ body,setNotes=null }, ref) {
-  const { orderId, createdAt, user, items, total,notes } = body;
+export default React.forwardRef(function RenderHtml({ body, setNotes = null,editable=false}, ref) {
+  const { orderId, createdAt, user, items, total, notes } = body;
+
   const styles = useStyles();
   return (
     <div ref={ref} className={styles.container}>
@@ -34,16 +42,16 @@ export default React.forwardRef(function RenderHtml({ body,setNotes=null }, ref)
         <header className={styles.headerContainer}>
           <div className={styles.headerRight}>
             <div>
-              <span>פרימיום מערכות מיזוג אוויר</span>
+              פרימיום מערכות מיזוג אוויר
             </div>
             <div>
-              <span>דוא"ל : vrfisrael@gmail.com</span>
+              דוא"ל : vrfisrael@gmail.com
             </div>
             <div>
-              <span>עוסק מורשה : 301176806</span>
+              עוסק מורשה : 301176806
             </div>
             <div>
-              <span>תאריך : {createdAt}</span>
+              תאריך : {formatToHebDate(createdAt)}
             </div>
           </div>
           <div className={styles.headerLeft}>
@@ -54,16 +62,16 @@ export default React.forwardRef(function RenderHtml({ body,setNotes=null }, ref)
         <div>
           <p className={styles.userDetails}>
             <strong>שם הלקוח :</strong>
-            <span>{user.fullName}</span>
+            {user.fullName}
           </p>
           <p className={styles.userDetails}>
             <strong>פלאפון :</strong>
-            <span>{user.phone}</span>
+            {user.phone}
           </p>
-          {Boolean(user.email) && (
+          {Boolean(user.address) && (
             <p className={styles.userDetails}>
-              <strong>אימייל :</strong>
-              <span>{user.email}</span>
+              <strong>כתובת :</strong>
+              {user.address}
             </p>
           )}
         </div>
@@ -71,7 +79,7 @@ export default React.forwardRef(function RenderHtml({ body,setNotes=null }, ref)
           <Table size='small'>
             <TableHead>
               <TableRow className={styles.tableRow}>
-                <TableCell component='span' className={styles.tableHeadCell} align='right'>
+                <TableCell className={styles.tableHeadCell} align='right'>
                   תיאור המוצר
                 </TableCell>
                 <TableCell className={styles.tableHeadCell} align='right'>
@@ -102,10 +110,10 @@ export default React.forwardRef(function RenderHtml({ body,setNotes=null }, ref)
                       {item.count}
                     </TableCell>
                     <TableCell className={styles.tableCell} align='right'>
-                      ₪ {item.price}
+                      ₪ {Number(item.price).toLocaleString('en')}
                     </TableCell>
-                    <TableCell className={styles.tableCell} align='right'>
-                      <strong>₪ {item.count * item.price}</strong>
+                    <TableCell className={styles.tableCell} style={{fontWeight:700}} align='right'>
+                      ₪ {Number(item.count * item.price).toLocaleString('en')}
                     </TableCell>
                   </TableRow>
                 );
@@ -113,35 +121,37 @@ export default React.forwardRef(function RenderHtml({ body,setNotes=null }, ref)
             </TableBody>
           </Table>
         </TableContainer>
-        <div style={{ marginRight: '70%', padding: '15px 0' }}>
+        <div style={{ marginRight: '55%', padding: '15px 0' }}>
           <p className={styles.totalDetails}>
             <strong style={{ padding: '0 10px', textAlign: 'start' }}> : סך הכל</strong>
-            <strong style={{ padding: '0 10px' }}>₪ {Number(total).toFixed(2)}</strong>
+            <strong style={{ padding: '0 10px' }}>₪ {Number(total).toLocaleString('en')}</strong>
           </p>
           <p className={styles.totalDetails}>
             <strong style={{ padding: '0 10px', textAlign: 'start' }}> : מע"מ (17%)</strong>
-            <strong style={{ padding: '0 10px' }}> ₪ {Number((17 / 100) * total).toFixed(2)} </strong>
+            <strong style={{ padding: '0 10px' }}> ₪ {Number((17 / 100) * total).toLocaleString('en')} </strong>
           </p>
           <p className={styles.totalDetails}>
             <strong style={{ padding: '0 10px', textAlign: 'start' }}> : סך הכל כולל מע"מ</strong>
-            <strong style={{ padding: '0 10px' }}>₪ {Number((17 / 100) * total + total).toFixed(2)}</strong>
+            <strong style={{ padding: '0 10px' }}>₪ {Number((17 / 100) * total + total).toLocaleString('en')}</strong>
           </p>
         </div>
+
         <Paper className={styles.footer}>
           <h5>
             <strong>הערות :</strong>
           </h5>
-          {setNotes?<TextField
-            multiline
-            rows={4}
-            size='small'
-            fullWidth
-            id='notes'
-            name='notes'
-            placeholder={'הערות'}
-            value={notes}
-            onChange={(e)=>setNotes(e.target.value)} /> : <p>{ notes}</p>}
-
+          {editable ? (
+            <TextareaAutosize
+              style={{ width: '100%' }}
+              id='notes'
+              name='notes'
+              placeholder={'הערות'}
+              value={notes}
+              onChange={(e) => setNotes(e.target.value)}
+            />
+          ) : (
+            <p>{notes}</p>
+          )}
         </Paper>
       </div>
     </div>

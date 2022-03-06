@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
@@ -8,57 +8,66 @@ import SearchIcon from '@mui/icons-material/Search';
 
 import Table from '../../components/CustomTable';
 import { Search, SearchIconWrapper, StyledInputBase, StyledTextFieldBase } from '../../components/BaseStyled';
-import { useUserFormContext } from '../../context/userFormContext';
-import { Typography } from '@mui/material';
+import { CircularProgress, Typography } from '@mui/material';
 import SearchForm from '../../components/SearchForm';
 import DetailsForm from '../../components/DetailsForm';
 import ResultsTable from '../../components/CustomTable/ResultsTable';
 import ItemsTable from '../../components/CustomTable/ItemsTable';
-import { useOrdersContext } from '../../context/ordersContext';
-import { useItemsContext } from '../../context/itemsContext';
+import { Context as UserFormContext } from '../../context/userFormContext';
+import { Context as OrdersContext } from '../../context/ordersContext';
+import { Context as ItemsContext } from '../../context/itemsContext';
 import useCurrentUser from '../../hooks/useCurrentUser';
 import AddItemForm from '../../components/AddItemForm';
 
 export default function Home() {
   const [results, setResults] = useState([]);
-  const { state: orderState } = useUserFormContext();
+  const { state: orderState } = useContext(UserFormContext);
 
   const {
-    state: { orders },
-    fetchOrders,
-  } = useOrdersContext();
-
-  const {
-    state: { items },
+    state: { items, loading },
     fetchItems,
-  } = useItemsContext();
+  } = useContext(ItemsContext);
 
   const currentUserEmail = useCurrentUser();
 
   useEffect(() => {
-    fetchOrders();
-    fetchItems();
+    let cancel = false;
+    if (!cancel) {
+      fetchItems();
+    }
+    return () => {
+      cancel = true;
+    };
   }, []);
 
   return (
     <div>
-      <SearchForm setResults={setResults} placeholder={`חיפוש מוצר`} />
-      <section>
-        <Typography style={{ margin: '16px 0 24px' }} variant='h4' component='div' align='center'>
-          {`חיפוש מוצרים`}
-        </Typography>
-        <ResultsTable type='results' rows={results.filter((res) => !Object.keys(orderState.items).includes(res.id))} />
-        <Typography style={{ margin: '16px 0 24px' }} variant='h4' component='div' align='center'>
-          {`פריטים שנוספו להזמנה`}
-        </Typography>
-        <ItemsTable type='items' rows={Object.entries(orderState.items).map(([key, value]) => value)} />
-      </section>
-      <section style={{ padding: 8 }}>
-        <Typography style={{ margin: '16px 0 24px' }} variant='h4' component='div' align='center'>
-          {`פרטי לקוח`}
-        </Typography>
-        <DetailsForm />
-      </section>
+      {loading ? (
+        <Box style={{ marginTop: 50, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <CircularProgress />
+          <Typography style={{ marginTop: 50, fontSize: 40 }}> ... טוען מוצרים </Typography>
+        </Box>
+      ) : (
+        <>
+          <SearchForm setResults={setResults} placeholder={`חיפוש מוצר`} items={items} fields={['desc', 'model', 'category', 'company']} />
+          <section>
+            <Typography style={{ margin: '16px 0 24px' }} variant='h4' component='div' align='center'>
+              {`חיפוש מוצרים`}
+            </Typography>
+            <ResultsTable type='results' rows={results.filter((res) => !Object.keys(orderState.items).includes(res.id))} />
+            <Typography style={{ margin: '16px 0 24px' }} variant='h4' component='div' align='center'>
+              {`פריטים שנוספו להזמנה`}
+            </Typography>
+            <ItemsTable type='items' rows={Object.entries(orderState.items).map(([key, value]) => value)} />
+          </section>
+          <section style={{ padding: 8 }}>
+            <Typography style={{ margin: '16px 0 24px' }} variant='h4' component='div' align='center'>
+              {`פרטי לקוח`}
+            </Typography>
+            <DetailsForm />
+          </section>
+        </>
+      )}
     </div>
   );
 }

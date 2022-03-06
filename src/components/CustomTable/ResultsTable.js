@@ -1,7 +1,8 @@
 import { Button, Card, CardContent, Paper, Typography } from '@mui/material';
 import { Box } from '@mui/system';
+import { useContext } from 'react';
 import CustomTable from '.';
-import { useUserFormContext } from '../../context/userFormContext';
+import { Context as UserFormContext } from '../../context/userFormContext';
 import Item from './Item';
 
 const columns = [
@@ -19,7 +20,7 @@ const styles = {
 };
 
 export default function ResultsTable({ rows }) {
-  const { addItem } = useUserFormContext();
+  const { addItem } = useContext(UserFormContext);
 
   const renderRow = (row) => {
     return (

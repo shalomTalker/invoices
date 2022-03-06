@@ -1,26 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 
-// import { useUserFormContext } from '../../context/userFormContext';
-import { useOrdersContext } from '../../context/ordersContext';
-import { useItemsContext } from '../../context/itemsContext';
+import { Context as OrdersContext } from '../../context/ordersContext';
+import { Context as ItemsContext } from '../../context/itemsContext';
 import useCurrentUser from '../../hooks/useCurrentUser';
 import AddItemForm from '../../components/AddItemForm';
 
 export default function AddItemPage() {
-  // const { state: orderState } = useUserFormContext();
 
   const {
     state: { orders },
     fetchOrders,
-  } = useOrdersContext();
+  } = useContext(OrdersContext);
 
   const {
     state: { items },
     fetchItems,
-  } = useItemsContext();
+  } = useContext(ItemsContext);
 
-  const currentUserEmail = useCurrentUser();
+  // const currentUserEmail = useCurrentUser();
 
   useEffect(() => {
     fetchOrders();

@@ -1,11 +1,10 @@
 import { Button, TextField, Typography } from '@mui/material';
 import Auth from '@aws-amplify/auth';
 import * as yup from 'yup';
-import React, { useState } from 'react';
-import { useUserFormContext } from '../../context/userFormContext';
+import React, { useContext, useState } from 'react';
+import { Context as UserFormContext } from '../../context/userFormContext';
 import { Box } from '@mui/system';
 import { postOrder } from '../../logic/api';
-import { generateRandomId, getCurrentHebDate } from '../../utils.js';
 import { useNavigate } from 'react-router-dom';
 
 const schema = yup.object().shape({
@@ -14,7 +13,7 @@ const schema = yup.object().shape({
     .string()
     .matches(/^0\d([\d]{0,1})([-]{0,1})\d{7}$/, 'מספר פלאפון לא תקין')
     .required('חסר מספר פלאפון'),
-  email: yup.string().email('אימייל לא תקין'),
+  email: yup.string(),
 });
 const inputsConfig = [
   {
@@ -26,13 +25,13 @@ const inputsConfig = [
     placeholder: `פלאפון`,
   },
   {
-    name: 'email',
-    placeholder: `אימייל`,
+    name: 'address',
+    placeholder: `כתובת`,
   },
 ];
 export default function DetailsForm() {
   const navigate = useNavigate();
-  const { state: formState, updateUser } = useUserFormContext();
+  const { state: formState, updateUser,initOrder } = useContext(UserFormContext);
   const [errors, setErrors] = useState([]);
   const validateUserField = async (obj) => {
     try {
@@ -71,6 +70,7 @@ export default function DetailsForm() {
     try {
       const isValidOrder = await validateOrder(orderDetails);
       if (isValidOrder) {
+        initOrder()
         navigate('/review');
       }
     } catch (error) {

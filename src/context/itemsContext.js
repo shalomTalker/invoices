@@ -24,8 +24,6 @@ const itemsReducer = (state = initialState, { type, payload }) => {
 
       return { ...state, loading: false, items: newItems };
     case 'ITEM_CREATED':
-      console.log(state.items.length)
-      console.log([...state.items,payload].length)
       return {...state,loading:false,items:[...state.items,payload]}
 
     case 'CLEANING_ITEMS':
@@ -85,6 +83,6 @@ export const { Provider, Context } = createDataContext(
   },
   initialState,
 );
-export function useItemsContext() {
-  return useContext(Context);
-}
+// export function useItemsContext() {
+//   return useContext(Context);
+// }

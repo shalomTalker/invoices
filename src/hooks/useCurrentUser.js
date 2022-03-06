@@ -16,6 +16,9 @@ export default function useCurrentUser() {
 
   useEffect(() => {
     fetchUser();
+    return () => {
+      setUser('')
+    }
   }, []);
   return user;
 }

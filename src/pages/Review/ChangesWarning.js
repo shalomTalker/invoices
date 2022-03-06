@@ -12,9 +12,9 @@ export default function ChangesWarning({ priceChanges }) {
   const renderWarnings = () =>
     priceChanges.map((change, i) => {
       if (change.oldPrice == 0) {
-        return <Typography key={i.toString()} style={styles.warn} variant='h6' color='black'>{`- מחיר ${change.desc} יירשם כ - ₪${change.newPrice}`}</Typography>;
+        return <Typography key={i.toString()} style={styles.warn} variant='h6' color='black'>{`- מחיר ${change.desc} יירשם כ - ₪${Number(change.newPrice).toLocaleString('en')}`}</Typography>;
       } else {
-        return <Typography key={i.toString()} style={styles.warn} variant='h6' color='red'>{`- מחיר ${change.desc} ישתנה מ ₪${change.oldPrice} ל- ₪${change.newPrice}`}</Typography>;
+        return <Typography key={i.toString()} style={styles.warn} variant='h6' color='red'>{`- מחיר ${change.desc} ישתנה מ ₪${Number(change.oldPrice).toLocaleString('en')} ל- ₪${Number(change.newPrice).toLocaleString('en')}`}</Typography>;
       }
     });
 

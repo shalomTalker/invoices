@@ -1,20 +1,20 @@
 import { Button, TextField, Typography } from '@mui/material';
 import Auth from '@aws-amplify/auth';
 import * as yup from 'yup';
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import AddBoxIcon from '@mui/icons-material/AddBox';
+import LoadingIcon from '@mui/icons-material/HourglassEmpty';
 import { useNavigate } from 'react-router-dom';
 import { makeStyles } from '@mui/styles';
 
 // import { useUserFormContext } from '../../context/userFormContext';
 import { Box } from '@mui/system';
 import { postOrder } from '../../logic/api';
-import { generateRandomId, getCurrentHebDate } from '../../utils.js';
 import SelectField from '../SelectField';
 import AutoCompleteSearch from '../AutoCompleateSearch';
 import { categories } from './config';
 import { useFormik } from 'formik';
-import { useItemsContext } from '../../context/itemsContext';
+import { Context as ItemsContext } from '../../context/itemsContext';
 
 const useStyles = makeStyles({
   container: {},
@@ -40,12 +40,10 @@ const validationSchema = yup.object().shape({
   price: yup
     .string()
     .matches(/[0-9]+/g, 'מחיר לא תקין')
-    .transform((value) => parseFloat(value.replace(',', '')).toLocaleString('en'))
     .required('מחיר חסר'),
   btu: yup
     .string()
     .matches(/[0-9|,|.]+/g, 'BTU לא תקין')
-    .transform((value) => parseFloat(value.replace(',', '')).toLocaleString('en'))
     .required('BTU חסר'),
   company: yup.string().required('אנא בחר יצרן'),
   category: yup.string().required('אנא בחר קטגוריה מתאימה'),
@@ -83,9 +81,10 @@ const inputsConfig = [
   ],
 ];
 export default function AddItemForm() {
+  const [loading, setLoading] = useState(false);
   const styles = useStyles();
   const navigate = useNavigate();
-  const { createItem } = useItemsContext();
+  const { createItem } = useContext(ItemsContext);
 
   const formik = useFormik({
     initialValues: {
@@ -100,12 +99,20 @@ export default function AddItemForm() {
     onSubmit: handleSubmit,
   });
 
-  async function handleSubmit(values) {
+  async function handleSubmit({ price, btu, ...restValues }) {
+    setLoading(true);
     try {
-      await createItem(values)
-      navigate('/')
+      const objValues = {
+        price: parseFloat(price.replace(',', '')),
+        btu: parseFloat(btu.replace(',', '')),
+        ...restValues,
+      };
+      await createItem(objValues);
+      navigate('/');
+      setLoading(false);
     } catch (error) {
       console.log(error);
+      setLoading(false);
     }
   }
   const [textInputs, otherInputs] = inputsConfig;
@@ -168,7 +175,7 @@ export default function AddItemForm() {
             );
           })}
         </Box>
-        
+
         <Box
           sx={{
             marginTop: 2,
@@ -180,7 +187,9 @@ export default function AddItemForm() {
             },
           }}
         >
-          <Button disabled={!(formik.isValid && formik.dirty)} endIcon={<AddBoxIcon />} sx={{ width: '33%' }} variant='contained' type='submit'>{`צור פריט`}</Button>
+          <Button disabled={!(formik.isValid && formik.dirty)} disabled={loading} endIcon={loading ? <LoadingIcon /> : <AddBoxIcon />} sx={{ width: '33%' }} variant='contained' type='submit'>
+            {loading ? `מוסיף מוצר` : `צור פריט`}
+          </Button>
         </Box>
       </Box>
       <Box>

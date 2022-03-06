@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React,{useContext} from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -14,15 +14,15 @@ import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router';
 import { getAmlifyUserData, signout } from '../..';
 import { Auth } from 'aws-amplify';
-import { useOrdersContext } from '../../context/ordersContext';
-import { useItemsContext } from '../../context/itemsContext';
+import { Context as OrdersContext } from '../../context/ordersContext';
+import { Context as ItemsContext } from '../../context/itemsContext';
 
 export const HEADER_H = 75;
 
 const Header = ({ user, signOut }) => {
   const navigate = useNavigate();
-  const { cleanLocalOrders } = useOrdersContext();
-  const { cleanLocalItems } = useItemsContext();
+  const { cleanLocalOrders } = useContext(OrdersContext);
+  const { cleanLocalItems } = useContext(ItemsContext);
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 

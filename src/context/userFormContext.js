@@ -1,16 +1,16 @@
 import { useContext } from 'react';
-import { generateRandomId, getCurrentHebDate } from '../utils';
+import { generateRandomId } from '../utils';
 import createDataContext from './createDataContext';
 
 const initialState = {
   user: {
     fullName: '',
     phone: '',
-    email: '',
+    address: '',
   },
   items: {},
   orderId: generateRandomId(),
-  createdAt: getCurrentHebDate(),
+  createdAt: new Date().getTime(),
 };
 
 const reducer = (state = initialState, { type, payload }) => {
@@ -43,15 +43,15 @@ const reducer = (state = initialState, { type, payload }) => {
         user: payload,
       };
 
-    case 'CLEANING_FORM':
+    case 'INITIALING_ORDER':
       let orderId = generateRandomId();
-      let createdAt = getCurrentHebDate();
+      let createdAt = new Date().getTime();
       return {
-        ...initialState,
+        ...state,
         orderId,
         createdAt,
       };
-
+    case 'CLEANING_FORM':
     default:
       return initialState;
   }
@@ -74,6 +74,9 @@ const updateUser = (dispatch) => (userObj) => {
   dispatch({ type: 'UPDATING_USER', payload: userObj });
 };
 
+const initOrder = (dispatch) => () => {
+  dispatch({ type: 'INITIALING_ORDER' });
+};
 const cleanForm = (dispatch) => () => {
   dispatch({ type: 'CLEANING_FORM' });
 };
@@ -86,9 +89,10 @@ export const { Provider, Context } = createDataContext(
     updateItem,
     updateUser,
     cleanForm,
+    initOrder
   },
   initialState,
 );
-export function useUserFormContext() {
-  return useContext(Context);
-}
+// export function useUserFormContext() {
+//   return useContext(Context);
+// }

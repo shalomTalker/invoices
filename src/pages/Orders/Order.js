@@ -1,17 +1,17 @@
 import { Button, Typography } from '@mui/material';
-import React, { useRef } from 'react';
+import React, { useContext, useRef } from 'react';
 import { Navigate, useParams } from 'react-router';
 import IconButton from '@mui/material/IconButton';
 import PrintIcon from '@mui/icons-material/Print';
 
-import { useOrdersContext } from '../../context/ordersContext';
+import { Context as OrdersContext } from '../../context/ordersContext';
 import RenderHtml from '../Review/RenderHtml';
 import { useReactToPrint } from 'react-to-print';
 export default function Order() {
   let { orderId } = useParams();
   const {
     state: { orders },
-  } = useOrdersContext();
+  } = useContext(OrdersContext);
 
   const order = orders.find((o) => o.orderId == orderId);
   const componentRef = useRef();

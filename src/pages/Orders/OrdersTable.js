@@ -15,6 +15,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { useNavigate } from 'react-router';
+import { formatToHebDate } from '../../utils';
 
 function createData({ orderId, user: { fullName, phone }, createdAt, items, total, createdBy }) {
   return {
@@ -36,7 +37,7 @@ function Row({ row }) {
   const subColumns = ['מספר פריט', 'תיאור', 'מודל', 'כמות', 'מחיר יחידה', 'סה"כ'].reverse();
 
   const renderMainRow = () =>
-    [orderId, fullName, phone, createdAt, `₪ ${total.toFixed(2)}`].reverse().map((r, i) => (
+    [orderId, fullName, phone, formatToHebDate(createdAt), `₪ ${Number(total).toLocaleString('en')}`].reverse().map((r, i) => (
       <TableCell key={i.toString()} component='th' scope='row' align='right'>
         {r}
       </TableCell>
@@ -69,7 +70,7 @@ function Row({ row }) {
         <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
           <Collapse in={open} timeout='auto' unmountOnExit>
             <Box sx={{ margin: 1 }}>
-              <Typography variant='h6' gutterBottom component='div' textAlign='end'>
+              <Typography gutterBottom fontSize={25} textAlign='end'>
                 פריטים
               </Typography>
               <Table size='small' aria-label='purchases'>
@@ -79,7 +80,7 @@ function Row({ row }) {
                 <TableBody>
                   {items.map((item) => (
                     <TableRow key={item.id}>
-                      <TableCell align='right'>₪ {Number(item.count * item.price).toFixed(2)}</TableCell>
+                      <TableCell align='right'>₪ {Number(item.count * item.price).toLocaleString('en')}</TableCell>
                       <TableCell align='right'>₪ {item.price}</TableCell>
                       <TableCell align='right'>{`יח' ${item.count}`}</TableCell>
                       <TableCell align='right'>{item.model}</TableCell>
@@ -87,9 +88,9 @@ function Row({ row }) {
                       <TableCell align='right'>{item.id}</TableCell>
                     </TableRow>
                   ))}
-                  <Typography sx={{ direction: 'rtl' }}>{`החשבונית נוצרה על ידי : ${createdBy}`}</Typography>
                 </TableBody>
               </Table>
+              <Typography sx={{ direction: 'rtl' }}>{`החשבונית נוצרה על ידי : ${createdBy}`}</Typography>
             </Box>
           </Collapse>
         </TableCell>
@@ -98,26 +99,8 @@ function Row({ row }) {
   );
 }
 
-// propTypes = {
-//   row: PropTypes.shape({
-//     orderId: PropTypes.string.isRequired,
-//     fullName: PropTypes.string.isRequired,
-//     createdAt: PropTypes.string.isRequired,
-//     phone: PropTypes.string.isRequired,
-//     total: PropTypes.number.isRequired,
-//     items: PropTypes.arrayOf(
-//       PropTypes.shape({
-//         id: PropTypes.string.isRequired,
-//         model: PropTypes.string.isRequired,
-//         desc: PropTypes.string.isRequired,
-//         count: PropTypes.number.isRequired,
-//         price: PropTypes.number.isRequired,
-//       }),
-//     ).isRequired,
-//   }).isRequired,
-// };
-
 export default function OrdersTable({ orders }) {
+  console.log(orders.length);
   const rows = orders.map(createData);
   const mainColumns = ['', 'מספר הזמנה', 'שם לקוח', 'פלאפון', 'נוצר בתאריך', 'סכום כולל מע"מ', ''].reverse();
 
@@ -138,9 +121,11 @@ export default function OrdersTable({ orders }) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
-            <Row key={row.orderId} row={row} />
-          ))}
+          {rows
+            .sort((a, b) => b.createdAt - a.createdAt)
+            .map((row) => (
+              <Row key={row.orderId} row={row} />
+            ))}
         </TableBody>
       </Table>
     </TableContainer>

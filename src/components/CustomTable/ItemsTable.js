@@ -1,8 +1,8 @@
 import { Button, ButtonGroup, Card, CardContent, Input, Paper, TextField, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import CustomTable from '.';
-import { useUserFormContext } from '../../context/userFormContext';
+import { Context as UserFormContext } from '../../context/userFormContext';
 import Item from './Item';
 
 const columns = [
@@ -22,7 +22,7 @@ const styles = {
 };
 
 const Row = ({ item }) => {
-  const { state, removeItem, updateItem } = useUserFormContext();
+  const { state, removeItem, updateItem } = useContext(UserFormContext);
 
   const countHandler = (value) => {
     if (value == 0) {
@@ -83,7 +83,7 @@ export default function ItemsTable({ rows }) {
           </Card>
         </Box>
       ) : (
-        <CustomTable rows={rows.map((r) => ({ ...r, totalCount: `${r.count * r.price} ₪` }))} columns={columns} renderRow={(row) => <Row key={row.id} item={row} />} disableEmptyCell={true} />
+        <CustomTable rows={rows.map((r) => ({ ...r, totalCount: `${Number(r.count * r.price).toLocaleString('en')} ₪` }))} columns={columns} renderRow={(row) => <Row key={row.id} item={row} />} disableEmptyCell={true} />
       )}
     </Paper>
   );
