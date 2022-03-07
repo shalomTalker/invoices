@@ -1,6 +1,6 @@
 {
   "auth": {
-    "vrfisrael0f0e6f18": {
+    "vrfisraelc20751cd": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],

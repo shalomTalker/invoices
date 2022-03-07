@@ -1,4 +1,22 @@
 {
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vrfisrael-prod-223318-authRole",
+      "UnauthRoleArn": "arn:aws:iam::199248480584:role/amplify-vrfisrael-prod-223318-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::199248480584:role/amplify-vrfisrael-prod-223318-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-vrfisrael-prod-223318-deployment",
+      "UnauthRoleName": "amplify-vrfisrael-prod-223318-unauthRole",
+      "StackName": "amplify-vrfisrael-prod-223318",
+      "StackId": "arn:aws:cloudformation:eu-west-1:199248480584:stack/amplify-vrfisrael-prod-223318/96b8f7c0-9e66-11ec-95e6-02094cf85d9f",
+      "AmplifyAppId": "dg0xiyu4d246a"
+    },
+    "categories": {
+      "auth": {
+        "vrfisraelc20751cd": {}
+      }
+    }
+  },
   "dev": {
     "awscloudformation": {
       "AuthRoleName": "amplify-vrfisrael-dev-213207-authRole",
