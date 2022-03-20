@@ -47,11 +47,17 @@ export default function DetailsForm() {
     if (!order.items.length) {
       _errors.push('לא נוספו פריטים להזמנה');
     }
-    order.items.forEach((item) => {
-      if (!item.price || item.price == 0) {
-        _errors.push(` ${item.desc} - חסר מחיר בפריט `);
+    if (formState.isFixedPrice) {
+      if (formState.fixedPrice == 0) {
+        _errors.push(`אנא הכנס מחיר כולל להזמנה`);
       }
-    });
+    } else {
+      order.items.forEach((item) => {
+        if (!item.price || item.price == 0) {
+          _errors.push(` ${item.desc} - חסר מחיר בפריט `);
+        }
+      });
+    }
     const isValid = await validateUserField(order.user);
     if (!isValid) {
       _errors.push('פרטי לקוח חסרים');

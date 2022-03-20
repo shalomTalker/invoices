@@ -5,23 +5,12 @@ import CustomTable from '.';
 import { Context as UserFormContext } from '../../context/userFormContext';
 import Item from './Item';
 
-const columns = [
-  { id: 'totalCount', label: 'מחיר כולל', minWidth: 100 },
-  { id: 'count', label: 'יחידות', minWidth: 120 },
-  { id: 'price', label: 'מחיר', minWidth: 100 },
-  { id: 'btu', label: 'BTU/H', minWidth: 100 },
-  { id: 'category', label: 'קטגוריה', minWidth: 120 },
-  { id: 'company', label: 'חברה', minWidth: 100 },
-  { id: 'model', label: 'מודל', minWidth: 100 },
-  { id: 'desc', label: 'תיאור', minWidth: 100 },
-];
-
 const styles = {
   container: { width: '100%', border: '1px solid gray', overflow: 'hidden', backgroundColor: '#f8f9ff' },
   emptyDataContainer: { display: 'flex', justifyContent: 'center', alignItems: 'center', height: 300 },
 };
 
-const Row = ({ item }) => {
+const Row = ({ item,columns }) => {
   const { state, removeItem, updateItem } = useContext(UserFormContext);
 
   const countHandler = (value) => {
@@ -58,6 +47,7 @@ const Row = ({ item }) => {
       )}
       renderPrice={() => (
         <TextField
+          size='small'
           id={`${item.model}-price`}
           placeholder='מחיר'
           defaultValue={item.price}
@@ -70,7 +60,18 @@ const Row = ({ item }) => {
   );
 };
 
-export default function ItemsTable({ rows }) {
+export default function ItemsTable({ rows, isFixedPrice = false }) {
+
+  const columns = [
+    !isFixedPrice&&{ id: 'totalCount', label: 'מחיר כולל', minWidth: 100 },
+    { id: 'count', label: 'יחידות', minWidth: 120 },
+    !isFixedPrice&&{ id: 'price', label: 'מחיר', minWidth: 100 },
+    { id: 'btu', label: 'BTU/H', minWidth: 100 },
+    { id: 'category', label: 'קטגוריה', minWidth: 120 },
+    { id: 'company', label: 'חברה', minWidth: 100 },
+    { id: 'model', label: 'מודל', minWidth: 100 },
+    { id: 'desc', label: 'תיאור', minWidth: 100 },
+  ].filter(Boolean);
 
   return (
     <Paper sx={styles.container}>
@@ -83,7 +84,7 @@ export default function ItemsTable({ rows }) {
           </Card>
         </Box>
       ) : (
-        <CustomTable rows={rows.map((r) => ({ ...r, totalCount: `${Number(r.count * r.price).toLocaleString('en')} ₪` }))} columns={columns} renderRow={(row) => <Row key={row.id} item={row} />} disableEmptyCell={true} />
+          <CustomTable rows={rows.map((r) => ({ ...r, totalCount: `${Number(r.count * r.price).toLocaleString('en')} ₪` }))} columns={columns} renderRow={(row) => <Row key={row.id} item={row} columns={columns} />} disableEmptyCell={true} />
       )}
     </Paper>
   );

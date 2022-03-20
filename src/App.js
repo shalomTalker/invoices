@@ -104,7 +104,7 @@ I18n.putVocabulariesForLanguage('en', {
   'Resend Code': 'שלח שוב',
 });
 function App({ children }) {
-  const currentUserEmail = useCurrentUser();
+  const currentUser = useCurrentUser();
 
   return (
     <Authenticator loginMechanisms={['email']} signUpAttributes={['email']} components={components} style={{ direction: 'rtl' }}>
@@ -114,7 +114,7 @@ function App({ children }) {
             {
               <>
                 <CssBaseline />
-                <Header signOut={signOut} user={currentUserEmail} />
+                <Header signOut={signOut} user={currentUser} />
                 <div style={{ minHeight: window.innerHeight - HEADER_H - 116 }}>{children}</div>
                 <Copyright sx={{ mt: 8, mb: 4, bottom: 0 }} />
               </>

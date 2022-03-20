@@ -1,4 +1,4 @@
-import * as React from 'react';
+import {useContext,useState,Fragment} from 'react';
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import Collapse from '@mui/material/Collapse';
@@ -15,26 +15,16 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { useNavigate } from 'react-router';
+
 import { formatToHebDate } from '../../utils';
 
-function createData({ orderId, user: { fullName, phone }, createdAt, items, total, createdBy }) {
-  return {
-    orderId,
-    fullName,
-    phone,
-    total: total + (total * 17) / 100,
-    createdAt,
-    items,
-    createdBy,
-  };
-}
 
 function Row({ row }) {
-  const { orderId, fullName, phone, createdAt, total, items, createdBy } = row;
-  const [open, setOpen] = React.useState(false);
+  const { orderId, fullName, phone, createdAt, total, items, createdBy,isFixedPrice } = row;
+  const [open, setOpen] = useState(false);
   const navigate = useNavigate();
 
-  const subColumns = ['מספר פריט', 'תיאור', 'מודל', 'כמות', 'מחיר יחידה', 'סה"כ'].reverse();
+  const subColumns = (isFixedPrice?['מספר פריט', 'תיאור', 'מודל', 'כמות']:['מספר פריט', 'תיאור', 'מודל', 'כמות', 'מחיר יחידה', 'סה"כ']).reverse();
 
   const renderMainRow = () =>
     [orderId, fullName, phone, formatToHebDate(createdAt), `₪ ${Number(total).toLocaleString('en')}`].reverse().map((r, i) => (
@@ -52,7 +42,7 @@ function Row({ row }) {
   };
 
   return (
-    <React.Fragment>
+    <Fragment>
       <TableRow sx={{ '& > *': { borderBottom: 'unset' }, backgroundColor: '#f8f9fa' }}>
         <TableCell component='th' scope='row' align='right'>
           <IconButton aria-label='open in new tab' size='small' onClick={() => navigate(`/orders/${orderId}`)}>
@@ -80,8 +70,12 @@ function Row({ row }) {
                 <TableBody>
                   {items.map((item) => (
                     <TableRow key={item.id}>
-                      <TableCell align='right'>₪ {Number(item.count * item.price).toLocaleString('en')}</TableCell>
-                      <TableCell align='right'>₪ {item.price}</TableCell>
+                      {!isFixedPrice &&
+                      <>
+                        <TableCell align='right'>₪ {Number(item.count * item.price).toLocaleString('en')}</TableCell>
+                        <TableCell align='right'>₪ {item.price}</TableCell>
+                      </>
+                      }
                       <TableCell align='right'>{`יח' ${item.count}`}</TableCell>
                       <TableCell align='right'>{item.model}</TableCell>
                       <TableCell align='right'>{item.desc}</TableCell>
@@ -95,13 +89,24 @@ function Row({ row }) {
           </Collapse>
         </TableCell>
       </TableRow>
-    </React.Fragment>
+    </Fragment>
   );
 }
 
 export default function OrdersTable({ orders }) {
-  console.log(orders.length);
-  const rows = orders.map(createData);
+
+  const rows = orders.map(({ orderId, user: { fullName, phone }, createdAt, items, total, createdBy ,isFixedPrice}) => {
+      return {
+        orderId,
+        fullName,
+        phone,
+        total: Number(total) + Number(total * 17) / 100,
+        createdAt,
+        items,
+        createdBy,
+        isFixedPrice
+      };
+  });
   const mainColumns = ['', 'מספר הזמנה', 'שם לקוח', 'פלאפון', 'נוצר בתאריך', 'סכום כולל מע"מ', ''].reverse();
 
   return (

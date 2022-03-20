@@ -9,6 +9,8 @@ const initialState = {
     address: '',
   },
   items: {},
+  fixedPrice: 0,
+  isFixedPrice: false,
   orderId: generateRandomId(),
   createdAt: new Date().getTime(),
 };
@@ -51,6 +53,18 @@ const reducer = (state = initialState, { type, payload }) => {
         orderId,
         createdAt,
       };
+    case 'TOGGLE_FIXED_PRICE':
+      return {
+        ...state,
+        isFixedPrice: !state.isFixedPrice,
+      };
+    case 'UPDATING_FIXED_PRICE':
+      return {
+        ...state,
+        fixedPrice: payload,
+      };
+
+
     case 'CLEANING_FORM':
     default:
       return initialState;
@@ -80,6 +94,12 @@ const initOrder = (dispatch) => () => {
 const cleanForm = (dispatch) => () => {
   dispatch({ type: 'CLEANING_FORM' });
 };
+const toggleFixedPrice = (dispatch) => () => {
+  dispatch({ type: 'TOGGLE_FIXED_PRICE' });
+};
+const updateFixedPrice = (dispatch) => (price) => {
+  dispatch({ type: 'UPDATING_FIXED_PRICE', payload: price });
+};
 
 export const { Provider, Context } = createDataContext(
   reducer,
@@ -89,7 +109,9 @@ export const { Provider, Context } = createDataContext(
     updateItem,
     updateUser,
     cleanForm,
-    initOrder
+    initOrder,
+    toggleFixedPrice,
+    updateFixedPrice,
   },
   initialState,
 );
