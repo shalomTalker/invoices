@@ -7,7 +7,10 @@ import PrintIcon from '@mui/icons-material/Print';
 import { Context as OrdersContext } from '../../context/ordersContext';
 import RenderHtml from '../Review/RenderHtml';
 import { useReactToPrint } from 'react-to-print';
+import useCurrentUser from '../../hooks/useCurrentUser';
 export default function Order() {
+  const currentUser = useCurrentUser();
+
   let { orderId } = useParams();
   const {
     state: { orders },
@@ -31,7 +34,7 @@ export default function Order() {
         </div>
 
         <div style={{ border: '1px solid lightgray', borderRadius: '8px', marginTop: 15, width: '100%' }}>
-          <RenderHtml ref={componentRef} body={order} />
+         {currentUser.email&& <RenderHtml ref={componentRef} body={order} userEmail={ currentUser.email}/>}
         </div>
       </div>
     );

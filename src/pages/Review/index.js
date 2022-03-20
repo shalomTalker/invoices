@@ -12,13 +12,12 @@ import { Context as UserFormContext } from '../../context/userFormContext';
 import { Context as OrdersContext } from '../../context/ordersContext';
 import { Context as ItemsContext } from '../../context/itemsContext';
 
-
 import useCurrentUser from '../../hooks/useCurrentUser';
 import ChangesAlertButton from './ChangesAlertButton';
 
 export default function Review() {
   const {
-    state: { items, user, orderId, createdAt },
+    state: { items, user, orderId, createdAt, fixedPrice, isFixedPrice },
     cleanForm,
   } = useContext(UserFormContext);
 
@@ -30,6 +29,7 @@ export default function Review() {
   const { addOrder } = useContext(OrdersContext);
 
   const currentUser = useCurrentUser();
+  console.log(currentUser);
   const navigate = useNavigate();
   const componentRef = useRef();
   const [notes, setNotes] = useState(`פירוט ההתקנה\nחיבורי צנרת, חיבורי יחידות, הספקת תעלות גמישות ומרכזיות ליחידות, תריסי אוויר חוזר, אביזרי צנרת,הלחמות צנרת גז והחזקה בלחץ קבועה, הפעלה מבוקרת בנוכחות נציג היבואן.\n\nהמחיר לא כולל\nעבודות והכנות ניקוז, חשמל, נקודות תרמוסטט תיקון גבס ואיטום מעברים.\n\nתוספות\nעבודות מנוף מרים משא 350 ₪ לא כולל מע"מ מנוף זרוע 2500 ₪ לא כולל מע"מ.`);
@@ -52,9 +52,11 @@ export default function Review() {
     items: _items,
     orderId,
     createdAt,
-    total,
+    total: isFixedPrice ? fixedPrice : total,
     createdBy: currentUser.email,
     notes,
+    isFixedPrice,
+    fixedPrice,
   };
 
   let priceListObj = {};
@@ -100,7 +102,7 @@ export default function Review() {
             אשר הזמנה
           </ChangesAlertButton>
         ) : (
-          <Button onClick={()=>approveOrder(false)} color='primary' startIcon={<CheckRoundedIcon style={{ fontSize: '25px', fontWeight: 'bolder' }} />}>
+          <Button onClick={() => approveOrder(false)} color='primary' startIcon={<CheckRoundedIcon style={{ fontSize: '25px', fontWeight: 'bolder' }} />}>
             אשר הזמנה
           </Button>
         )}
@@ -109,9 +111,7 @@ export default function Review() {
         </Button>
       </ButtonGroup>
 
-      <div style={{ border: '1px solid lightgray', borderRadius: '8px', marginTop: 15, width: '100%' }}>
-        <RenderHtml body={body} ref={componentRef} setNotes={setNotes} editable={editable} />
-      </div>
+      <div style={{ border: '1px solid lightgray', borderRadius: '8px', marginTop: 15, width: '100%' }}>{currentUser.email && <RenderHtml body={body} ref={componentRef} setNotes={setNotes} editable={editable} userEmail={currentUser.email} />}</div>
     </div>
   ) : (
     <Navigate to='/' />
