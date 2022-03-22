@@ -3,6 +3,8 @@ import React, { useContext, useRef, useState } from 'react';
 import { useNavigate, Navigate } from 'react-router';
 import EditRoundedIcon from '@mui/icons-material/EditRounded';
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
+import LoadingIcon from '@mui/icons-material/HourglassEmpty';
+
 
 import RenderPdf from './RenderPdf';
 import { postOrder } from '../../logic/api';
@@ -29,7 +31,6 @@ export default function Review() {
   const { addOrder } = useContext(OrdersContext);
 
   const currentUser = useCurrentUser();
-  console.log(currentUser);
   const navigate = useNavigate();
   const componentRef = useRef();
   const [notes, setNotes] = useState(`פירוט ההתקנה\nחיבורי צנרת, חיבורי יחידות, הספקת תעלות גמישות ומרכזיות ליחידות, תריסי אוויר חוזר, אביזרי צנרת,הלחמות צנרת גז והחזקה בלחץ קבועה, הפעלה מבוקרת בנוכחות נציג היבואן.\n\nהמחיר לא כולל\nעבודות והכנות ניקוז, חשמל, נקודות תרמוסטט תיקון גבס ואיטום מעברים.\n\nתוספות\nעבודות מנוף מרים משא 350 ₪ לא כולל מע"מ מנוף זרוע 2500 ₪ לא כולל מע"מ.`);
@@ -40,6 +41,7 @@ export default function Review() {
   });
 
   const [editable, setEditable] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   let total = 0;
   const _items = Object.values(items).map(({ model, id, price, count, desc }) => {
@@ -79,6 +81,7 @@ export default function Review() {
     navigate('/');
   };
   const approveOrder = async (isUpdateChanges) => {
+    setLoading(true)
     setEditable(false);
     setTimeout(async () => {
       try {
@@ -89,8 +92,10 @@ export default function Review() {
         handlePrint();
         navigate('/orders');
         cleanForm();
+        setLoading(false)
       } catch (error) {
         console.log(error);
+        setLoading(false)
       }
     }, 2000);
   };
@@ -98,15 +103,20 @@ export default function Review() {
     <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', marginTop: 15 }}>
       <ButtonGroup variant='contained' aria-label='contained primary button group'>
         {Boolean(priceChanges.length) ? (
-          <ChangesAlertButton onApprove={approveOrder} priceChanges={priceChanges}>
-            אשר הזמנה
+          <ChangesAlertButton loading={loading} onApprove={approveOrder} priceChanges={priceChanges}>
+          {loading ? `מוסיף הזמנה...` : `אשר הזמנה`}
           </ChangesAlertButton>
         ) : (
-          <Button onClick={() => approveOrder(false)} color='primary' startIcon={<CheckRoundedIcon style={{ fontSize: '25px', fontWeight: 'bolder' }} />}>
-            אשר הזמנה
+          <Button 
+          onClick={() => approveOrder(false)} 
+          color='primary'
+          disabled={loading} 
+          endIcon={loading ? <LoadingIcon /> : <CheckRoundedIcon style={{ fontSize: '25px', fontWeight: 'bolder' }} />} sx={{ width: '33%' }} variant='contained' 
+          type='submit'>
+            {loading ? `מוסיף הזמנה...` : `אשר הזמנה`}
           </Button>
         )}
-        <Button onClick={backToEdit} style={{ backgroundColor: 'gray' }} startIcon={<EditRoundedIcon />}>
+        <Button disabled={loading} onClick={backToEdit} style={{ backgroundColor: 'gray' }} startIcon={<EditRoundedIcon />}>
           חזור לעריכה
         </Button>
       </ButtonGroup>
