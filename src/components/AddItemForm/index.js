@@ -71,7 +71,7 @@ const inputsConfig = [
     {
       name: 'company',
       placeholder: `שם החברה`,
-      type: 'select',
+      type: 'text',
     },
     {
       name: 'category',
@@ -93,7 +93,7 @@ export default function AddItemForm() {
       price: '',
       btu: '',
       company: '',
-      category: '',
+      category: 'כללי',
     },
     validationSchema,
     onSubmit: handleSubmit,
@@ -147,31 +147,26 @@ export default function AddItemForm() {
           }}
         >
           {otherInputs.map(({ name, placeholder, type }) => {
-            return type == 'select' ? (
-              <SelectField
-                onChange={formik.handleChange}
-                value={formik.values[name]}
-                key={name}
+            return type == 'text' ? (
+              <TextField
+                size="small"
                 fullWidth
+                key={name}
+                id={name}
                 name={name}
                 placeholder={placeholder}
-                values={[
-                  {
-                    value: 'Tadiran',
-                    label: 'Tadiran',
-                  },
-                  {
-                    value: 'Toshiba',
-                    label: 'Toshiba',
-                  },
-                  {
-                    value: 'Electra',
-                    label: 'Electra',
-                  },
-                ]}
-              />
+                value={formik.values[name]}
+                onChange={formik.handleChange} />
             ) : (
-              <AutoCompleteSearch onChange={formik.setFieldValue} value={formik.values[name]} key={name} name={name} placeholder={placeholder} options={categories} />
+                <AutoCompleteSearch
+                  defaultValue={formik.values[name]}
+                  defaultChecked
+                  onChange={formik.setFieldValue}
+                  // value={formik.values[name]}
+                  key={name}
+                  name={name}
+                  placeholder={placeholder}
+                  options={categories} />
             );
           })}
         </Box>
@@ -187,7 +182,7 @@ export default function AddItemForm() {
             },
           }}
         >
-          <Button disabled={!(formik.isValid && formik.dirty)} disabled={loading} endIcon={loading ? <LoadingIcon /> : <AddBoxIcon />} sx={{ width: '33%' }} variant='contained' type='submit'>
+          <Button disabled={!(formik.isValid && formik.dirty)||loading} endIcon={loading ? <LoadingIcon /> : <AddBoxIcon />} sx={{ width: '33%' }} variant='contained' type='submit'>
             {loading ? `מוסיף מוצר` : `צור פריט`}
           </Button>
         </Box>

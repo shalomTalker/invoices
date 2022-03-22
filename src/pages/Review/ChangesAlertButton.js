@@ -9,10 +9,12 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
+import LoadingIcon from '@mui/icons-material/HourglassEmpty';
+
 
 import ChangesWarning from './ChangesWarning';
 
-export default function ChangesAlertButton({ children, onApprove, priceChanges }) {
+export default function ChangesAlertButton({ children, onApprove, priceChanges,loading }) {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -33,8 +35,9 @@ export default function ChangesAlertButton({ children, onApprove, priceChanges }
   return (
     <div>
       <Button 
+      disabled={loading}
       color='primary' 
-      startIcon={<CheckRoundedIcon style={{ fontSize: '25px', fontWeight: 'bolder' }} />} 
+      startIcon={loading?<LoadingIcon />:<CheckRoundedIcon style={{ fontSize: '25px', fontWeight: 'bolder' }} />} 
       onClick={handleClickOpen}>
         {children}
       </Button>
@@ -43,8 +46,8 @@ export default function ChangesAlertButton({ children, onApprove, priceChanges }
           <DialogContentText id='alert-dialog-description'><ChangesWarning priceChanges={priceChanges} /></DialogContentText>
         </DialogContent>
         <DialogActions style={{display:'flex',justifyContent:'center'}}>
-          <Button style={{width:'33%'}} variant='outlined' onClick={()=>handleChanges(false)}>אל תכלול שינויים</Button>
-          <Button style={{width:'33%'}} onClick={()=>handleChanges(true)} autoFocus>
+          <Button disabled={loading} style={{width:'33%'}} variant='outlined' onClick={()=>handleChanges(false)}>אל תכלול שינויים</Button>
+          <Button disabled={loading} style={{width:'33%'}} onClick={()=>handleChanges(true)} autoFocus>
             כלול שינויים
           </Button>
         </DialogActions>

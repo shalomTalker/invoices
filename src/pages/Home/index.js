@@ -28,11 +28,15 @@ export default function Home() {
     state: { items, loading },
     fetchItems,
   } = useContext(ItemsContext);
+  const {
+    fetchOrders,
+  } = useContext(OrdersContext);
 
   useEffect(() => {
     let cancel = false;
     if (!cancel) {
       fetchItems();
+      fetchOrders()
     }
     return () => {
       cancel = true;
